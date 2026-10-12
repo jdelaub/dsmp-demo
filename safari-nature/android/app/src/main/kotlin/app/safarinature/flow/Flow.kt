@@ -56,9 +56,10 @@ data class Pending(val photo: String?, val solving: Long? = null, val target: St
 
 /**
  * The whole app's state, one screen stack and the album. Screens only read it and call its verbs, so the
- * tests can drive every path without a camera.
+ * tests can drive every path without a camera. @JvmOverloads: the system's view-model factory looks for a
+ * constructor taking only the Application (a Kotlin default argument alone does not make one).
  */
-class Flow(app: Application, dbName: String? = "safari.db") : AndroidViewModel(app) {
+class Flow @JvmOverloads constructor(app: Application, dbName: String? = "safari.db") : AndroidViewModel(app) {
     val catalog: Catalog = Catalog.load()
     val store = Store(app, dbName)
     val profile = Profile(app)

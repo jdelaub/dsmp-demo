@@ -62,7 +62,7 @@ JDK 21, as for the other apps:
 cd android && JAVA_HOME=~/Android/jdk-21 ./gradlew :core:test :app:testDebugUnitTest :app:assembleDebug
 ```
 
-`:app:testDebugUnitTest` plays a child's first outing with Robolectric and writes a capture of every screen to `app/build/screens/`.
+`:app:testDebugUnitTest` opens the app as the phone does (`LaunchTest`: the launcher starts `MainActivity`, which gets its state from the system's view-model factory), then plays a child's first outing with Robolectric and writes a capture of every screen to `app/build/screens/`.
 
 To deliver a test build, bump `versionCode` and `versionName` in `android/app/build.gradle.kts` first:
 

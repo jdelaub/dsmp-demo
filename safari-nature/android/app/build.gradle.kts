@@ -18,8 +18,8 @@ android {
         applicationId = "app.safarinature" // fixed once installed on a phone: the album lives under this id
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.0.1"
     }
 
     signingConfigs {
