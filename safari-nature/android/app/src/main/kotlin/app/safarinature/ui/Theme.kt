@@ -67,6 +67,13 @@ object C {
         Group.MOLLUSC -> Color(0xFFC9852F)
         Group.CRUSTACEAN -> Color(0xFFE2603F)
         Group.OTHER -> Color(0xFF9B62D9)
+        Group.TREE -> Color(0xFF2E8B57)
+        Group.SHRUB -> Color(0xFF6B9E3A)
+        Group.FRUIT -> Color(0xFFD94A5A)
+        Group.FLOWER -> Color(0xFFD9669F)
+        Group.SEAWEED -> Color(0xFF7C8A3A)
+        Group.FERN -> Color(0xFF4F9A6B)
+        Group.CROP -> Color(0xFFE39A2D)
     }
 
     /** The darker edge under a coloured block. */

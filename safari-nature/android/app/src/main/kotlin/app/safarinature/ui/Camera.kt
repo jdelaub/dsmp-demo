@@ -110,7 +110,7 @@ fun CameraScreen(f: Flow, target: String?) {
             RoundButton("✕", "Fermer", color = Color.White.copy(alpha = 0.9f)) { f.back() }
             Spacer(Modifier.width(12.dp))
             Text(
-                animal?.let { "Photographie : ${it.name}" } ?: "Vise l'animal !",
+                animal?.let { "Photographie : ${it.name}" } ?: "Vise bien !",
                 style = T.Heading.copy(color = Color.White), modifier = Modifier.weight(1f),
             )
         }
@@ -121,10 +121,10 @@ fun CameraScreen(f: Flow, target: String?) {
                     Text("🤫", style = T.Emoji.copy(fontSize = 56.sp, lineHeight = 64.sp))
                     Text("La règle de l'explorateur", style = T.Title, textAlign = TextAlign.Center)
                     Spacer(Modifier.height(8.dp))
-                    Text("Approche doucement, sans bruit. On regarde, on photographie… mais on ne touche pas et on ne dérange pas les animaux !", style = T.Body, textAlign = TextAlign.Center)
+                    Text("Approche doucement, sans bruit. On regarde, on photographie… mais on ne dérange pas les animaux, on n'arrache pas les plantes et on ne goûte à rien sans un adulte !", style = T.Body, textAlign = TextAlign.Center)
                     Spacer(Modifier.height(16.dp))
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Listen(f, "La règle de l'explorateur. Approche doucement, sans bruit. On regarde, on photographie, mais on ne touche pas et on ne dérange pas les animaux !")
+                        Listen(f, "La règle de l'explorateur. Approche doucement, sans bruit. On regarde, on photographie, mais on ne dérange pas les animaux, on n'arrache pas les plantes et on ne goûte à rien sans un adulte !")
                         Spacer(Modifier.width(12.dp))
                         Chunky("Promis !", Modifier.weight(1f), C.Green, "🤝", f = f) { f.hideCameraTip() }
                     }

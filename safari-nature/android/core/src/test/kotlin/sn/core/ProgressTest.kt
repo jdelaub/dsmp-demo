@@ -5,7 +5,7 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import sn.core.catalog.Animal
+import sn.core.catalog.Species
 import sn.core.catalog.Catalog
 import sn.core.catalog.Group
 import sn.core.catalog.Habitat
@@ -22,7 +22,7 @@ import java.time.LocalDateTime
 /** Stars, levels, medals, the day's mission and the parents' summary, on a small made-up catalogue. */
 class ProgressTest {
     private fun animal(id: String, g: Group, vararg h: Habitat, rarity: Int = 1) =
-        Animal(id, id.replaceFirstChar { it.uppercase() }, "Genus $id", id, id, g, h.toList(), rarity, "1 cm", "Tout", "Toujours", "Regarde.", "Vrai.", "🐾")
+        Species(id, id.replaceFirstChar { it.uppercase() }, "Genus $id", id, id, g, h.toList(), rarity, "1 cm", "Tout", "Toujours", "Regarde.", "Vrai.", "🐾")
 
     private val cat = Catalog(listOf(
         animal("merle", Group.BIRD, Habitat.CITY, Habitat.FOREST),
@@ -100,7 +100,7 @@ class ProgressTest {
         assertTrue("missions vary: $texts", texts.size >= 4)
 
         val c = Challenges.of(LocalDate.of(2026, 5, 2), cat)
-        val match = cat.animals.first { c.matches(it) }
+        val match = cat.all.first { c.matches(it) }
         assertFalse(c.done(Progress(cat, emptyList())))
         assertTrue(c.done(Progress(cat, listOf(s(match.id)))))
         assertFalse(c.done(Progress(cat, listOf(s(match.id, at = t0.minusDays(1))))))
@@ -115,10 +115,10 @@ class ProgressTest {
         assertTrue(text, text.contains("samedi 2 mai"))
         assertTrue(text, text.contains("Maylis a fait 4 observations : Merle (×2), Heron."))
         assertTrue(text, text.contains("Nouvelle découverte : Heron ⭐⭐"))
-        assertTrue(text, text.contains("1 animal mystère"))
+        assertTrue(text, text.contains("1 mystère"))
         assertTrue(text, text.contains("2 photos prises"))
         assertTrue(text, text.contains("l'après-midi"))
-        assertTrue(Summary.of("Maylis", t0.toLocalDate().plusDays(1), p).contains("pas encore observé"))
+        assertTrue(Summary.of("Maylis", t0.toLocalDate().plusDays(1), p).contains("rien observé"))
     }
 
     @Test fun statsForTheParents() {

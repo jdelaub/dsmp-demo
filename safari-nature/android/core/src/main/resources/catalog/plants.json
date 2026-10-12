@@ -1,0 +1,4442 @@
+[
+ {
+  "id": "abricotier",
+  "name": "Abricotier",
+  "latin": "Prunus armeniaca",
+  "en": "Apricot tree",
+  "wiki": "Abricotier",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "de 3 à 8 m",
+  "food": "Abricots orange en été",
+  "when": "En fleur en mars ; abricots de juin à août",
+  "look": "Fleurs blanches ou rosées très tôt au printemps, et feuilles rondes terminées par une pointe.",
+  "fact": "Il fleurit très tôt, parfois dès février : une nuit de gel peut alors abîmer toutes ses fleurs. Il aime le soleil du Sud, comme dans le Roussillon.",
+  "emoji": "🍑",
+  "caution": null
+ },
+ {
+  "id": "achillee-millefeuille",
+  "name": "Achillée millefeuille",
+  "latin": "Achillea millefolium",
+  "en": "Yarrow",
+  "wiki": "Achillée millefeuille",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 60 cm",
+  "food": "Minuscules graines plates",
+  "when": "En fleur de juin à octobre",
+  "look": "Bouquet plat de petites fleurs blanches ou rosées, et feuilles très découpées comme une plume.",
+  "fact": "Ses feuilles sont si découpées qu'on dirait qu'elle en a mille. Son nom vient du héros grec Achille, qui l'aurait utilisée pour soigner ses soldats.",
+  "emoji": "🌼",
+  "caution": null
+ },
+ {
+  "id": "aconit-napel",
+  "name": "Aconit napel",
+  "latin": "Aconitum napellus",
+  "en": "Monkshood",
+  "wiki": "Aconit napel",
+  "group": "flower",
+  "habitats": [
+   "mountain",
+   "water"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1,5 m",
+  "food": "Petites gousses pleines de graines noires",
+  "when": "En fleur de juin à septembre",
+  "look": "Haute grappe de fleurs bleu-violet en forme de casque, et feuilles découpées comme des doigts.",
+  "fact": "On le considère comme la plante la plus toxique d'Europe. Ses fleurs en forme de casque lui ont donné un autre nom : « casque-de-Jupiter ».",
+  "emoji": "🌿",
+  "caution": "Toute la plante est très toxique, même au toucher : ne la touche pas et ne la cueille jamais."
+ },
+ {
+  "id": "ail",
+  "name": "Ail",
+  "latin": "Allium sativum",
+  "en": "Garlic",
+  "wiki": "Ail cultivé",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 60 cm",
+  "food": "Tête blanche faite de gousses, sous terre",
+  "when": "Planté en automne, récolté en été",
+  "look": "Feuilles plates et étroites ; sous la terre, une tête blanche faite de gousses qui sent très fort.",
+  "fact": "Pour le planter, on enfonce simplement une gousse dans la terre : elle devient une nouvelle tête d'ail entière !",
+  "emoji": "🧄",
+  "caution": null
+ },
+ {
+  "id": "ail-des-ours",
+  "name": "Ail des ours",
+  "latin": "Allium ursinum",
+  "en": "Wild garlic",
+  "wiki": "Allium ursinum",
+  "group": "flower",
+  "habitats": [
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 40 cm",
+  "food": "Petites graines noires dans des capsules",
+  "when": "Feuilles dès mars ; en fleur d'avril à mai",
+  "look": "Boules de fleurs blanches en étoile, larges feuilles vertes et forte odeur d'ail.",
+  "fact": "Dans une forêt où il pousse, ça sent l'ail partout ! On raconte que les ours en mangent au sortir de l'hiver, d'où son nom.",
+  "emoji": "🌿",
+  "caution": "Ses feuilles ressemblent à celles du muguet et du colchique, très toxiques : ne cueille jamais sans un adulte."
+ },
+ {
+  "id": "airelle-rouge",
+  "name": "Airelle rouge",
+  "latin": "Vaccinium vitis-idaea",
+  "en": "Lingonberry",
+  "wiki": "Airelle rouge",
+  "group": "fruit",
+  "habitats": [
+   "mountain",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "de 10 à 30 cm",
+  "food": "Petites baies rouge vif",
+  "when": "Baies rouges d'août à octobre",
+  "look": "Petit buisson aux feuilles épaisses et brillantes, toujours vertes, et aux petites baies rouges.",
+  "fact": "C'est une cousine de la myrtille qui garde ses feuilles même sous la neige. En Suède, on sert sa confiture avec des boulettes de viande.",
+  "emoji": "🍒",
+  "caution": "Ne cueille et ne goûte des baies sauvages qu'avec un adulte qui les connaît."
+ },
+ {
+  "id": "ajonc-d-europe",
+  "name": "Ajonc d'Europe",
+  "latin": "Ulex europaeus",
+  "en": "Common gorse",
+  "wiki": "Ulex europaeus",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "de 1 à 3 m",
+  "food": "Petites gousses noires et poilues",
+  "when": "En fleur presque toute l'année, surtout au printemps",
+  "look": "Buisson couvert d'épines vertes et dures à la place des feuilles, et de fleurs jaune d'or.",
+  "fact": "Quand il fait chaud, ses fleurs sentent la noix de coco ! Avec la bruyère, il colore en jaune les landes de Bretagne.",
+  "emoji": "🌼",
+  "caution": "Attention, il pique : regarde sans toucher les épines."
+ },
+ {
+  "id": "amandier",
+  "name": "Amandier",
+  "latin": "Prunus amygdalus",
+  "en": "Almond tree",
+  "wiki": "Amandier",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "de 4 à 10 m",
+  "food": "Amandes dans une coque verte et veloutée",
+  "when": "En fleur en février et mars ; amandes en août et septembre",
+  "look": "Fleurs blanches ou rose pâle sur les branches nues dès la fin de l'hiver, puis fruits verts veloutés.",
+  "fact": "C'est l'un des tout premiers arbres à fleurir, parfois dès février en Provence. L'amande que l'on mange est la graine cachée dans le noyau.",
+  "emoji": "🌰",
+  "caution": null
+ },
+ {
+  "id": "anemone-des-bois",
+  "name": "Anémone des bois",
+  "latin": "Anemone nemorosa",
+  "en": "Wood anemone",
+  "wiki": "Anémone sylvie",
+  "group": "flower",
+  "habitats": [
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 25 cm",
+  "food": "Petite boule de graines",
+  "when": "En fleur de mars à mai",
+  "look": "Fleur blanche en étoile, parfois rosée dessous, au-dessus de trois feuilles très découpées.",
+  "fact": "Elle fleurit au tout début du printemps, avant que les feuilles des arbres cachent le soleil. Quand il fait froid ou gris, sa fleur se ferme et baisse la tête.",
+  "emoji": "🌼",
+  "caution": "Plante toxique et sa sève irrite la peau : ne la cueille pas et ne la mets jamais à la bouche."
+ },
+ {
+  "id": "araucaria-du-chili",
+  "name": "Araucaria du Chili",
+  "latin": "Araucaria araucana",
+  "en": "Monkey puzzle tree",
+  "wiki": "Araucaria du Chili",
+  "group": "tree",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 30 m",
+  "food": "Gros cônes ronds sur les arbres femelles",
+  "when": "Toujours vert ; toute l'année",
+  "look": "Branches comme de gros bras, couvertes de feuilles triangulaires dures et pointues, serrées comme des écailles.",
+  "fact": "On l'appelle « désespoir des singes » : ses feuilles piquantes sont si serrées qu'un singe ne pourrait pas y grimper ! Il vient du Chili.",
+  "emoji": "🌲",
+  "caution": "Ses feuilles dures et pointues piquent : regarde-le sans y toucher."
+ },
+ {
+  "id": "arbousier",
+  "name": "Arbousier",
+  "latin": "Arbutus unedo",
+  "en": "Strawberry tree",
+  "wiki": "Arbousier",
+  "group": "fruit",
+  "habitats": [
+   "forest",
+   "city",
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "de 2 à 8 m",
+  "food": "Boules rouges granuleuses, les arbouses",
+  "when": "Fleurs blanches et fruits rouges en même temps, d'octobre à décembre",
+  "look": "Feuilles brillantes et dentées, toujours vertes, et boules rouges couvertes de petites bosses.",
+  "fact": "On l'appelle aussi arbre aux fraises. Il porte en même temps ses fleurs blanches et les fruits de l'année d'avant, qui mettent un an à mûrir.",
+  "emoji": "🍓",
+  "caution": "Ne cueille et ne goûte des baies sauvages qu'avec un adulte qui les connaît."
+ },
+ {
+  "id": "arbre-aux-papillons",
+  "name": "Arbre aux papillons",
+  "latin": "Buddleja davidii",
+  "en": "Butterfly bush",
+  "wiki": "Buddleia de David",
+  "group": "shrub",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "de 2 à 5 m",
+  "food": "Minuscules graines très légères",
+  "when": "En fleur de juillet à octobre",
+  "look": "Longues grappes pointues de petites fleurs mauves au cœur orange, souvent couvertes de papillons.",
+  "fact": "On l'appelle aussi buddleia. Venu de Chine, il sème partout ses graines très légères : il pousse même sur les murs, les toits et le long des voies ferrées !",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "armerie-maritime",
+  "name": "Armérie maritime",
+  "latin": "Armeria maritima",
+  "en": "Thrift",
+  "wiki": "Armérie maritime",
+  "group": "seaweed",
+  "habitats": [
+   "sea",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 30 cm",
+  "food": "Petites graines dans une collerette sèche",
+  "when": "En fleur d'avril à juillet",
+  "look": "Coussin de feuilles fines comme de l'herbe, et pompons de fleurs roses au bout de tiges nues.",
+  "fact": "Elle forme des coussins serrés qui résistent au vent et au sel des falaises. On la plante aussi dans les jardins pour ses pompons roses.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "arnica-des-montagnes",
+  "name": "Arnica des montagnes",
+  "latin": "Arnica montana",
+  "en": "Mountain arnica",
+  "wiki": "Arnica des montagnes",
+  "group": "flower",
+  "habitats": [
+   "mountain"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 60 cm",
+  "food": "Graines à aigrette de poils",
+  "when": "En fleur de juin à août",
+  "look": "Fleur jaune-orangé aux pétales un peu ébouriffés, et rosette de feuilles posée au ras du sol.",
+  "fact": "On l'utilise pour fabriquer des crèmes contre les bosses et les bleus. Elle pousse dans les prairies de montagne.",
+  "emoji": "🌼",
+  "caution": "Plante protégée et toxique : on la photographie, on ne la cueille pas et on ne la met jamais à la bouche."
+ },
+ {
+  "id": "artichaut",
+  "name": "Artichaut",
+  "latin": "Cynara scolymus",
+  "en": "Globe artichoke",
+  "wiki": "Artichaut",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1,50 m",
+  "food": "Gros boutons écailleux, puis graines à plumet",
+  "when": "Récolté de mai à octobre",
+  "look": "Grandes feuilles grises très découpées, et gros boutons verts couverts d'écailles.",
+  "fact": "Ce que l'on mange est un bouton de fleur ! Si on le laisse s'ouvrir, il devient une grosse fleur violette, comme un chardon géant.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "arum-tachete",
+  "name": "Arum tacheté",
+  "latin": "Arum maculatum",
+  "en": "Lords-and-ladies",
+  "wiki": "Arum maculatum",
+  "group": "flower",
+  "habitats": [
+   "forest",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 40 cm",
+  "food": "Grappe de baies rouge vif, toxiques",
+  "when": "Feuilles au printemps ; baies rouges en été",
+  "look": "Grandes feuilles en flèche souvent tachées de noir, et un cornet vert pâle autour d'un doigt violet.",
+  "fact": "Sa fleur chauffe et sent mauvais pour attirer de petits moucherons. Elle les garde prisonniers une nuit, puis les relâche couverts de pollen !",
+  "emoji": "🌿",
+  "caution": "Toute la plante est toxique, surtout les baies rouges : ne la touche pas et ne la mets jamais à la bouche."
+ },
+ {
+  "id": "ascophylle-noueuse",
+  "name": "Ascophylle noueuse",
+  "latin": "Ascophyllum nodosum",
+  "en": "Knotted wrack",
+  "wiki": "Ascophyllum nodosum",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 2 m",
+  "food": "Pas de graines : des petits sacs jaunes",
+  "when": "Toute l'année, sur les rochers abrités à marée basse",
+  "look": "Longues lanières vert olive avec de grosses boules d'air ovales en file, comme des perles.",
+  "fact": "Elle fabrique à peu près une nouvelle boule d'air chaque année : en les comptant, on devine son âge, comme avec les cernes d'un arbre !",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "aubepine",
+  "name": "Aubépine",
+  "latin": "Crataegus monogyna",
+  "en": "Common hawthorn",
+  "wiki": "Crataegus monogyna",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 2 à 10 m",
+  "food": "Petits fruits rouges, les cenelles, en automne",
+  "when": "En fleur en avril et mai ; fruits rouges en automne",
+  "look": "Feuilles découpées en 3 à 5 lobes, épines pointues et petites fleurs blanches au parfum fort.",
+  "fact": "Son nom veut dire épine blanche : au printemps, les haies d'aubépine deviennent toutes blanches de fleurs. En hiver, les merles et les grives se régalent de ses fruits rouges.",
+  "emoji": "🌸",
+  "caution": "Attention, il pique : regarde sans toucher les épines."
+ },
+ {
+  "id": "aulne-glutineux",
+  "name": "Aulne glutineux",
+  "latin": "Alnus glutinosa",
+  "en": "Common alder",
+  "wiki": "Alnus glutinosa",
+  "group": "tree",
+  "habitats": [
+   "water",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 25 m",
+  "food": "Petits cônes noirs comme des mini pommes de pin",
+  "when": "Toute l'année ; petits cônes noirs en hiver",
+  "look": "Feuilles rondes au bout un peu creusé, et petits cônes noirs accrochés aux branches.",
+  "fact": "Son bois ne pourrit pas sous l'eau : une partie de la ville de Venise est construite sur des pieux en aulne ! Ses jeunes feuilles collent un peu.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "betterave-sucriere",
+  "name": "Betterave sucrière",
+  "latin": "Beta vulgaris",
+  "en": "Sugar beet",
+  "wiki": "Betterave sucrière",
+  "group": "crop",
+  "habitats": [
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "racine de 20 à 30 cm",
+  "food": "Grosse racine blanche pleine de sucre",
+  "when": "Feuilles vertes en été ; arrachée en automne",
+  "look": "Rangs de grosses touffes de feuilles vert foncé ; la racine blanche est cachée dans la terre.",
+  "fact": "Presque tout le sucre fabriqué en France vient de sa grosse racine blanche, et pas de la canne à sucre !",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "ble-tendre",
+  "name": "Blé tendre",
+  "latin": "Triticum aestivum",
+  "en": "Common wheat",
+  "wiki": "Blé tendre",
+  "group": "crop",
+  "habitats": [
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1 m",
+  "food": "Épis de grains dorés en été",
+  "when": "Vert au printemps, doré et moissonné en juillet",
+  "look": "Grande herbe aux épis serrés de grains, verts puis dorés, le plus souvent sans longues barbes.",
+  "fact": "On fait le pain, les gâteaux et les croissants avec la farine de ses grains. La France est l'un des plus grands producteurs de blé du monde.",
+  "emoji": "🌾",
+  "caution": null
+ },
+ {
+  "id": "bleuet",
+  "name": "Bleuet",
+  "latin": "Centaurea cyanus",
+  "en": "Cornflower",
+  "wiki": "Cyanus segetum",
+  "group": "flower",
+  "habitats": [
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 80 cm",
+  "food": "Petites graines avec une touffe de poils",
+  "when": "En fleur de mai à juillet",
+  "look": "Fleur d'un bleu vif aux bords découpés en petites trompettes, sur une tige fine et grisâtre.",
+  "fact": "Autrefois, il poussait partout dans les champs de blé ; aujourd'hui il est plus rare. En France, c'est le symbole du souvenir des soldats.",
+  "emoji": "💐",
+  "caution": null
+ },
+ {
+  "id": "bouleau-verruqueux",
+  "name": "Bouleau verruqueux",
+  "latin": "Betula pendula",
+  "en": "Silver birch",
+  "wiki": "Bouleau verruqueux",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 25 m",
+  "food": "Chatons pleins de minuscules graines ailées",
+  "when": "Toute l'année ; chatons en avril, feuilles jaunes en automne",
+  "look": "Écorce blanche avec des taches noires, et petites feuilles en forme de losange.",
+  "fact": "Il pousse souvent le premier sur un terrain vide, avant les autres arbres. Son écorce blanche brûle même quand elle est un peu humide.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "bouton-d-or",
+  "name": "Bouton d'or",
+  "latin": "Ranunculus acris",
+  "en": "Meadow buttercup",
+  "wiki": "Renoncule âcre",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 80 cm",
+  "food": "Petite boule de graines",
+  "when": "En fleur d'avril à septembre",
+  "look": "Petite fleur jaune à cinq pétales très brillants, comme vernis, au bout d'une haute tige.",
+  "fact": "Ses pétales brillent comme s'ils étaient vernis. Dans les prés, les vaches évitent de le manger, car il a un goût piquant et il est toxique.",
+  "emoji": "🌼",
+  "caution": "Plante toxique et sa sève irrite la peau : ne la cueille pas et ne la mets jamais à la bouche."
+ },
+ {
+  "id": "bruyere-cendree",
+  "name": "Bruyère cendrée",
+  "latin": "Erica cinerea",
+  "en": "Bell heather",
+  "wiki": "Bruyère cendrée",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest",
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "de 20 à 60 cm",
+  "food": "Petites capsules sèches",
+  "when": "En fleur de juin à septembre",
+  "look": "Petites fleurs violettes en forme de clochette et feuilles fines comme des aiguilles, groupées par trois.",
+  "fact": "Elle aime les sols pauvres où peu d'autres plantes poussent. Avec la callune et l'ajonc, elle peint les landes de Bretagne en violet et en jaune.",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "buis",
+  "name": "Buis",
+  "latin": "Buxus sempervirens",
+  "en": "Common box",
+  "wiki": "Buxus sempervirens",
+  "group": "shrub",
+  "habitats": [
+   "city",
+   "forest",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "de 1 à 5 m",
+  "food": "Petites capsules à trois cornes",
+  "when": "Toute l'année ; petites fleurs jaunâtres en mars et avril",
+  "look": "Toutes petites feuilles ovales, épaisses et brillantes, serrées sur les tiges ; il a une odeur forte.",
+  "fact": "Il grandit très lentement et son bois est très dur : on en fait des pièces d'échecs. Les jardiniers le taillent en boules, en cônes ou même en animaux !",
+  "emoji": "🌿",
+  "caution": "Toute la plante est toxique : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "buisson-ardent",
+  "name": "Buisson ardent",
+  "latin": "Pyracantha coccinea",
+  "en": "Firethorn",
+  "wiki": "Pyracantha coccinea",
+  "group": "shrub",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "de 2 à 4 m",
+  "food": "Grappes de petites boules orange ou rouges",
+  "when": "En fleur en mai ; boules colorées de l'automne à l'hiver",
+  "look": "Haie épineuse couverte de petites fleurs blanches au printemps, puis de milliers de boules orange ou rouges.",
+  "fact": "Ses fruits sont si nombreux et si colorés que le buisson semble en feu, d'où son nom. Les merles et les grives s'en régalent en hiver.",
+  "emoji": "🍃",
+  "caution": "Attention, il pique : regarde sans toucher les épines. Ne mets pas ses petites boules à la bouche."
+ },
+ {
+  "id": "callune",
+  "name": "Callune",
+  "latin": "Calluna vulgaris",
+  "en": "Heather",
+  "wiki": "Calluna vulgaris",
+  "group": "shrub",
+  "habitats": [
+   "forest",
+   "mountain",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "de 20 à 80 cm",
+  "food": "Minuscules capsules pleines de graines",
+  "when": "En fleur d'août à octobre",
+  "look": "Petit buisson aux minuscules feuilles en écailles et aux petites fleurs roses ou mauves en épis.",
+  "fact": "On l'appelle aussi bruyère commune. Les abeilles adorent ses fleurs et en font un miel brun au goût très fort.",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "campanule-a-feuilles-rondes",
+  "name": "Campanule à feuilles rondes",
+  "latin": "Campanula rotundifolia",
+  "en": "Harebell",
+  "wiki": "Campanule à feuilles rondes",
+  "group": "flower",
+  "habitats": [
+   "mountain",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 40 cm",
+  "food": "Petite capsule pleine de graines fines",
+  "when": "En fleur de juin à septembre",
+  "look": "Clochettes bleu-violet qui pendent au bout de tiges très fines ; feuilles rondes seulement au pied.",
+  "fact": "Son nom vient d'un mot latin qui veut dire « cloche ». Bizarre : ses feuilles rondes du bas ont souvent disparu quand elle fleurit !",
+  "emoji": "💐",
+  "caution": null
+ },
+ {
+  "id": "capillaire-des-murailles",
+  "name": "Capillaire des murailles",
+  "latin": "Asplenium trichomanes",
+  "en": "Maidenhair spleenwort",
+  "wiki": "Asplenium trichomanes",
+  "group": "fern",
+  "habitats": [
+   "city",
+   "forest",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "fronde jusqu'à 20 cm",
+  "food": "Pas de fleurs : des spores sous les feuilles",
+  "when": "Toute l'année",
+  "look": "Petite fougère en touffe, avec une fine tige noire et brillante bordée de petites feuilles rondes.",
+  "fact": "Sa tige noire et fine ressemble à un cheveu, d'où son nom « capillaire ». Elle s'accroche dans les fentes des murs, là où presque rien ne pousse.",
+  "emoji": "🌱",
+  "caution": null
+ },
+ {
+  "id": "carotte",
+  "name": "Carotte",
+  "latin": "Daucus carota subsp. sativus",
+  "en": "Carrot",
+  "wiki": "Carotte",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "racine de 15 à 20 cm",
+  "food": "Racine orange cachée sous la terre",
+  "when": "Récoltée de juin à novembre",
+  "look": "Feuilles très découpées comme des plumes, et racine orange cachée sous la terre.",
+  "fact": "Autrefois, les carottes étaient surtout jaunes ou violettes. Les carottes orange sont devenues courantes il y a environ 400 ans.",
+  "emoji": "🥕",
+  "caution": null
+ },
+ {
+  "id": "carotte-sauvage",
+  "name": "Carotte sauvage",
+  "latin": "Daucus carota",
+  "en": "Wild carrot",
+  "wiki": "Daucus carota",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1 m",
+  "food": "Petites graines hérissées de crochets",
+  "when": "En fleur de juin à septembre",
+  "look": "Ombrelle de petites fleurs blanches, souvent avec un point pourpre au centre, qui se referme en nid.",
+  "fact": "C'est l'ancêtre sauvage de la carotte du potager, mais sa racine est blanche et toute fine. Fanée, son ombrelle se replie comme un nid d'oiseau.",
+  "emoji": "💐",
+  "caution": "Elle ressemble beaucoup à la grande ciguë, très toxique : ne la cueille jamais et ne la mets pas à la bouche."
+ },
+ {
+  "id": "cassissier",
+  "name": "Cassissier",
+  "latin": "Ribes nigrum",
+  "en": "Blackcurrant",
+  "wiki": "Ribes nigrum",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "de 1 à 2 m",
+  "food": "Grappes de baies noires, les cassis",
+  "when": "Cassis en juillet",
+  "look": "Buisson sans épines aux feuilles à 3 ou 5 lobes qui sentent fort, et grappes de baies noires.",
+  "fact": "Ses feuilles et ses baies ont une odeur très forte. La région de Dijon, en Bourgogne, est célèbre pour son cassis.",
+  "emoji": "🫐",
+  "caution": null
+ },
+ {
+  "id": "catalpa",
+  "name": "Catalpa",
+  "latin": "Catalpa bignonioides",
+  "en": "Indian bean tree",
+  "wiki": "Catalpa bignonioides",
+  "group": "tree",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 15 m",
+  "food": "Longues gousses fines comme des haricots",
+  "when": "Fleurs blanches en juin et juillet ; gousses pendues l'hiver",
+  "look": "Très grandes feuilles en forme de cœur, et longues gousses fines qui pendent comme des crayons.",
+  "fact": "Ses fleurs blanches sont tachetées de jaune et de violet. En hiver, ses gousses pendent comme des haricots géants : on l'appelle parfois « arbre aux haricots ».",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "cedre-de-l-atlas",
+  "name": "Cèdre de l'Atlas",
+  "latin": "Cedrus atlantica",
+  "en": "Atlas cedar",
+  "wiki": "Cedrus atlantica",
+  "group": "tree",
+  "habitats": [
+   "city",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 40 m",
+  "food": "Gros cônes dressés en forme de tonneau",
+  "when": "Toujours vert ; cônes en automne",
+  "look": "Courtes aiguilles en petits bouquets, souvent bleutées, et gros cônes dressés comme des tonneaux.",
+  "fact": "Il vient des montagnes du Maroc et de l'Algérie. Les forestiers l'ont planté dans le sud de la France, car il supporte bien la sécheresse.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "centauree-jacee",
+  "name": "Centaurée jacée",
+  "latin": "Centaurea jacea",
+  "en": "Brown knapweed",
+  "wiki": "Centaurée jacée",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 80 cm",
+  "food": "Petites graines dans un bouton écailleux",
+  "when": "En fleur de juin à octobre",
+  "look": "Pompon rose-violet ébouriffé, posé sur un bouton couvert de petites écailles brunes.",
+  "fact": "C'est une cousine du bleuet, mais en rose ! Les papillons se posent souvent dessus pour boire son nectar.",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "cerisier",
+  "name": "Cerisier",
+  "latin": "Prunus avium",
+  "en": "Sweet cherry",
+  "wiki": "Prunus avium",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "city",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "de 5 à 20 m",
+  "food": "Cerises rouges au début de l'été",
+  "when": "En fleur en avril ; cerises en juin et juillet",
+  "look": "Écorce brillante qui se détache en bandes, et bouquets de fleurs blanches au printemps.",
+  "fact": "Son nom latin, avium, veut dire des oiseaux : les merles et les étourneaux adorent ses cerises et en mangent beaucoup avant nous !",
+  "emoji": "🍒",
+  "caution": null
+ },
+ {
+  "id": "charme-commun",
+  "name": "Charme commun",
+  "latin": "Carpinus betulus",
+  "en": "European hornbeam",
+  "wiki": "Charme commun",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 25 m",
+  "food": "Petites graines portées par une aile à trois pointes",
+  "when": "Feuilles d'avril à novembre ; graines en automne",
+  "look": "Feuilles plissées aux bords finement dentés, et tronc gris avec des bosses comme des muscles.",
+  "fact": "On le taille souvent en grandes haies appelées charmilles. Son bois est si dur qu'autrefois, on en faisait les dents des roues de moulins.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "chataignier",
+  "name": "Châtaignier",
+  "latin": "Castanea sativa",
+  "en": "Sweet chestnut",
+  "wiki": "Castanea sativa",
+  "group": "fruit",
+  "habitats": [
+   "forest",
+   "fields",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 m",
+  "food": "Châtaignes dans des bogues piquantes",
+  "when": "Châtaignes en octobre",
+  "look": "Longues feuilles aux bords en dents de scie, et bogues vertes couvertes de piquants comme un hérisson.",
+  "fact": "Autrefois, dans les Cévennes et en Ardèche, on l'appelait l'arbre à pain : ses châtaignes nourrissaient les familles tout l'hiver.",
+  "emoji": "🌰",
+  "caution": "Ses bogues piquent : ne les touche pas à mains nues. Ne confonds pas les châtaignes avec les marrons d'Inde, qui ne se mangent pas."
+ },
+ {
+  "id": "chene-liege",
+  "name": "Chêne-liège",
+  "latin": "Quercus suber",
+  "en": "Cork oak",
+  "wiki": "Chêne-liège",
+  "group": "tree",
+  "habitats": [
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 20 m",
+  "food": "Glands en automne",
+  "when": "Toujours vert ; écorce récoltée en été",
+  "look": "Écorce grise très épaisse, légère et un peu molle ; tronc rouge-orangé là où on l'a enlevée.",
+  "fact": "Les bouchons des bouteilles sont faits avec son écorce, le liège ! On la retire environ tous les dix ans, sans abîmer l'arbre.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "chene-pedoncule",
+  "name": "Chêne pédonculé",
+  "latin": "Quercus robur",
+  "en": "Pedunculate oak",
+  "wiki": "Chêne pédonculé",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 40 m",
+  "food": "Glands sur une longue queue, en automne",
+  "when": "Toute l'année ; glands en septembre et octobre",
+  "look": "Feuilles aux bords arrondis comme des vagues, et glands accrochés au bout d'une longue tige.",
+  "fact": "Un vieux chêne peut vivre plus de 500 ans ! Des centaines d'insectes, d'oiseaux et d'écureuils vivent sur un seul arbre.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "chene-sessile",
+  "name": "Chêne sessile",
+  "latin": "Quercus petraea",
+  "en": "Sessile oak",
+  "wiki": "Quercus petraea",
+  "group": "tree",
+  "habitats": [
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 40 m",
+  "food": "Glands sans queue, collés aux branches",
+  "when": "Toute l'année ; glands en septembre et octobre",
+  "look": "Glands posés directement sur la branche, sans queue ; ses feuilles, elles, ont une petite queue.",
+  "fact": "Son bois très solide sert à fabriquer les tonneaux où l'on garde le vin. Autrefois, on en construisait aussi de grands bateaux.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "chene-vert",
+  "name": "Chêne vert",
+  "latin": "Quercus ilex",
+  "en": "Holm oak",
+  "wiki": "Chêne vert",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 20 m",
+  "food": "Petits glands pointus, en automne",
+  "when": "Toujours vert ; glands en octobre et novembre",
+  "look": "Petites feuilles dures, vert foncé dessus, grises et duveteuses dessous, qui restent tout l'hiver.",
+  "fact": "Contrairement à la plupart des chênes, il garde ses feuilles vertes tout l'hiver. Sur les jeunes arbres, elles piquent parfois comme celles du houx !",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "chevrefeuille-des-bois",
+  "name": "Chèvrefeuille des bois",
+  "latin": "Lonicera periclymenum",
+  "en": "Honeysuckle",
+  "wiki": "Chèvrefeuille des bois",
+  "group": "shrub",
+  "habitats": [
+   "forest",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "liane jusqu'à 6 m",
+  "food": "Petites baies rouges en bouquet",
+  "when": "En fleur de juin à septembre",
+  "look": "Liane qui s'enroule autour des branches, aux fleurs en trompette crème et jaune qui sentent très bon.",
+  "fact": "Son parfum devient plus fort le soir : il attire les papillons de nuit, qui plongent leur longue trompe dans ses fleurs pour boire le nectar.",
+  "emoji": "🌸",
+  "caution": "Ses baies rouges sont toxiques : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "chicoree-sauvage",
+  "name": "Chicorée sauvage",
+  "latin": "Cichorium intybus",
+  "en": "Chicory",
+  "wiki": "Cichorium intybus",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1,2 m",
+  "food": "Petites graines sans parachute",
+  "when": "En fleur de juillet à septembre, le matin",
+  "look": "Fleurs bleu ciel aux pétales dentelés au bout, collées le long de tiges raides.",
+  "fact": "Ses fleurs s'ouvrent le matin et se referment vers midi. Avec la racine de la chicorée cultivée, on fait une boisson qui ressemble au café.",
+  "emoji": "🌼",
+  "caution": null
+ },
+ {
+  "id": "chou",
+  "name": "Chou",
+  "latin": "Brassica oleracea",
+  "en": "Cabbage",
+  "wiki": "Chou commun",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 50 cm",
+  "food": "Fleurs jaunes puis graines, la deuxième année",
+  "when": "Récolté surtout en automne et en hiver",
+  "look": "Grosses feuilles épaisses et lisses, vertes ou gris-bleu, serrées en boule.",
+  "fact": "Le chou-fleur, le brocoli, le chou de Bruxelles et le chou rouge appartiennent tous à la même espèce de plante !",
+  "emoji": "🥦",
+  "caution": null
+ },
+ {
+  "id": "chou-marin",
+  "name": "Chou marin",
+  "latin": "Crambe maritima",
+  "en": "Sea kale",
+  "wiki": "Crambe maritime",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 75 cm",
+  "food": "Petits fruits ronds comme des pois",
+  "when": "En fleur de mai à juillet",
+  "look": "Grosses feuilles bleutées, épaisses et ondulées sur les galets, avec des bouquets de petites fleurs blanches.",
+  "fact": "Il pousse sur les plages de galets, là où presque rien ne pousse. C'est un cousin sauvage des choux du potager.",
+  "emoji": "🍃",
+  "caution": "Plante protégée : on la photographie, on ne la cueille pas."
+ },
+ {
+  "id": "cirse-commun",
+  "name": "Cirse commun",
+  "latin": "Cirsium vulgare",
+  "en": "Spear thistle",
+  "wiki": "Cirse commun",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1,5 m",
+  "food": "Graines à parachute de poils blancs",
+  "when": "En fleur de juillet à septembre",
+  "look": "Gros pompon rose-violet posé sur une boule piquante, et feuilles hérissées d'épines.",
+  "fact": "C'est un grand chardon très piquant. Le chardonneret, un joli oiseau, adore picorer les graines des chardons : c'est de là que vient son nom !",
+  "emoji": "🌸",
+  "caution": "Ses épines piquent : regarde-le sans le toucher."
+ },
+ {
+  "id": "clematite-des-haies",
+  "name": "Clématite des haies",
+  "latin": "Clematis vitalba",
+  "en": "Old man's beard",
+  "wiki": "Clematis vitalba",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "liane jusqu'à 20 m",
+  "food": "Graines à longues plumes blanches",
+  "when": "En fleur de juin à septembre ; plumets blancs en hiver",
+  "look": "Liane des haies aux fleurs blanc crème, puis, en hiver, graines aux plumets blancs et duveteux.",
+  "fact": "En hiver, ses graines duveteuses couvrent les haies comme une barbe blanche : on l'appelle aussi barbe de vieillard. Le vent les emporte au loin.",
+  "emoji": "🌿",
+  "caution": "Sa sève irrite la peau et la plante est toxique : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "cognassier",
+  "name": "Cognassier",
+  "latin": "Cydonia oblonga",
+  "en": "Quince",
+  "wiki": "Cognassier",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "de 3 à 6 m",
+  "food": "Gros coings jaunes et duveteux",
+  "when": "En fleur en avril et mai ; coings en octobre",
+  "look": "Grandes fleurs blanc rosé, une par une, et gros fruits jaunes en forme de poire couverts de duvet.",
+  "fact": "Ses coings sont trop durs pour être croqués crus, mais ils sentent très bon. On en fait de la gelée et de la pâte de coing.",
+  "emoji": "🍐",
+  "caution": null
+ },
+ {
+  "id": "colchique-d-automne",
+  "name": "Colchique d'automne",
+  "latin": "Colchicum autumnale",
+  "en": "Meadow saffron",
+  "wiki": "Colchique d'automne",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 25 cm",
+  "food": "Capsule de graines au printemps suivant",
+  "when": "En fleur de fin août à octobre",
+  "look": "Fleur mauve en forme de tulipe qui sort de l'herbe sans aucune feuille, en automne.",
+  "fact": "Il fleurit en automne sans feuilles ! Ses feuilles et ses graines n'apparaissent qu'au printemps suivant. Quand on le voit fleurir, c'est que l'été est fini.",
+  "emoji": "🌷",
+  "caution": "Toute la plante est très toxique : ne la touche pas et ne la mets jamais à la bouche."
+ },
+ {
+  "id": "colza",
+  "name": "Colza",
+  "latin": "Brassica napus",
+  "en": "Rapeseed",
+  "wiki": "Colza",
+  "group": "crop",
+  "habitats": [
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1,50 m",
+  "food": "Fines gousses pleines de petites graines noires",
+  "when": "Champs tout jaunes en avril et mai",
+  "look": "Au printemps, champs jaune vif de petites fleurs à quatre pétales qui sentent le miel.",
+  "fact": "Avec ses petites graines noires, on fabrique de l'huile. Au printemps, ses fleurs jaunes nourrissent beaucoup d'abeilles.",
+  "emoji": "🌼",
+  "caution": null
+ },
+ {
+  "id": "compagnon-rouge",
+  "name": "Compagnon rouge",
+  "latin": "Silene dioica",
+  "en": "Red campion",
+  "wiki": "Compagnon rouge",
+  "group": "flower",
+  "habitats": [
+   "forest",
+   "fields",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 80 cm",
+  "food": "Capsules ouvertes en haut, pleines de graines",
+  "when": "En fleur de mai à septembre",
+  "look": "Fleurs rose vif à cinq pétales fendus en deux, sur des tiges poilues, au bord des bois.",
+  "fact": "Certaines plantes ont des fleurs « garçons », d'autres des fleurs « filles ». Les bourdons et les papillons transportent le pollen de l'une à l'autre.",
+  "emoji": "🌺",
+  "caution": null
+ },
+ {
+  "id": "coquelicot",
+  "name": "Coquelicot",
+  "latin": "Papaver rhoeas",
+  "en": "Common poppy",
+  "wiki": "Coquelicot",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 60 cm",
+  "food": "Capsule en forme de poivrière pleine de graines",
+  "when": "En fleur de mai à juillet",
+  "look": "Grands pétales rouges, fins comme du papier froissé, souvent avec une tache noire au centre.",
+  "fact": "Ses graines peuvent attendre des années dans la terre et germer quand on la retourne. C'est pour ça qu'il fleurit au bord des champs et des chantiers.",
+  "emoji": "🌺",
+  "caution": null
+ },
+ {
+  "id": "coralline",
+  "name": "Coralline",
+  "latin": "Corallina officinalis",
+  "en": "Coral weed",
+  "wiki": "Corallina officinalis",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 12 cm",
+  "food": "Ni fleurs ni graines : des spores",
+  "when": "Toute l'année, dans les flaques des rochers",
+  "look": "Petites touffes roses et raides, faites de petits morceaux durs mis bout à bout.",
+  "fact": "Elle fabrique du calcaire, comme un coquillage : elle est dure et craque sous les doigts. Morte et séchée au soleil, elle devient toute blanche.",
+  "emoji": "🐚",
+  "caution": null
+ },
+ {
+  "id": "cormier",
+  "name": "Cormier",
+  "latin": "Sorbus domestica",
+  "en": "Service tree",
+  "wiki": "Cormier",
+  "group": "fruit",
+  "habitats": [
+   "forest",
+   "fields"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 20 m",
+  "food": "Petits fruits en forme de poire, les cormes",
+  "when": "En fleur en mai ; cormes en octobre",
+  "look": "Feuilles faites de nombreuses petites folioles dentées, et petits fruits jaunes et rouges en forme de poire.",
+  "fact": "C'est un arbre rare qui pousse très lentement. Son bois est l'un des plus durs d'Europe : on en faisait des outils et des vis de pressoir.",
+  "emoji": "🍐",
+  "caution": null
+ },
+ {
+  "id": "cornouiller-male",
+  "name": "Cornouiller mâle",
+  "latin": "Cornus mas",
+  "en": "Cornelian cherry",
+  "wiki": "Cornus mas",
+  "group": "fruit",
+  "habitats": [
+   "forest",
+   "fields",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "de 2 à 6 m",
+  "food": "Petits fruits rouges allongés, les cornouilles",
+  "when": "Fleurs jaunes en février et mars ; cornouilles en août et septembre",
+  "look": "Petites fleurs jaunes en boules sur les branches nues à la fin de l'hiver, puis fruits rouges allongés.",
+  "fact": "C'est l'un des tout premiers arbustes à fleurir, dès février. Dans l'Antiquité, son bois très dur servait à fabriquer des lances.",
+  "emoji": "🍒",
+  "caution": "Ne cueille et ne goûte des baies sauvages qu'avec un adulte qui les connaît."
+ },
+ {
+  "id": "cornouiller-sanguin",
+  "name": "Cornouiller sanguin",
+  "latin": "Cornus sanguinea",
+  "en": "Common dogwood",
+  "wiki": "Cornouiller sanguin",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "de 2 à 5 m",
+  "food": "Petites baies noires en bouquets",
+  "when": "En fleur en mai et juin ; tiges rouges en hiver",
+  "look": "Feuilles aux nervures courbées en arc, et jeunes tiges rouge sang en hiver.",
+  "fact": "Quand une de ses feuilles se déchire, de fins fils blancs relient les deux morceaux ! En automne, ses feuilles deviennent rouge foncé.",
+  "emoji": "🍃",
+  "caution": "Ses baies noires ne se mangent pas : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "courgette",
+  "name": "Courgette",
+  "latin": "Cucurbita pepo",
+  "en": "Courgette",
+  "wiki": "Courgette",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1 m de large",
+  "food": "Longs fruits verts, cueillis encore jeunes",
+  "when": "Récoltée de juin à septembre",
+  "look": "Grandes feuilles rugueuses qui grattent un peu, grandes fleurs jaunes et longs fruits verts.",
+  "fact": "Ses grandes fleurs jaunes se mangent aussi, en beignets ! Si on oublie de la cueillir, elle devient énorme en quelques jours.",
+  "emoji": "🥒",
+  "caution": null
+ },
+ {
+  "id": "criste-marine",
+  "name": "Criste marine",
+  "latin": "Crithmum maritimum",
+  "en": "Rock samphire",
+  "wiki": "Criste marine",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 50 cm",
+  "food": "Petits fruits ovales qui flottent",
+  "when": "En fleur de juillet à octobre",
+  "look": "Touffe de feuilles grasses gris-vert, fines comme des doigts, dans les rochers ; fleurs en ombrelles jaunâtres.",
+  "fact": "Elle pousse dans les fentes des falaises, arrosée par les embruns salés. On l'appelle aussi « perce-pierre », car elle semble sortir de la roche.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "cymbalaire-des-murs",
+  "name": "Cymbalaire des murs",
+  "latin": "Cymbalaria muralis",
+  "en": "Ivy-leaved toadflax",
+  "wiki": "Cymbalaire des murs",
+  "group": "flower",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "tiges jusqu'à 60 cm",
+  "food": "Petites capsules rondes cachées dans le mur",
+  "when": "En fleur d'avril à octobre",
+  "look": "Petites fleurs mauves à gorge jaune, et feuilles rondes à lobes, comme du lierre, qui pendent des murs.",
+  "fact": "Après la floraison, la tige du fruit se tourne vers le mur pour planter ses graines dans les fentes. On l'appelle aussi « ruine-de-Rome ».",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "cypres-de-provence",
+  "name": "Cyprès de Provence",
+  "latin": "Cupressus sempervirens",
+  "en": "Mediterranean cypress",
+  "wiki": "Cupressus sempervirens",
+  "group": "tree",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 30 m",
+  "food": "Petits cônes ronds en écailles",
+  "when": "Toujours vert ; cônes toute l'année",
+  "look": "Arbre très étroit en forme de flamme, avec de minuscules feuilles en écailles.",
+  "fact": "En Provence, on le plante en rangées pour protéger les champs et les maisons du mistral, un vent très fort.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "cytise",
+  "name": "Cytise",
+  "latin": "Laburnum anagyroides",
+  "en": "Common laburnum",
+  "wiki": "Laburnum anagyroides",
+  "group": "shrub",
+  "habitats": [
+   "city",
+   "forest",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "de 3 à 7 m",
+  "food": "Gousses brunes aux graines noires",
+  "when": "En fleur en mai et juin",
+  "look": "Longues grappes pendantes de fleurs jaune vif, et feuilles à 3 folioles comme un trèfle.",
+  "fact": "On l'appelle aussi pluie d'or, à cause de ses grappes jaunes qui pendent. Son bois dur et foncé ressemble à l'ébène, d'où son autre nom : faux-ébénier.",
+  "emoji": "🌼",
+  "caution": "Toute la plante est très toxique, surtout les graines : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "digitale-pourpre",
+  "name": "Digitale pourpre",
+  "latin": "Digitalis purpurea",
+  "en": "Foxglove",
+  "wiki": "Digitalis purpurea",
+  "group": "flower",
+  "habitats": [
+   "forest",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1,5 m",
+  "food": "Capsules pleines de minuscules graines",
+  "when": "En fleur de juin à août",
+  "look": "Haute grappe de grosses clochettes rose-violet, tachetées à l'intérieur, toutes du même côté.",
+  "fact": "Ses fleurs ont la forme d'un doigt de gant, d'où son nom « digitale ». Les bourdons y entrent tout entiers pour boire le nectar !",
+  "emoji": "🌺",
+  "caution": "Toute la plante est très toxique : ne la touche pas et ne la mets jamais à la bouche."
+ },
+ {
+  "id": "douglas",
+  "name": "Douglas",
+  "latin": "Pseudotsuga menziesii",
+  "en": "Douglas fir",
+  "wiki": "Pseudotsuga menziesii",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 60 m",
+  "food": "Cônes avec des languettes à trois pointes",
+  "when": "Toujours vert ; cônes en automne",
+  "look": "Aiguilles douces qui sentent le citron quand on les froisse, et cônes avec des languettes qui dépassent.",
+  "fact": "Le plus grand arbre de France est un douglas ! Sur ses cônes dépassent des languettes à trois pointes, comme des souris cachées dont on voit la queue.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "edelweiss",
+  "name": "Edelweiss",
+  "latin": "Leontopodium alpinum",
+  "en": "Edelweiss",
+  "wiki": "Edelweiss",
+  "group": "flower",
+  "habitats": [
+   "mountain"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 20 cm",
+  "food": "Petites graines à aigrette de poils",
+  "when": "En fleur de juillet à septembre",
+  "look": "Étoile blanche toute laineuse, comme en feutre, sur les rochers de haute montagne.",
+  "fact": "Ce qu'on prend pour des pétales sont des feuilles couvertes de poils blancs ! Ces poils la protègent du froid et du soleil très fort de la montagne.",
+  "emoji": "🌼",
+  "caution": "Plante protégée : on la photographie, on ne la cueille pas."
+ },
+ {
+  "id": "eglantier",
+  "name": "Églantier",
+  "latin": "Rosa canina",
+  "en": "Dog rose",
+  "wiki": "Rosa canina",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "de 1 à 3 m",
+  "food": "Fruits rouges, les cynorrhodons, en automne",
+  "when": "En fleur en mai et juin ; fruits rouges en automne",
+  "look": "Rosier sauvage aux tiges piquantes et aux fleurs roses ou blanches à 5 pétales.",
+  "fact": "C'est le rosier sauvage des haies. Ses fruits rouges sont surnommés gratte-cul, car leurs graines sont entourées de petits poils qui grattent !",
+  "emoji": "🌹",
+  "caution": "Attention, il pique : regarde sans toucher les épines."
+ },
+ {
+  "id": "epicea-commun",
+  "name": "Épicéa commun",
+  "latin": "Picea abies",
+  "en": "Norway spruce",
+  "wiki": "Épicéa commun",
+  "group": "tree",
+  "habitats": [
+   "mountain",
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 50 m",
+  "food": "Longues pommes de pin qui pendent",
+  "when": "Toujours vert ; cônes en automne",
+  "look": "Aiguilles piquantes tout autour du rameau, et longs cônes qui pendent vers le bas.",
+  "fact": "C'est le « sapin » de Noël traditionnel, mais ce n'est pas un vrai sapin ! Son bois sert à fabriquer des violons et des guitares.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "erable-champetre",
+  "name": "Érable champêtre",
+  "latin": "Acer campestre",
+  "en": "Field maple",
+  "wiki": "Érable champêtre",
+  "group": "tree",
+  "habitats": [
+   "fields",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 15 m",
+  "food": "Graines ailées par deux, en ligne droite",
+  "when": "Feuilles d'avril à novembre ; jaune d'or en automne",
+  "look": "Petites feuilles à 3 ou 5 lobes arrondis, et graines aux ailes bien alignées.",
+  "fact": "Ses deux graines ailées forment une ligne droite, comme les ailes d'un avion. On le trouve souvent dans les haies, au bord des champs.",
+  "emoji": "🍁",
+  "caution": null
+ },
+ {
+  "id": "erable-plane",
+  "name": "Érable plane",
+  "latin": "Acer platanoides",
+  "en": "Norway maple",
+  "wiki": "Érable plane",
+  "group": "tree",
+  "habitats": [
+   "city",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 m",
+  "food": "Graines ailées par deux, très écartées",
+  "when": "Fleurs jaune-vert en avril ; belles couleurs en automne",
+  "look": "Feuilles à 5 lobes terminés par de longues pointes fines, comme sur le drapeau du Canada.",
+  "fact": "Si on casse la queue d'une feuille, une goutte de jus blanc comme du lait apparaît ! On le plante souvent le long des rues.",
+  "emoji": "🍁",
+  "caution": null
+ },
+ {
+  "id": "erable-sycomore",
+  "name": "Érable sycomore",
+  "latin": "Acer pseudoplatanus",
+  "en": "Sycamore maple",
+  "wiki": "Érable sycomore",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "mountain",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 m",
+  "food": "Graines ailées par deux, en forme de V",
+  "when": "Feuilles d'avril à novembre ; graines en automne",
+  "look": "Grandes feuilles à 5 lobes aux bords dentés, souvent avec une longue queue rouge.",
+  "fact": "Ses graines ailées tombent en tournant comme de petits hélicoptères. Lance-en une en l'air pour la voir tourbillonner !",
+  "emoji": "🍁",
+  "caution": null
+ },
+ {
+  "id": "feve",
+  "name": "Fève",
+  "latin": "Vicia faba",
+  "en": "Broad bean",
+  "wiki": "Fève",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1 m",
+  "food": "Grosses gousses duveteuses aux graines plates",
+  "when": "En fleur au printemps ; récoltée en mai et juin",
+  "look": "Tige carrée et dressée, fleurs blanches tachées de noir, et grosses gousses vertes.",
+  "fact": "Autrefois, la « fève » cachée dans la galette des rois était une vraie graine de fève ! L'intérieur de sa gousse est doux comme du coton.",
+  "emoji": "🌱",
+  "caution": null
+ },
+ {
+  "id": "ficaire",
+  "name": "Ficaire",
+  "latin": "Ficaria verna",
+  "en": "Lesser celandine",
+  "wiki": "Ficaire fausse-renoncule",
+  "group": "flower",
+  "habitats": [
+   "forest",
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 15 cm",
+  "food": "Petits bulbes cachés, rarement des graines",
+  "when": "En fleur de février à avril",
+  "look": "Fleur jaune brillante en étoile, avec beaucoup de pétales, et feuilles luisantes en forme de cœur.",
+  "fact": "Elle fleurit très tôt, puis disparaît complètement au début de l'été. Elle se multiplie grâce à de petits bulbes qui ressemblent à des grains de blé.",
+  "emoji": "🌼",
+  "caution": "Plante toxique : ne la cueille pas et ne la mets jamais à la bouche."
+ },
+ {
+  "id": "figuier",
+  "name": "Figuier",
+  "latin": "Ficus carica",
+  "en": "Common fig",
+  "wiki": "Ficus carica",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "de 3 à 10 m",
+  "food": "Figues violettes ou vertes en été",
+  "when": "Figues de juillet à octobre",
+  "look": "Très grandes feuilles rugueuses à 3 ou 5 gros lobes, comme une main ouverte.",
+  "fact": "La figue cache ses minuscules fleurs à l'intérieur : on ne les voit jamais de dehors ! Les petits grains croquants sont ses graines.",
+  "emoji": "🍃",
+  "caution": "Sa sève blanche peut brûler la peau au soleil : ne casse pas ses feuilles."
+ },
+ {
+  "id": "forsythia",
+  "name": "Forsythia",
+  "latin": "Forsythia × intermedia",
+  "en": "Forsythia",
+  "wiki": "Forsythia ×intermedia",
+  "group": "shrub",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 1 à 3 m",
+  "food": "Rarement des fruits",
+  "when": "En fleur en mars et avril, avant les feuilles",
+  "look": "Branches couvertes de petites fleurs jaune vif en clochettes, avant même l'arrivée des feuilles.",
+  "fact": "C'est l'un des premiers buissons à fleurir au printemps : il devient tout jaune quand il fait encore froid. Une branche posée dans l'eau peut même faire des racines !",
+  "emoji": "🌼",
+  "caution": null
+ },
+ {
+  "id": "fougere-aigle",
+  "name": "Fougère aigle",
+  "latin": "Pteridium aquilinum",
+  "en": "Bracken",
+  "wiki": "Pteridium aquilinum",
+  "group": "fern",
+  "habitats": [
+   "forest",
+   "fields",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "fronde jusqu'à 2 m",
+  "food": "Pas de fleurs : des spores sous les feuilles",
+  "when": "Crosses au printemps ; rousse en automne",
+  "look": "Grande fougère aux feuilles en triangle, qui forme de grands tapis dans les bois et les landes.",
+  "fact": "Quand on coupe le pied de sa tige, on voit un dessin qui ressemble à un aigle : c'est l'origine de son nom !",
+  "emoji": "🌿",
+  "caution": "Toute la plante est toxique : ne la mets jamais à la bouche et lave-toi les mains après l'avoir touchée."
+ },
+ {
+  "id": "fougere-male",
+  "name": "Fougère mâle",
+  "latin": "Dryopteris filix-mas",
+  "en": "Male fern",
+  "wiki": "Dryopteris filix-mas",
+  "group": "fern",
+  "habitats": [
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "fronde jusqu'à 1,2 m",
+  "food": "Pas de fleurs : des points de spores",
+  "when": "Crosses au printemps ; vertes jusqu'à l'automne",
+  "look": "Grandes feuilles vertes très découpées qui sortent en couronne d'un même pied, comme un bouquet.",
+  "fact": "Au printemps, ses nouvelles feuilles sortent enroulées comme une coquille d'escargot, puis se déroulent lentement. On les appelle des crosses.",
+  "emoji": "🌿",
+  "caution": "Plante toxique : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "fraisier-cultive",
+  "name": "Fraisier cultivé",
+  "latin": "Fragaria × ananassa",
+  "en": "Garden strawberry",
+  "wiki": "Fragaria ×ananassa",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "de 15 à 30 cm",
+  "food": "Grosses fraises rouges au printemps",
+  "when": "Fraises de mai à juillet",
+  "look": "Feuilles à 3 folioles dentées, fleurs blanches et grosses fraises rouges couvertes de petits grains.",
+  "fact": "La grosse fraise de nos jardins est née en France il y a près de 300 ans, du mélange de deux fraisiers venus d'Amérique.",
+  "emoji": "🍓",
+  "caution": null
+ },
+ {
+  "id": "fraisier-des-bois",
+  "name": "Fraisier des bois",
+  "latin": "Fragaria vesca",
+  "en": "Wild strawberry",
+  "wiki": "Fraisier des bois",
+  "group": "fruit",
+  "habitats": [
+   "forest",
+   "fields",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "de 5 à 25 cm",
+  "food": "Toutes petites fraises rouges et parfumées",
+  "when": "En fleur d'avril à juin ; fraises de mai à août",
+  "look": "Feuilles à 3 folioles dentées, petites fleurs blanches à 5 pétales et minuscules fraises rouges.",
+  "fact": "Les petits grains sur la fraise sont ses vrais fruits ! La plante lance de longues tiges rampantes, les stolons, qui font pousser de nouveaux fraisiers.",
+  "emoji": "🍓",
+  "caution": "Ne cueille et ne goûte des baies sauvages qu'avec un adulte qui les connaît."
+ },
+ {
+  "id": "framboisier",
+  "name": "Framboisier",
+  "latin": "Rubus idaeus",
+  "en": "Raspberry",
+  "wiki": "Framboisier",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "forest",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "de 1 à 2 m",
+  "food": "Framboises rouges en été",
+  "when": "Framboises de juin à septembre",
+  "look": "Tiges couvertes de petits piquants, feuilles blanchâtres dessous, et framboises rouges creuses.",
+  "fact": "Une framboise mûre se détache en laissant son cœur blanc sur la plante : c'est pour ça qu'elle est creuse ! Il pousse aussi à l'état sauvage en montagne.",
+  "emoji": "🍓",
+  "caution": "Ses tiges ont de petits piquants. Ne cueille et ne goûte des baies sauvages qu'avec un adulte qui les connaît."
+ },
+ {
+  "id": "frene-commun",
+  "name": "Frêne commun",
+  "latin": "Fraxinus excelsior",
+  "en": "European ash",
+  "wiki": "Frêne élevé",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "water",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 40 m",
+  "food": "Graines ailées en grappes, comme des languettes",
+  "when": "Toute l'année ; graines accrochées tout l'hiver",
+  "look": "Feuilles faites de nombreuses petites feuilles par paires, et bourgeons tout noirs en hiver.",
+  "fact": "En hiver, on le reconnaît à ses bourgeons noirs comme du velours. Son bois souple et solide sert à fabriquer des manches d'outils.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "fucus-dente",
+  "name": "Fucus denté",
+  "latin": "Fucus serratus",
+  "en": "Toothed wrack",
+  "wiki": "Fucus serratus",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 60 cm",
+  "food": "Ni fleurs ni graines : des bouts gonflés",
+  "when": "Toute l'année, aux grandes marées basses",
+  "look": "Algue brune plate dont les bords sont dentés comme une scie, sans boules d'air.",
+  "fact": "Elle vit plus bas sur la plage que les autres fucus : on ne la voit que lorsque la mer est descendue très loin.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "fucus-vesiculeux",
+  "name": "Fucus vésiculeux",
+  "latin": "Fucus vesiculosus",
+  "en": "Bladder wrack",
+  "wiki": "Fucus vésiculeux",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1 m",
+  "food": "Ni fleurs ni graines : des bouts gonflés",
+  "when": "Toute l'année, sur les rochers à marée basse",
+  "look": "Algue brune aux bords lisses, avec des petites boules d'air rondes, souvent par deux.",
+  "fact": "Ses petites boules pleines d'air la font flotter vers la lumière quand la mer monte. Quand on les écrase, elles font « pop » !",
+  "emoji": "🌊",
+  "caution": null
+ },
+ {
+  "id": "fusain-d-europe",
+  "name": "Fusain d'Europe",
+  "latin": "Euonymus europaeus",
+  "en": "Spindle",
+  "wiki": "Fusain d'Europe",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "de 2 à 6 m",
+  "food": "Fruits rose vif aux graines orange",
+  "when": "Fruits roses de septembre à novembre",
+  "look": "En automne, fruits rose fuchsia à 4 bosses qui s'ouvrent sur des graines orange vif.",
+  "fact": "Ses fruits ressemblent à un petit chapeau, d'où son surnom de bonnet de prêtre. Avec son bois, on fabrique le fusain, un crayon noir pour dessiner !",
+  "emoji": "🍃",
+  "caution": "Ses fruits sont très toxiques, même s'ils sont jolis : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "genet-a-balais",
+  "name": "Genêt à balais",
+  "latin": "Cytisus scoparius",
+  "en": "Common broom",
+  "wiki": "Genêt à balais",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "de 1 à 3 m",
+  "food": "Gousses plates et noires qui éclatent en été",
+  "when": "En fleur d'avril à juin",
+  "look": "Tiges vertes et raides presque sans feuilles, couvertes de fleurs jaune vif en forme de papillon.",
+  "fact": "Autrefois, on attachait ses tiges ensemble pour fabriquer des balais, d'où son nom. Par temps chaud, ses gousses sèches éclatent avec un petit clac et lancent leurs graines.",
+  "emoji": "🌼",
+  "caution": "La plante est toxique : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "gentiane-acaule",
+  "name": "Gentiane acaule",
+  "latin": "Gentiana acaulis",
+  "en": "Stemless gentian",
+  "wiki": "Gentiane acaule",
+  "group": "flower",
+  "habitats": [
+   "mountain"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 10 cm",
+  "food": "Petite capsule pleine de graines",
+  "when": "En fleur de mai à août",
+  "look": "Énorme trompette bleu foncé, presque aussi grande que la plante, posée sur une rosette de feuilles.",
+  "fact": "On dirait qu'elle n'a pas de tige : c'est le sens du mot « acaule ». Quand le temps devient gris ou froid, sa fleur se referme.",
+  "emoji": "🌷",
+  "caution": "Fleur de montagne fragile : on la photographie, on ne la cueille pas."
+ },
+ {
+  "id": "gentiane-jaune",
+  "name": "Gentiane jaune",
+  "latin": "Gentiana lutea",
+  "en": "Great yellow gentian",
+  "wiki": "Gentiane jaune",
+  "group": "flower",
+  "habitats": [
+   "mountain"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 1,5 m",
+  "food": "Capsules pleines de graines plates",
+  "when": "En fleur de juin à août",
+  "look": "Grande plante avec des étages de fleurs jaunes en étoile, et de larges feuilles bleutées face à face.",
+  "fact": "Elle peut vivre plus de 50 ans ! Mais elle attend une dizaine d'années avant de fleurir pour la première fois.",
+  "emoji": "🌼",
+  "caution": "Plante protégée dans plusieurs régions : on la photographie, on ne la cueille pas. Elle ressemble au vératre blanc, une plante très toxique."
+ },
+ {
+  "id": "geranium-herbe-a-robert",
+  "name": "Géranium herbe-à-Robert",
+  "latin": "Geranium robertianum",
+  "en": "Herb-Robert",
+  "wiki": "Géranium Herbe à Robert",
+  "group": "flower",
+  "habitats": [
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 40 cm",
+  "food": "Fruit pointu comme un bec d'oiseau",
+  "when": "En fleur d'avril à octobre",
+  "look": "Petites fleurs roses à cinq pétales, feuilles très découpées et tiges qui deviennent rouges.",
+  "fact": "Son fruit ressemble à un long bec d'oiseau. Quand il est mûr, il se déroule d'un coup et lance ses graines loin de la plante !",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "ginkgo",
+  "name": "Ginkgo",
+  "latin": "Ginkgo biloba",
+  "en": "Ginkgo",
+  "wiki": "Ginkgo biloba",
+  "group": "tree",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 30 m",
+  "food": "Graines jaunes qui sentent mauvais (arbres femelles)",
+  "when": "Feuilles d'avril à novembre ; jaune d'or en automne",
+  "look": "Feuilles en forme d'éventail, souvent fendues au milieu, qui deviennent jaune d'or en automne.",
+  "fact": "Cet arbre existait déjà au temps des dinosaures : on l'appelle un « fossile vivant ». En automne, il perd parfois toutes ses feuilles en un seul jour !",
+  "emoji": "🌳",
+  "caution": "Ses graines tombées au sol sentent très mauvais et peuvent irriter la peau : ne les ramasse pas."
+ },
+ {
+  "id": "giroflee-des-murailles",
+  "name": "Giroflée des murailles",
+  "latin": "Erysimum cheiri",
+  "en": "Wallflower",
+  "wiki": "Giroflée des murailles",
+  "group": "flower",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 60 cm",
+  "food": "Longues gousses fines pleines de graines",
+  "when": "En fleur de mars à mai",
+  "look": "Fleurs jaunes ou orangées à quatre pétales, très parfumées, accrochées aux vieux murs.",
+  "fact": "Elle aime pousser sur les murs des châteaux et des remparts. Son parfum rappelle celui du clou de girofle, d'où son nom.",
+  "emoji": "🌼",
+  "caution": "Plante toxique : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "glycine",
+  "name": "Glycine",
+  "latin": "Wisteria sinensis",
+  "en": "Chinese wisteria",
+  "wiki": "Wisteria sinensis",
+  "group": "shrub",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 1,
+  "size": "liane jusqu'à 20 m",
+  "food": "Longues gousses vertes et veloutées",
+  "when": "En fleur en avril et mai",
+  "look": "Liane au tronc tordu, avec de longues grappes pendantes de fleurs mauves qui sentent bon.",
+  "fact": "Ses tiges s'enroulent si fort autour des grilles et des gouttières qu'elles peuvent les tordre. Une glycine peut vivre plus de cent ans.",
+  "emoji": "🌸",
+  "caution": "Ses graines et ses gousses sont toxiques : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "grande-cigue",
+  "name": "Grande ciguë",
+  "latin": "Conium maculatum",
+  "en": "Hemlock",
+  "wiki": "Grande ciguë",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city",
+   "water"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 2 m",
+  "food": "Petites graines rondes et côtelées",
+  "when": "En fleur de juin à août",
+  "look": "Haute tige lisse tachée de violet, ombrelles de fleurs blanches et odeur de pipi de souris.",
+  "fact": "C'est l'une des plantes les plus toxiques d'Europe. Elle ressemble à la carotte sauvage : on ne cueille jamais une plante à ombrelles sans un adulte qui s'y connaît.",
+  "emoji": "🌿",
+  "caution": "Plante très toxique : ne la touche pas, ne la cueille pas et ne la mets jamais à la bouche. Si tu la vois, préviens un adulte."
+ },
+ {
+  "id": "grande-marguerite",
+  "name": "Grande marguerite",
+  "latin": "Leucanthemum vulgare",
+  "en": "Oxeye daisy",
+  "wiki": "Marguerite commune",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 80 cm",
+  "food": "Petites graines sans parachute",
+  "when": "En fleur de mai à août",
+  "look": "Grande fleur blanche au cœur jaune, bien plus grande qu'une pâquerette, au bout d'une longue tige.",
+  "fact": "Son cœur jaune n'est pas une seule fleur : ce sont plein de minuscules fleurs serrées ! C'est la fleur du jeu « je t'aime, un peu, beaucoup… ».",
+  "emoji": "🌼",
+  "caution": null
+ },
+ {
+  "id": "grande-ortie",
+  "name": "Grande ortie",
+  "latin": "Urtica dioica",
+  "en": "Stinging nettle",
+  "wiki": "Grande ortie",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1,5 m",
+  "food": "Grappes pendantes de minuscules graines",
+  "when": "D'avril à novembre ; petites fleurs vertes en été",
+  "look": "Feuilles en forme de cœur bordées de dents, couvertes de petits poils, et tige carrée.",
+  "fact": "Ses poils sont comme de minuscules seringues qui piquent quand on les frôle. Les chenilles du paon-du-jour et du vulcain se régalent de ses feuilles.",
+  "emoji": "🌿",
+  "caution": "Ses poils piquent la peau : regarde-la sans la toucher."
+ },
+ {
+  "id": "grenadier",
+  "name": "Grenadier",
+  "latin": "Punica granatum",
+  "en": "Pomegranate",
+  "wiki": "Grenadier commun",
+  "group": "fruit",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "de 2 à 5 m",
+  "food": "Grenades pleines de graines rouges juteuses",
+  "when": "En fleur de juin à août ; grenades en octobre",
+  "look": "Fleurs rouge-orange vif en forme de trompette, et gros fruits ronds coiffés d'une petite couronne.",
+  "fact": "Une seule grenade contient des centaines de graines entourées d'une pulpe rouge et juteuse. C'est le symbole de la ville de Grenade, en Espagne.",
+  "emoji": "🍎",
+  "caution": null
+ },
+ {
+  "id": "griffe-de-sorciere",
+  "name": "Griffe de sorcière",
+  "latin": "Carpobrotus edulis",
+  "en": "Hottentot fig",
+  "wiki": "Carpobrotus edulis",
+  "group": "seaweed",
+  "habitats": [
+   "sea",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "tiges rampantes de plusieurs mètres",
+  "food": "Fruits charnus en forme de petite figue",
+  "when": "En fleur d'avril à juillet",
+  "look": "Tapis de feuilles épaisses à trois côtés, comme des doigts crochus, et grandes fleurs jaunes ou roses.",
+  "fact": "Elle vient d'Afrique du Sud. Ses tapis épais étouffent les plantes d'ici : c'est une plante envahissante qu'on arrache sur nos côtes.",
+  "emoji": "🍃",
+  "caution": null
+ },
+ {
+  "id": "groseillier-a-maquereau",
+  "name": "Groseillier à maquereau",
+  "latin": "Ribes uva-crispa",
+  "en": "Gooseberry",
+  "wiki": "Groseillier à maquereau",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "de 50 cm à 1,5 m",
+  "food": "Grosses groseilles vertes ou rouges, rayées",
+  "when": "Fruits en juillet et août",
+  "look": "Petit buisson épineux aux grosses baies vertes ou rougeâtres, rayées comme un ballon.",
+  "fact": "Son drôle de nom viendrait d'une recette ancienne : on servait ses baies acides en sauce avec un poisson, le maquereau.",
+  "emoji": "🍇",
+  "caution": "Attention, il pique : regarde sans toucher les épines."
+ },
+ {
+  "id": "groseillier-rouge",
+  "name": "Groseillier rouge",
+  "latin": "Ribes rubrum",
+  "en": "Redcurrant",
+  "wiki": "Ribes rubrum",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "de 1 à 1,5 m",
+  "food": "Grappes de petites groseilles rouges",
+  "when": "Groseilles en juin et juillet",
+  "look": "Buisson sans épines, aux feuilles à 3 ou 5 lobes et aux grappes de petites baies rouges transparentes.",
+  "fact": "Ses baies pendent en grappes comme de petites perles rouges. Elles sont très acides, alors on en fait surtout de la gelée.",
+  "emoji": "🍒",
+  "caution": null
+ },
+ {
+  "id": "gui",
+  "name": "Gui",
+  "latin": "Viscum album",
+  "en": "Mistletoe",
+  "wiki": "Gui (plante)",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "boule jusqu'à 1 m",
+  "food": "Petites boules blanches et collantes",
+  "when": "Toute l'année ; bien visible en hiver, quand les arbres sont nus",
+  "look": "Grosses boules vertes accrochées dans les branches des arbres, avec des baies blanches en hiver.",
+  "fact": "Il vit perché sur les arbres et leur pompe de l'eau avec des racines spéciales. Les oiseaux mangent ses baies et collent ses graines sur d'autres branches.",
+  "emoji": "🌿",
+  "caution": "Toute la plante est toxique, surtout les baies : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "haricot-de-mer",
+  "name": "Haricot de mer",
+  "latin": "Himanthalia elongata",
+  "en": "Thongweed",
+  "wiki": "Himanthalia elongata",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "lanières jusqu'à 2 m",
+  "food": "Ni fleurs ni graines : de longues lanières",
+  "when": "Toute l'année ; longues lanières surtout en été",
+  "look": "Petit bouton brun collé au rocher, d'où pendent de longues lanières plates comme des spaghettis.",
+  "fact": "Elle commence par un petit bouton en forme de champignon. Puis elle fait pousser de longues lanières qui flottent comme des rubans.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "haricot-vert",
+  "name": "Haricot vert",
+  "latin": "Phaseolus vulgaris",
+  "en": "Green bean",
+  "wiki": "Haricot",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "40 cm, ou 2 m s'il grimpe",
+  "food": "Longues gousses vertes pleines de graines",
+  "when": "Récolté de juillet à septembre",
+  "look": "Feuilles par trois en forme de cœur, petites fleurs blanches ou mauves, et longues gousses vertes.",
+  "fact": "Certains haricots grimpent en s'enroulant autour d'un bâton, toujours dans le même sens. Il nous vient d'Amérique.",
+  "emoji": "🌱",
+  "caution": "Crus, les haricots peuvent rendre malade : on les mange toujours bien cuits."
+ },
+ {
+  "id": "hetre-commun",
+  "name": "Hêtre commun",
+  "latin": "Fagus sylvatica",
+  "en": "European beech",
+  "wiki": "Hêtre commun",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "mountain",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 40 m",
+  "food": "Faînes : petites graines dans une coque hérissée",
+  "when": "Feuilles d'avril à novembre ; faînes en automne",
+  "look": "Tronc lisse et gris comme une peau d'éléphant, et feuilles ovales bordées de petits poils.",
+  "fact": "Les jeunes hêtres gardent souvent leurs feuilles sèches et rousses tout l'hiver. En été, son feuillage est si épais qu'il fait très sombre dessous.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "hortensia",
+  "name": "Hortensia",
+  "latin": "Hydrangea macrophylla",
+  "en": "Bigleaf hydrangea",
+  "wiki": "Hydrangea macrophylla",
+  "group": "shrub",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 1 à 2 m",
+  "food": "Rarement des graines, toutes petites",
+  "when": "En fleur de juin à septembre",
+  "look": "Grandes feuilles vertes dentées et grosses boules de fleurs roses, bleues ou blanches.",
+  "fact": "La couleur de ses fleurs dépend de la terre : dans un sol acide, elles deviennent bleues, sinon elles restent roses. Il adore la Bretagne, douce et humide.",
+  "emoji": "🌺",
+  "caution": "Ses feuilles et ses fleurs sont toxiques : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "houx",
+  "name": "Houx",
+  "latin": "Ilex aquifolium",
+  "en": "Holly",
+  "wiki": "Houx",
+  "group": "shrub",
+  "habitats": [
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 2 à 10 m",
+  "food": "Boules rouges en hiver, sur les pieds femelles",
+  "when": "Toute l'année ; boules rouges de novembre à février",
+  "look": "Feuilles vert foncé, brillantes et dures, aux bords piquants, et petites boules rouges en hiver.",
+  "fact": "Il y a des houx mâles et des houx femelles : seules les femelles portent des boules rouges. En haut de l'arbre, les feuilles n'ont souvent plus de piquants !",
+  "emoji": "🍃",
+  "caution": "Ses boules rouges sont toxiques : ne les mets jamais à la bouche. Ses feuilles piquent."
+ },
+ {
+  "id": "hypne-cypres",
+  "name": "Hypne cyprès",
+  "latin": "Hypnum cupressiforme",
+  "en": "Cypress-leaved plait-moss",
+  "wiki": "Hypne cyprès",
+  "group": "fern",
+  "habitats": [
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "tiges jusqu'à 10 cm",
+  "food": "Pas de fleurs : des capsules de spores",
+  "when": "Toute l'année, verte même en hiver",
+  "look": "Mousse en tapis plats sur les troncs et les murs, aux petites feuilles recourbées en crochet.",
+  "fact": "C'est l'une des mousses les plus communes : sur les troncs, les toits et les murs. Quand il ne pleut pas, elle sèche, puis reverdit dès la pluie suivante !",
+  "emoji": "🌱",
+  "caution": null
+ },
+ {
+  "id": "if-commun",
+  "name": "If commun",
+  "latin": "Taxus baccata",
+  "en": "Yew",
+  "wiki": "If commun",
+  "group": "tree",
+  "habitats": [
+   "city",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 20 m",
+  "food": "Petites boules rouges ouvertes au bout",
+  "when": "Toujours vert ; boules rouges en automne",
+  "look": "Aiguilles plates et souples, vert foncé, et petites boules rouges ouvertes au bout.",
+  "fact": "Il peut vivre très, très longtemps : certains ifs auraient plus de mille ans ! On le taille souvent en boules ou en cônes dans les jardins.",
+  "emoji": "🌲",
+  "caution": "Toute la plante est toxique, même les jolies boules rouges : ne mets jamais rien de cet arbre à la bouche."
+ },
+ {
+  "id": "immortelle-des-dunes",
+  "name": "Immortelle des dunes",
+  "latin": "Helichrysum stoechas",
+  "en": "Shrubby everlasting",
+  "wiki": "Immortelle commune",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 50 cm",
+  "food": "Minuscules graines à petit plumet",
+  "when": "En fleur de mai à août",
+  "look": "Petit buisson gris argenté aux boutons de fleurs jaune d'or, qui sent fort, un peu le curry.",
+  "fact": "Même séchées, ses fleurs restent jaunes très longtemps : c'est pour ça qu'on l'appelle « immortelle ».",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "iris-des-marais",
+  "name": "Iris des marais",
+  "latin": "Iris pseudacorus",
+  "en": "Yellow flag",
+  "wiki": "Iris pseudacorus",
+  "group": "flower",
+  "habitats": [
+   "water"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1,2 m",
+  "food": "Grosses graines brunes qui flottent",
+  "when": "En fleur de mai à juillet",
+  "look": "Grande fleur jaune vif aux pétales retombants, et longues feuilles plates en forme d'épée.",
+  "fact": "Ses graines flottent comme de petits bouchons et voyagent sur l'eau. Certains pensent que la fleur de lys des rois de France était en fait cet iris jaune.",
+  "emoji": "🌼",
+  "caution": "Plante toxique : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "jacinthe-des-bois",
+  "name": "Jacinthe des bois",
+  "latin": "Hyacinthoides non-scripta",
+  "en": "Bluebell",
+  "wiki": "Hyacinthoides non-scripta",
+  "group": "flower",
+  "habitats": [
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 40 cm",
+  "food": "Capsules pleines de graines noires",
+  "when": "En fleur d'avril à mai",
+  "look": "Clochettes bleu-violet parfumées, toutes penchées du même côté d'une tige courbée.",
+  "fact": "Au printemps, elle forme de grands tapis bleus dans les forêts de l'ouest de la France. Elle fleurit avant que les arbres aient leurs feuilles.",
+  "emoji": "💐",
+  "caution": "Toute la plante est toxique, surtout le bulbe : ne la cueille pas et ne la mets jamais à la bouche."
+ },
+ {
+  "id": "jonquille",
+  "name": "Jonquille",
+  "latin": "Narcissus pseudonarcissus",
+  "en": "Wild daffodil",
+  "wiki": "Narcissus pseudonarcissus",
+  "group": "flower",
+  "habitats": [
+   "forest",
+   "fields",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 35 cm",
+  "food": "Capsule pleine de graines noires",
+  "when": "En fleur de février à avril",
+  "look": "Fleur jaune avec une longue trompette au centre, entourée de six pétales plus pâles.",
+  "fact": "Au printemps, elle forme de grands tapis jaunes dans les bois et les prés. À Gérardmer, dans les Vosges, on la fête avec un grand défilé de chars fleuris !",
+  "emoji": "🌼",
+  "caution": "Toute la plante est toxique, surtout le bulbe : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "laitue",
+  "name": "Laitue",
+  "latin": "Lactuca sativa",
+  "en": "Lettuce",
+  "wiki": "Laitue cultivée",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 cm",
+  "food": "Graines à petit parachute, si on l'oublie",
+  "when": "Récoltée du printemps à l'automne",
+  "look": "Rosette de feuilles tendres, vertes ou rouges, serrées en boule.",
+  "fact": "Quand on coupe sa tige, il en sort un jus blanc comme du lait. Son nom vient d'ailleurs du mot latin qui veut dire « lait ».",
+  "emoji": "🥬",
+  "caution": null
+ },
+ {
+  "id": "laitue-de-mer",
+  "name": "Laitue de mer",
+  "latin": "Ulva lactuca",
+  "en": "Sea lettuce",
+  "wiki": "Ulva lactuca",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 1,
+  "size": "10 à 30 cm, parfois plus",
+  "food": "Ni fleurs ni graines : des spores",
+  "when": "Toute l'année, sur les rochers et dans les flaques",
+  "look": "Feuille vert vif, très fine et froissée comme une feuille de salade.",
+  "fact": "Elle est si fine qu'on voit le jour à travers ! Quand il y en a beaucoup trop, elle forme des « marées vertes » sur certaines plages.",
+  "emoji": "🍃",
+  "caution": null
+ },
+ {
+  "id": "lamier-blanc",
+  "name": "Lamier blanc",
+  "latin": "Lamium album",
+  "en": "White dead-nettle",
+  "wiki": "Lamier blanc",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 60 cm",
+  "food": "Quatre petites graines au fond de chaque fleur",
+  "when": "En fleur d'avril à octobre",
+  "look": "Feuilles comme celles de l'ortie, avec des couronnes de fleurs blanches en forme de bouche.",
+  "fact": "On l'appelle « ortie blanche », mais il ne pique pas ! Les bourdons ont une langue assez longue pour boire le nectar caché au fond de ses fleurs.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "lamier-pourpre",
+  "name": "Lamier pourpre",
+  "latin": "Lamium purpureum",
+  "en": "Red dead-nettle",
+  "wiki": "Lamier pourpre",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 25 cm",
+  "food": "Quatre petites graines au fond de chaque fleur",
+  "when": "En fleur presque toute l'année, surtout au printemps",
+  "look": "Petites fleurs roses en forme de bouche ouverte, et feuilles du haut teintées de pourpre.",
+  "fact": "On l'appelle aussi « ortie rouge », mais il ne pique pas du tout ! C'est l'une des premières fleurs du printemps pour les bourdons.",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "laminaire-digitee",
+  "name": "Laminaire digitée",
+  "latin": "Laminaria digitata",
+  "en": "Oarweed",
+  "wiki": "Laminaria digitata",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 3 m",
+  "food": "Ni fleurs ni graines : des spores",
+  "when": "Toute l'année ; visible aux très grandes marées ou échouée après une tempête",
+  "look": "Grande lame brune et lisse, découpée en longs doigts comme une main, sur une tige souple.",
+  "fact": "Sous la mer, elle forme de vraies forêts où se cachent poissons, crabes et homards. Elle s'accroche au rocher avec des crampons qui ressemblent à des racines.",
+  "emoji": "🌊",
+  "caution": null
+ },
+ {
+  "id": "laurier-cerise",
+  "name": "Laurier-cerise",
+  "latin": "Prunus laurocerasus",
+  "en": "Cherry laurel",
+  "wiki": "Laurier-cerise",
+  "group": "shrub",
+  "habitats": [
+   "city",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "de 2 à 6 m",
+  "food": "Petits fruits noirs comme des cerises",
+  "when": "Toute l'année ; fleurs blanches en avril, fruits noirs en été",
+  "look": "Grandes feuilles vert foncé, épaisses et très brillantes, et épis dressés de petites fleurs blanches.",
+  "fact": "On l'appelle aussi laurier palme et on en fait des haies très épaisses. Ses feuilles abîmées sentent l'amande amère : c'est l'odeur d'un poison qui les protège.",
+  "emoji": "🍃",
+  "caution": "Ses feuilles et ses graines sont toxiques : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "laurier-rose",
+  "name": "Laurier-rose",
+  "latin": "Nerium oleander",
+  "en": "Oleander",
+  "wiki": "Laurier-rose",
+  "group": "shrub",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "de 2 à 5 m",
+  "food": "Longues gousses fines, graines à poils",
+  "when": "En fleur de juin à septembre",
+  "look": "Longues feuilles étroites et dures, et bouquets de fleurs roses, blanches ou rouges.",
+  "fact": "Il pousse au bord des rivières autour de la Méditerranée. Il aime la chaleur et la sécheresse : on le plante souvent le long des routes du Sud.",
+  "emoji": "🌺",
+  "caution": "Toute la plante est très toxique : ne la touche pas et ne la mets jamais à la bouche."
+ },
+ {
+  "id": "lavande",
+  "name": "Lavande",
+  "latin": "Lavandula angustifolia",
+  "en": "English lavender",
+  "wiki": "Lavandula angustifolia",
+  "group": "crop",
+  "habitats": [
+   "fields",
+   "city",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 60 cm",
+  "food": "Minuscules graines dans les fleurs sèches",
+  "when": "En fleur de juin à août",
+  "look": "Petit buisson aux feuilles grises et étroites, aux épis de fleurs violettes qui sentent très bon.",
+  "fact": "Dans les grands champs violets de Provence, on cultive surtout le lavandin, une cousine plus grande. Ses fleurs servent à fabriquer des parfums et des savons.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "lentille-d-eau",
+  "name": "Lentille d'eau",
+  "latin": "Lemna minor",
+  "en": "Common duckweed",
+  "wiki": "Lemna minor",
+  "group": "flower",
+  "habitats": [
+   "water"
+  ],
+  "rarity": 1,
+  "size": "feuille de 3 mm",
+  "food": "Fleurs minuscules et très rares",
+  "when": "Du printemps à l'automne",
+  "look": "Minuscules feuilles rondes et vertes, chacune avec une petite racine, qui couvrent l'eau comme un tapis.",
+  "fact": "C'est l'une des plus petites plantes à fleurs du monde ! Elle se multiplie si vite qu'elle peut recouvrir une mare entière en quelques semaines.",
+  "emoji": "🌱",
+  "caution": null
+ },
+ {
+  "id": "lichen-carragaheen",
+  "name": "Lichen carragaheen",
+  "latin": "Chondrus crispus",
+  "en": "Irish moss",
+  "wiki": "Chondrus crispus",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 15 cm",
+  "food": "Ni fleurs ni graines : des spores",
+  "when": "Toute l'année, sur les rochers à marée basse",
+  "look": "Petite touffe rouge foncé, aux branches plates qui se divisent en éventail.",
+  "fact": "Malgré son nom, ce n'est pas un lichen mais une algue rouge. Sous l'eau, le bout de ses branches brille de reflets bleus !",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "lierre-grimpant",
+  "name": "Lierre grimpant",
+  "latin": "Hedera helix",
+  "en": "Common ivy",
+  "wiki": "Lierre grimpant",
+  "group": "shrub",
+  "habitats": [
+   "forest",
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "tiges jusqu'à 30 m de long",
+  "food": "Petites boules noires à la fin de l'hiver",
+  "when": "Toute l'année ; fleurs en automne, baies noires au printemps",
+  "look": "Feuilles brillantes à 3 ou 5 pointes, et tiges qui s'accrochent aux murs et aux troncs.",
+  "fact": "Il fleurit en automne, quand presque plus rien ne fleurit : un vrai restaurant pour les abeilles et les papillons. Il s'accroche aux arbres mais ne se nourrit pas d'eux.",
+  "emoji": "🍃",
+  "caution": "Ses baies et ses feuilles sont toxiques : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "lilas",
+  "name": "Lilas",
+  "latin": "Syringa vulgaris",
+  "en": "Common lilac",
+  "wiki": "Syringa vulgaris",
+  "group": "shrub",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 2 à 6 m",
+  "food": "Petites capsules brunes et sèches",
+  "when": "En fleur en avril et mai",
+  "look": "Feuilles en forme de cœur et grosses grappes de fleurs mauves ou blanches qui sentent très bon.",
+  "fact": "Il vient des montagnes des Balkans, dans l'est de l'Europe. Il a donné son nom à une couleur : le lilas, un violet très clair.",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "lilas-de-mer",
+  "name": "Lilas de mer",
+  "latin": "Limonium vulgare",
+  "en": "Common sea lavender",
+  "wiki": "Limonium vulgare",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 50 cm",
+  "food": "Petits fruits secs dans les fleurs fanées",
+  "when": "En fleur de juillet à septembre",
+  "look": "Rosette de feuilles lisses, et bouquets plats de petites fleurs mauves sur des tiges sans feuilles.",
+  "fact": "Il rejette le sel en trop par de minuscules trous dans ses feuilles. À la fin de l'été, il colore les prés salés en violet.",
+  "emoji": "🌾",
+  "caution": null
+ },
+ {
+  "id": "lin",
+  "name": "Lin",
+  "latin": "Linum usitatissimum",
+  "en": "Flax",
+  "wiki": "Lin cultivé",
+  "group": "crop",
+  "habitats": [
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1 m",
+  "food": "Petites boules pleines de graines brillantes",
+  "when": "Champs bleus en juin",
+  "look": "Tiges fines et droites, petites feuilles étroites et petites fleurs bleu ciel à cinq pétales.",
+  "fact": "Avec les fibres de sa tige, on fabrique un tissu qui s'appelle aussi le lin. Chaque fleur ne vit qu'une matinée !",
+  "emoji": "🌾",
+  "caution": null
+ },
+ {
+  "id": "lis-martagon",
+  "name": "Lis martagon",
+  "latin": "Lilium martagon",
+  "en": "Martagon lily",
+  "wiki": "Lis martagon",
+  "group": "flower",
+  "habitats": [
+   "mountain",
+   "forest"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 1,5 m",
+  "food": "Capsules pleines de graines plates",
+  "when": "En fleur de juin à août",
+  "look": "Fleurs roses tachetées de pourpre qui pendent, aux pétales enroulés vers l'arrière comme un turban.",
+  "fact": "Ses pétales retournés ressemblent à un turban. Le soir, son parfum attire les papillons de nuit qui viennent boire son nectar.",
+  "emoji": "🌺",
+  "caution": "Plante protégée dans plusieurs régions : on la photographie, on ne la cueille pas."
+ },
+ {
+  "id": "liseron-des-champs",
+  "name": "Liseron des champs",
+  "latin": "Convolvulus arvensis",
+  "en": "Field bindweed",
+  "wiki": "Liseron des champs",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "tiges jusqu'à 2 m",
+  "food": "Petites capsules rondes avec quelques graines",
+  "when": "En fleur de juin à septembre",
+  "look": "Petites fleurs en trompette blanches ou roses, sur une tige qui s'enroule autour des autres plantes.",
+  "fact": "Sa tige s'enroule autour des autres plantes pour grimper vers la lumière. Ses racines vont si profond que les jardiniers ont bien du mal à s'en débarrasser !",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "liseron-des-dunes",
+  "name": "Liseron des dunes",
+  "latin": "Calystegia soldanella",
+  "en": "Sea bindweed",
+  "wiki": "Liseron des dunes",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "tiges rampantes jusqu'à 50 cm",
+  "food": "Capsules rondes avec quelques grosses graines",
+  "when": "En fleur de mai à août",
+  "look": "Feuilles rondes, épaisses et brillantes sur le sable, et grandes fleurs roses en trompette rayées de blanc.",
+  "fact": "Au lieu de grimper comme les autres liserons, il rampe sur le sable. Ses feuilles épaisses gardent l'eau, comme une gourde.",
+  "emoji": "🏖️",
+  "caution": null
+ },
+ {
+  "id": "lys-de-mer",
+  "name": "Lys de mer",
+  "latin": "Pancratium maritimum",
+  "en": "Sea daffodil",
+  "wiki": "Lis maritime",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 50 cm",
+  "food": "Grosses graines noires qui flottent sur la mer",
+  "when": "En fleur de juillet à septembre",
+  "look": "Grandes fleurs blanches en étoile avec une trompette au milieu, sur des feuilles bleutées dans le sable.",
+  "fact": "Ses grandes fleurs blanches s'ouvrent en plein été et sentent très bon, surtout le soir. Son bulbe est caché profondément dans le sable.",
+  "emoji": "🏖️",
+  "caution": "Plante protégée : on la photographie, on ne la cueille pas."
+ },
+ {
+  "id": "magnolia-a-grandes-fleurs",
+  "name": "Magnolia à grandes fleurs",
+  "latin": "Magnolia grandiflora",
+  "en": "Southern magnolia",
+  "wiki": "Magnolia à grandes fleurs",
+  "group": "tree",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 25 m",
+  "food": "Cônes velus avec des graines rouge vif",
+  "when": "Toujours vert ; grandes fleurs blanches de juin à septembre",
+  "look": "Grandes feuilles épaisses et brillantes, rousses dessous, et énormes fleurs blanches parfumées.",
+  "fact": "Ses fleurs peuvent être aussi grandes qu'une assiette ! Les magnolias existaient avant les abeilles : ce sont de petits scarabées qui transportent leur pollen.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "mais",
+  "name": "Maïs",
+  "latin": "Zea mays",
+  "en": "Maize",
+  "wiki": "Maïs",
+  "group": "crop",
+  "habitats": [
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 3 m",
+  "food": "Épis de grains jaunes cachés dans des feuilles",
+  "when": "Semé au printemps, récolté de septembre à novembre",
+  "look": "Très grande tige aux longues feuilles, avec un plumet en haut et des épis aux cheveux soyeux.",
+  "fact": "Chaque « cheveu » qui sort de l'épi est relié à un grain : un cheveu, un grain ! Le maïs nous vient d'Amérique.",
+  "emoji": "🌽",
+  "caution": null
+ },
+ {
+  "id": "marronnier-d-inde",
+  "name": "Marronnier d'Inde",
+  "latin": "Aesculus hippocastanum",
+  "en": "Horse chestnut",
+  "wiki": "Aesculus hippocastanum",
+  "group": "tree",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 m",
+  "food": "Marrons brillants dans une coque à piquants",
+  "when": "Fleurs blanches en avril et mai ; marrons en septembre",
+  "look": "Grandes feuilles en forme de main à 5 ou 7 doigts, et fleurs blanches dressées comme des bougies.",
+  "fact": "Malgré son nom, il ne vient pas d'Inde mais des montagnes de Grèce et des Balkans. Au printemps, ses gros bourgeons collent aux doigts.",
+  "emoji": "🌳",
+  "caution": "Les marrons d'Inde sont toxiques : ce ne sont pas des châtaignes. On peut jouer avec, mais jamais les mettre à la bouche."
+ },
+ {
+  "id": "massette-a-larges-feuilles",
+  "name": "Massette à larges feuilles",
+  "latin": "Typha latifolia",
+  "en": "Common bulrush",
+  "wiki": "Typha latifolia",
+  "group": "flower",
+  "habitats": [
+   "water"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 2,5 m",
+  "food": "Cigare brun plein de graines à duvet",
+  "when": "Cigares bruns de l'été jusqu'à l'hiver",
+  "look": "Longues feuilles plates et un épi brun en forme de gros cigare au sommet d'une haute tige.",
+  "fact": "Son « cigare » brun est fait de minuscules fleurs serrées. En hiver, il éclate en un duvet blanc qui s'envole avec le vent.",
+  "emoji": "🌾",
+  "caution": null
+ },
+ {
+  "id": "mauve-sylvestre",
+  "name": "Mauve sylvestre",
+  "latin": "Malva sylvestris",
+  "en": "Common mallow",
+  "wiki": "Grande Mauve",
+  "group": "flower",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1 m",
+  "food": "Petits fruits ronds et plats comme des fromages",
+  "when": "En fleur de mai à septembre",
+  "look": "Fleur rose-mauve à cinq pétales rayés de lignes plus foncées, et feuilles rondes un peu lobées.",
+  "fact": "C'est cette fleur qui a donné son nom à la couleur mauve ! Ses fruits ronds et plats ressemblent à de tout petits fromages.",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "meleze-d-europe",
+  "name": "Mélèze d'Europe",
+  "latin": "Larix decidua",
+  "en": "European larch",
+  "wiki": "Larix decidua",
+  "group": "tree",
+  "habitats": [
+   "mountain",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 40 m",
+  "food": "Petits cônes dressés comme des roses",
+  "when": "Vert tendre au printemps, doré en automne, nu en hiver",
+  "look": "Aiguilles douces en petits bouquets, vert tendre au printemps et jaune d'or en automne.",
+  "fact": "C'est le seul conifère sauvage de France qui perd ses aiguilles en hiver. En automne, les montagnes couvertes de mélèzes deviennent dorées.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "menthe-verte",
+  "name": "Menthe verte",
+  "latin": "Mentha spicata",
+  "en": "Spearmint",
+  "wiki": "Mentha spicata",
+  "group": "crop",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 60 cm",
+  "food": "Épis de petites fleurs mauves en été",
+  "when": "Feuilles du printemps à l'automne",
+  "look": "Tige carrée et feuilles dentées qui sentent très frais quand on les froisse.",
+  "fact": "Ses tiges courent sous la terre et elle envahit vite le jardin : les jardiniers la plantent souvent dans un pot.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "millepertuis-perfore",
+  "name": "Millepertuis perforé",
+  "latin": "Hypericum perforatum",
+  "en": "St John's wort",
+  "wiki": "Millepertuis perforé",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 80 cm",
+  "food": "Capsules pleines de minuscules graines",
+  "when": "En fleur de juin à août",
+  "look": "Fleurs jaunes à cinq pétales avec plein d'étamines ; à contre-jour, ses feuilles semblent trouées.",
+  "fact": "Regarde une feuille devant le ciel : elle semble percée de mille petits trous ! Ce sont des poches d'huile transparentes. On l'appelle aussi « herbe de la Saint-Jean ».",
+  "emoji": "🌼",
+  "caution": "Plante toxique : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "muguet",
+  "name": "Muguet",
+  "latin": "Convallaria majalis",
+  "en": "Lily of the valley",
+  "wiki": "Muguet de mai",
+  "group": "flower",
+  "habitats": [
+   "forest",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 25 cm",
+  "food": "Petites baies rouges très toxiques",
+  "when": "En fleur en mai ; baies rouges en été",
+  "look": "Petites clochettes blanches très parfumées alignées sur une tige, entre deux grandes feuilles.",
+  "fact": "En France, on offre un brin de muguet le 1er mai pour porter bonheur. Dans les bois, il forme de grands tapis grâce à ses tiges cachées sous la terre.",
+  "emoji": "💐",
+  "caution": "Toute la plante est très toxique, surtout les baies rouges : ne la mets jamais à la bouche et lave-toi les mains si tu l'as touchée."
+ },
+ {
+  "id": "murier-blanc",
+  "name": "Mûrier blanc",
+  "latin": "Morus alba",
+  "en": "White mulberry",
+  "wiki": "Mûrier blanc",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "de 5 à 15 m",
+  "food": "Mûres blanches, roses ou violettes",
+  "when": "Fruits en juin et juillet",
+  "look": "Feuilles brillantes en forme de cœur, parfois découpées, et petits fruits allongés comme des mûres.",
+  "fact": "Les chenilles du ver à soie se nourrissent de ses feuilles. Autrefois, on en plantait partout dans les Cévennes pour les élever et fabriquer de la soie.",
+  "emoji": "🍇",
+  "caution": null
+ },
+ {
+  "id": "myosotis-des-bois",
+  "name": "Myosotis des bois",
+  "latin": "Myosotis sylvatica",
+  "en": "Wood forget-me-not",
+  "wiki": "Myosotis sylvatica",
+  "group": "flower",
+  "habitats": [
+   "city",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 40 cm",
+  "food": "Petites graines noires et brillantes",
+  "when": "En fleur d'avril à juin",
+  "look": "Minuscules fleurs bleu ciel à cinq pétales avec un petit cœur jaune, en bouquets.",
+  "fact": "Son nom veut dire « oreille de souris » en grec, à cause de ses feuilles douces et poilues. Ses boutons sont roses, puis la fleur devient bleue en s'ouvrant.",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "myrtillier",
+  "name": "Myrtillier",
+  "latin": "Vaccinium myrtillus",
+  "en": "Bilberry",
+  "wiki": "Vaccinium myrtillus",
+  "group": "fruit",
+  "habitats": [
+   "mountain",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "de 20 à 60 cm",
+  "food": "Petites baies bleu-noir, les myrtilles",
+  "when": "Myrtilles de juillet à septembre",
+  "look": "Petit buisson aux tiges vertes anguleuses, aux petites feuilles ovales et aux baies bleu-noir.",
+  "fact": "Son jus tache les doigts en bleu violet ! Dans les forêts de montagne, les renards, les oiseaux et même les ours des Pyrénées se régalent de ses baies.",
+  "emoji": "🫐",
+  "caution": "Ne cueille et ne goûte des baies sauvages qu'avec un adulte qui les connaît."
+ },
+ {
+  "id": "neflier",
+  "name": "Néflier",
+  "latin": "Mespilus germanica",
+  "en": "Medlar",
+  "wiki": "Néflier",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "city",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "de 2 à 6 m",
+  "food": "Nèfles brunes, mangées très mûres",
+  "when": "En fleur en mai ; nèfles en novembre",
+  "look": "Grandes fleurs blanches à 5 pétales, et fruits bruns ouverts au bout comme une petite couronne.",
+  "fact": "Ses nèfles sont si dures qu'on attend qu'elles deviennent toutes molles et brunes, après les premiers froids, avant de les manger.",
+  "emoji": "🍐",
+  "caution": null
+ },
+ {
+  "id": "nenuphar-blanc",
+  "name": "Nénuphar blanc",
+  "latin": "Nymphaea alba",
+  "en": "White water-lily",
+  "wiki": "Nénuphar blanc",
+  "group": "flower",
+  "habitats": [
+   "water"
+  ],
+  "rarity": 2,
+  "size": "feuilles jusqu'à 30 cm de large",
+  "food": "Fruit rond qui mûrit sous l'eau",
+  "when": "En fleur de juin à septembre",
+  "look": "Grandes fleurs blanches au cœur jaune qui flottent sur l'eau, entre des feuilles rondes fendues.",
+  "fact": "Ses fleurs s'ouvrent le matin et se referment le soir. Ses grandes feuilles flottantes servent de radeaux aux grenouilles et aux libellules !",
+  "emoji": "🌸",
+  "caution": "Elle pousse en eau profonde : admire-la depuis le bord, avec un adulte."
+ },
+ {
+  "id": "nenuphar-jaune",
+  "name": "Nénuphar jaune",
+  "latin": "Nuphar lutea",
+  "en": "Yellow water-lily",
+  "wiki": "Nuphar lutea",
+  "group": "flower",
+  "habitats": [
+   "water"
+  ],
+  "rarity": 2,
+  "size": "feuilles jusqu'à 40 cm de long",
+  "food": "Fruit vert en forme de petite bouteille",
+  "when": "En fleur de juin à août",
+  "look": "Petite fleur jaune en boule qui dépasse de l'eau, au milieu de grandes feuilles rondes.",
+  "fact": "En anglais, on le surnomme « bouteille de cognac », à cause de l'odeur de sa fleur et de la forme de son fruit. Ses racines s'enfoncent dans la vase.",
+  "emoji": "🌼",
+  "caution": "Il pousse en eau profonde : admire-le depuis le bord, avec un adulte."
+ },
+ {
+  "id": "noisetier",
+  "name": "Noisetier",
+  "latin": "Corylus avellana",
+  "en": "Common hazel",
+  "wiki": "Corylus avellana",
+  "group": "fruit",
+  "habitats": [
+   "forest",
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 2 à 6 m",
+  "food": "Noisettes dans une collerette verte",
+  "when": "Chatons jaunes en février ; noisettes en septembre",
+  "look": "Feuilles rondes et douces au toucher, et longs chatons jaunes qui pendent à la fin de l'hiver.",
+  "fact": "Ses chatons jaunes lâchent un nuage de pollen dès février, parmi les premiers de l'année. Les écureuils et les mulots cachent ses noisettes pour l'hiver.",
+  "emoji": "🌰",
+  "caution": null
+ },
+ {
+  "id": "noyer-commun",
+  "name": "Noyer commun",
+  "latin": "Juglans regia",
+  "en": "Common walnut",
+  "wiki": "Noyer commun",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 25 m",
+  "food": "Noix dans une enveloppe verte, en automne",
+  "when": "Noix en septembre et octobre",
+  "look": "Grandes feuilles faites de 5 à 9 folioles, qui sentent fort, et noix dans une coque verte.",
+  "fact": "L'enveloppe verte de la noix, le brou, tache les doigts en brun pendant des jours ! Le Périgord et la région de Grenoble sont célèbres pour leurs noix.",
+  "emoji": "🌰",
+  "caution": null
+ },
+ {
+  "id": "obione",
+  "name": "Obione",
+  "latin": "Halimione portulacoides",
+  "en": "Sea purslane",
+  "wiki": "Halimione portulacoides",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 80 cm",
+  "food": "Minuscules fruits cachés entre deux petites écailles",
+  "when": "Toute l'année ; petites fleurs jaunâtres en été",
+  "look": "Petit buisson gris argenté aux feuilles ovales et charnues, au bord des chenaux des prés salés.",
+  "fact": "Ses feuilles sont couvertes de minuscules poils qui leur donnent une couleur argentée. Aux grandes marées, la mer la recouvre entièrement !",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "oignon",
+  "name": "Oignon",
+  "latin": "Allium cepa",
+  "en": "Onion",
+  "wiki": "Oignon",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 50 cm",
+  "food": "Bulbe sous terre ; boule de fleurs blanches",
+  "when": "Récolté de juillet à septembre",
+  "look": "Feuilles creuses comme des tubes, et gros bulbe rond à moitié dans la terre.",
+  "fact": "Quand on le coupe, il libère un gaz invisible qui pique les yeux et fait pleurer.",
+  "emoji": "🧅",
+  "caution": null
+ },
+ {
+  "id": "olivier",
+  "name": "Olivier",
+  "latin": "Olea europaea",
+  "en": "Olive tree",
+  "wiki": "Olivier",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "de 3 à 15 m",
+  "food": "Olives vertes puis noires",
+  "when": "Toute l'année ; olives d'octobre à janvier",
+  "look": "Petites feuilles étroites, vert foncé dessus et argentées dessous, et tronc gris tout tordu.",
+  "fact": "Un olivier peut vivre plus de mille ans ! Les olives vertes et les olives noires viennent du même arbre : les noires sont simplement plus mûres.",
+  "emoji": "🫒",
+  "caution": null
+ },
+ {
+  "id": "ophrys-abeille",
+  "name": "Ophrys abeille",
+  "latin": "Ophrys apifera",
+  "en": "Bee orchid",
+  "wiki": "Ophrys abeille",
+  "group": "flower",
+  "habitats": [
+   "fields"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 50 cm",
+  "food": "Graines fines comme de la poussière",
+  "when": "En fleur de mai à juillet",
+  "look": "Fleur avec un gros « ventre » brun et velouté, comme une abeille posée sur des pétales roses.",
+  "fact": "Cette orchidée sauvage imite une abeille pour attirer les insectes. Mais chez nous, elle se débrouille le plus souvent toute seule : elle se pollinise elle-même !",
+  "emoji": "🌸",
+  "caution": "Plante protégée : on la photographie, on ne la cueille pas."
+ },
+ {
+  "id": "orchis-pyramidal",
+  "name": "Orchis pyramidal",
+  "latin": "Anacamptis pyramidalis",
+  "en": "Pyramidal orchid",
+  "wiki": "Orchis pyramidal",
+  "group": "flower",
+  "habitats": [
+   "fields"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 50 cm",
+  "food": "Graines fines comme de la poussière",
+  "when": "En fleur de mai à juillet",
+  "look": "Petites fleurs roses serrées en forme de pyramide pointue, au sommet d'une tige.",
+  "fact": "C'est une orchidée sauvage ! Ses graines sont aussi fines que de la poussière et ne peuvent germer qu'avec l'aide d'un champignon du sol.",
+  "emoji": "🌺",
+  "caution": "Plante protégée : on la photographie, on ne la cueille pas."
+ },
+ {
+  "id": "orge",
+  "name": "Orge",
+  "latin": "Hordeum vulgare",
+  "en": "Barley",
+  "wiki": "Orge commune",
+  "group": "crop",
+  "habitats": [
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1 m",
+  "food": "Épis de grains aux longues barbes",
+  "when": "Moissonnée dès la fin juin, avant le blé",
+  "look": "Épis couverts de très longues barbes raides, comme une petite brosse ; les épis penchent quand ils mûrissent.",
+  "fact": "On la moissonne avant le blé. Ses grains nourrissent surtout les vaches, les cochons et les poules, et servent aussi à fabriquer le malt.",
+  "emoji": "🌾",
+  "caution": null
+ },
+ {
+  "id": "orme-champetre",
+  "name": "Orme champêtre",
+  "latin": "Ulmus minor",
+  "en": "Field elm",
+  "wiki": "Orme champêtre",
+  "group": "tree",
+  "habitats": [
+   "fields",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 30 m",
+  "food": "Graines plates et rondes, entourées d'une aile",
+  "when": "Graines vertes en avril, avant les feuilles",
+  "look": "Feuilles rugueuses et dentées, avec une base de travers : un côté plus long que l'autre.",
+  "fact": "Une maladie a fait mourir presque tous les grands ormes de France. Aujourd'hui, on le voit surtout en petits arbres dans les haies.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "oyat",
+  "name": "Oyat",
+  "latin": "Ammophila arenaria",
+  "en": "Marram grass",
+  "wiki": "Oyat",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1,20 m",
+  "food": "Épis beiges serrés, comme des cigares",
+  "when": "Toute l'année ; épis en juin et juillet",
+  "look": "Grosses touffes d'herbe raide et gris-vert sur les dunes, aux feuilles enroulées et pointues.",
+  "fact": "Ses très longues racines retiennent le sable : on le plante pour que le vent n'emporte pas les dunes. Plus le sable le recouvre, plus il pousse !",
+  "emoji": "🌾",
+  "caution": null
+ },
+ {
+  "id": "palmier-de-chine",
+  "name": "Palmier de Chine",
+  "latin": "Trachycarpus fortunei",
+  "en": "Chinese windmill palm",
+  "wiki": "Trachycarpus fortunei",
+  "group": "tree",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 12 m",
+  "food": "Petits fruits bleu-noir en grappes",
+  "when": "Toujours vert ; fleurs jaunes au printemps",
+  "look": "Feuilles en forme d'éventail, et tronc couvert de fibres brunes comme une vieille couverture.",
+  "fact": "C'est l'un des rares palmiers qui supportent le froid et la neige : on en voit dans les jardins de Bretagne et même de Suisse.",
+  "emoji": "🌴",
+  "caution": null
+ },
+ {
+  "id": "panicaut-maritime",
+  "name": "Panicaut maritime",
+  "latin": "Eryngium maritimum",
+  "en": "Sea holly",
+  "wiki": "Panicaut maritime",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 60 cm",
+  "food": "Petits fruits couverts d'écailles",
+  "when": "En fleur de juin à septembre",
+  "look": "Plante bleu-gris argenté aux feuilles piquantes comme du houx, avec des boules de fleurs bleues.",
+  "fact": "Ses feuilles sont recouvertes d'une couche de cire qui la protège du sel et du soleil. Les abeilles et les papillons adorent ses fleurs bleues.",
+  "emoji": "🌿",
+  "caution": "Ses feuilles piquent comme un chardon : regarde-le sans le toucher et ne le cueille pas."
+ },
+ {
+  "id": "paquerette",
+  "name": "Pâquerette",
+  "latin": "Bellis perennis",
+  "en": "Common daisy",
+  "wiki": "Pâquerette",
+  "group": "flower",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 15 cm",
+  "food": "Toutes petites graines, sans parachute",
+  "when": "En fleur presque toute l'année",
+  "look": "Petite fleur au cœur jaune entourée de pétales blancs, souvent rosés au bout, dans les pelouses.",
+  "fact": "La pâquerette ferme sa fleur le soir et quand il pleut, puis la rouvre au soleil. Son nom vient de Pâques, quand elle fleurit partout.",
+  "emoji": "🌼",
+  "caution": null
+ },
+ {
+  "id": "paulownia",
+  "name": "Paulownia",
+  "latin": "Paulownia tomentosa",
+  "en": "Princess tree",
+  "wiki": "Paulownia tomentosa",
+  "group": "tree",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 15 m",
+  "food": "Capsules brunes pointues pleines de graines",
+  "when": "Fleurs violettes en avril et mai, avant les feuilles",
+  "look": "Immenses feuilles douces en forme de cœur, et grappes de fleurs violettes en clochettes.",
+  "fact": "Il porte le nom d'une princesse russe, Anna Pavlovna. Sur les jeunes arbres, ses feuilles peuvent être plus grandes que ta tête !",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "pecher",
+  "name": "Pêcher",
+  "latin": "Prunus persica",
+  "en": "Peach tree",
+  "wiki": "Pêcher",
+  "group": "fruit",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "de 3 à 8 m",
+  "food": "Pêches et nectarines en été",
+  "when": "En fleur en mars et avril ; pêches de juin à septembre",
+  "look": "Fleurs rose vif avant les feuilles, puis longues feuilles fines et pêches à la peau douce.",
+  "fact": "La nectarine est une sorte de pêche à la peau lisse, sans duvet. Son nom latin, persica, veut dire de Perse, mais le pêcher vient de Chine.",
+  "emoji": "🍑",
+  "caution": null
+ },
+ {
+  "id": "pelvetie",
+  "name": "Pelvétie",
+  "latin": "Pelvetia canaliculata",
+  "en": "Channelled wrack",
+  "wiki": "Pelvetia canaliculata",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 15 cm",
+  "food": "Ni fleurs ni graines : des bouts gonflés",
+  "when": "Toute l'année, tout en haut des rochers",
+  "look": "Petite algue brune en touffes, aux branches enroulées en forme de gouttière.",
+  "fact": "C'est l'algue qui vit le plus haut sur les rochers. Elle peut rester plusieurs jours hors de l'eau, en gardant un peu d'eau dans ses gouttières.",
+  "emoji": "🍃",
+  "caution": null
+ },
+ {
+  "id": "perce-neige",
+  "name": "Perce-neige",
+  "latin": "Galanthus nivalis",
+  "en": "Snowdrop",
+  "wiki": "Galanthus nivalis",
+  "group": "flower",
+  "habitats": [
+   "forest",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 20 cm",
+  "food": "Petite capsule verte pleine de graines",
+  "when": "En fleur de janvier à mars",
+  "look": "Petite clochette blanche penchée, avec une tache verte sur les pétales du milieu.",
+  "fact": "C'est l'une des toutes premières fleurs de l'année : elle peut fleurir dans la neige. Le bout dur de ses feuilles l'aide à percer la terre gelée.",
+  "emoji": "🌷",
+  "caution": "Toute la plante est toxique, surtout le bulbe : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "petit-pois",
+  "name": "Petit pois",
+  "latin": "Pisum sativum",
+  "en": "Pea",
+  "wiki": "Pois cultivé",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "de 50 cm à 1,50 m",
+  "food": "Gousses vertes pleines de petites boules",
+  "when": "En fleur au printemps ; récolté en mai et juin",
+  "look": "Plante qui grimpe avec des vrilles, aux fleurs blanches et aux gousses remplies de petites boules vertes.",
+  "fact": "Il s'accroche aux grillages avec ses vrilles, comme des petits ressorts. Un moine, Mendel, a étudié les petits pois pour comprendre pourquoi les enfants ressemblent à leurs parents.",
+  "emoji": "🌱",
+  "caution": null
+ },
+ {
+  "id": "peuplier-noir",
+  "name": "Peuplier noir",
+  "latin": "Populus nigra",
+  "en": "Black poplar",
+  "wiki": "Peuplier noir",
+  "group": "tree",
+  "habitats": [
+   "water",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 m",
+  "food": "Graines entourées de duvet blanc, en mai",
+  "when": "Feuilles d'avril à novembre ; duvet blanc en mai et juin",
+  "look": "Feuilles en forme de triangle qui frétillent au vent, et tronc sombre plein de crevasses.",
+  "fact": "Le peuplier d'Italie, mince comme une fusée au bord des routes, est un peuplier noir. Au printemps, son duvet blanc vole comme de la neige.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "pin-cembro",
+  "name": "Pin cembro",
+  "latin": "Pinus cembra",
+  "en": "Swiss pine",
+  "wiki": "Pinus cembra",
+  "group": "tree",
+  "habitats": [
+   "mountain"
+  ],
+  "rarity": 3,
+  "size": "jusqu'à 25 m",
+  "food": "Cônes violacés aux grosses graines",
+  "when": "Toujours vert ; cônes mûrs en automne",
+  "look": "Aiguilles douces groupées par cinq ; il pousse très haut en montagne, près des alpages.",
+  "fact": "On l'appelle aussi arolle. Un oiseau, le cassenoix moucheté, cache ses graines dans le sol : celles qu'il oublie deviennent de nouveaux arbres !",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "pin-maritime",
+  "name": "Pin maritime",
+  "latin": "Pinus pinaster",
+  "en": "Maritime pine",
+  "wiki": "Pinus pinaster",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "sea"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 m",
+  "food": "Grosses pommes de pin brunes et brillantes",
+  "when": "Toujours vert ; pommes de pin toute l'année",
+  "look": "Très longues aiguilles par deux, grosses pommes de pin brillantes et écorce épaisse crevassée.",
+  "fact": "La grande forêt des Landes a été plantée par les hommes avec des pins maritimes, pour retenir le sable des dunes. On récoltait aussi leur résine.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "pin-noir",
+  "name": "Pin noir",
+  "latin": "Pinus nigra",
+  "en": "Black pine",
+  "wiki": "Pinus nigra",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 40 m",
+  "food": "Pommes de pin brun clair et luisantes",
+  "when": "Toujours vert ; pommes de pin toute l'année",
+  "look": "Écorce gris foncé presque noire, et longues aiguilles raides vert sombre, par deux.",
+  "fact": "Il pousse même sur des pentes pleines de cailloux. On en a planté beaucoup en montagne pour retenir la terre et éviter les glissements.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "pin-parasol",
+  "name": "Pin parasol",
+  "latin": "Pinus pinea",
+  "en": "Stone pine",
+  "wiki": "Pin parasol",
+  "group": "tree",
+  "habitats": [
+   "sea",
+   "city",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 25 m",
+  "food": "Grosses pommes de pin rondes, pleines de pignons",
+  "when": "Toujours vert ; pommes de pin toute l'année",
+  "look": "Cime large et plate comme un grand parasol, au sommet d'un long tronc nu.",
+  "fact": "Ses grosses pommes de pin mettent trois ans à mûrir. Les pignons de pin vendus en magasin pour la cuisine viennent de cet arbre.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "pin-sylvestre",
+  "name": "Pin sylvestre",
+  "latin": "Pinus sylvestris",
+  "en": "Scots pine",
+  "wiki": "Pin sylvestre",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 35 m",
+  "food": "Petites pommes de pin pointues",
+  "when": "Toujours vert ; pommes de pin toute l'année",
+  "look": "Haut du tronc orange vif, et courtes aiguilles bleu-vert un peu tordues, par deux.",
+  "fact": "Le haut de son tronc est orange, comme s'il avait pris un coup de soleil ! C'est le pin qui pousse sur le plus grand territoire, jusqu'en Sibérie.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "pissenlit",
+  "name": "Pissenlit",
+  "latin": "Taraxacum officinale",
+  "en": "Common dandelion",
+  "wiki": "Taraxacum officinale",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 40 cm",
+  "food": "Boule de graines à petits parachutes",
+  "when": "En fleur surtout en avril et mai, et jusqu'en automne",
+  "look": "Fleur jaune vif, feuilles découpées en « dents de lion » et tige creuse pleine d'un jus blanc.",
+  "fact": "Quand tu souffles sur sa boule, chaque graine s'envole avec son petit parachute. Son nom vient de « pisse-en-lit », car on disait qu'il fait faire pipi !",
+  "emoji": "🌼",
+  "caution": null
+ },
+ {
+  "id": "plantain-lanceole",
+  "name": "Plantain lancéolé",
+  "latin": "Plantago lanceolata",
+  "en": "Ribwort plantain",
+  "wiki": "Plantago lanceolata",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 50 cm",
+  "food": "Épi brun plein de petites graines",
+  "when": "En fleur d'avril à octobre",
+  "look": "Longues feuilles étroites aux nervures bien droites, et épi brun entouré d'une couronne d'étamines blanches.",
+  "fact": "Ses graines deviennent collantes quand elles sont mouillées. Elles s'accrochent aux pattes des animaux et aux chaussures pour voyager !",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "plaqueminier-kaki",
+  "name": "Plaqueminier kaki",
+  "latin": "Diospyros kaki",
+  "en": "Persimmon",
+  "wiki": "Plaqueminier",
+  "group": "fruit",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "de 4 à 10 m",
+  "food": "Kakis orange à la fin de l'automne",
+  "when": "Kakis de novembre à décembre, sur l'arbre sans feuilles",
+  "look": "En fin d'automne, gros fruits orange comme des tomates, accrochés aux branches nues.",
+  "fact": "Il vient de Chine et du Japon. Ses fruits orange restent accrochés aux branches nues en hiver, comme des boules de Noël.",
+  "emoji": "🍊",
+  "caution": null
+ },
+ {
+  "id": "platane-commun",
+  "name": "Platane commun",
+  "latin": "Platanus × hispanica",
+  "en": "London plane",
+  "wiki": "Platane commun",
+  "group": "tree",
+  "habitats": [
+   "city",
+   "water"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 40 m",
+  "food": "Boules piquantes qui pendent tout l'hiver",
+  "when": "Toute l'année ; boules accrochées en hiver",
+  "look": "Écorce qui tombe par plaques et fait des taches de camouflage, et grandes feuilles comme une main.",
+  "fact": "Il supporte bien la chaleur et la pollution des villes : c'est pour ça qu'on le voit sur tant de places et le long des routes du Sud.",
+  "emoji": "🌳",
+  "caution": "Les petits poils de ses boules et de ses jeunes feuilles peuvent gratter les yeux et la gorge : ne les frotte pas."
+ },
+ {
+  "id": "poireau",
+  "name": "Poireau",
+  "latin": "Allium porrum",
+  "en": "Leek",
+  "wiki": "Poireau",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 60 cm",
+  "food": "Grosse boule de fleurs, la deuxième année",
+  "when": "Récolté surtout en automne et en hiver",
+  "look": "Long fût blanc et feuilles vertes plates disposées en éventail ; il sent l'oignon.",
+  "fact": "Il résiste au froid et au gel : on le récolte même en plein hiver. C'est un cousin de l'oignon et de l'ail.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "poirier",
+  "name": "Poirier",
+  "latin": "Pyrus communis",
+  "en": "Pear tree",
+  "wiki": "Poirier commun",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 4 à 15 m",
+  "food": "Poires en fin d'été et en automne",
+  "when": "En fleur en avril ; poires d'août à octobre",
+  "look": "Fleurs blanches au cœur rouge foncé au printemps, puis poires en forme de goutte.",
+  "fact": "Contrairement à la pomme, la poire se cueille souvent avant d'être tout à fait mûre : elle finit de mûrir tranquillement à la maison.",
+  "emoji": "🍐",
+  "caution": null
+ },
+ {
+  "id": "polypode-commun",
+  "name": "Polypode commun",
+  "latin": "Polypodium vulgare",
+  "en": "Common polypody",
+  "wiki": "Polypode commun",
+  "group": "fern",
+  "habitats": [
+   "forest",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "fronde jusqu'à 40 cm",
+  "food": "Pas de fleurs : ronds orange de spores",
+  "when": "Toute l'année, vert même en hiver",
+  "look": "Petite fougère aux feuilles découpées comme un peigne, avec des ronds orange en dessous.",
+  "fact": "Elle pousse sur les troncs moussus, les rochers et les vieux murs, sans avoir besoin de terre. Les ronds orange sous ses feuilles sont des paquets de spores.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "polytric-commun",
+  "name": "Polytric commun",
+  "latin": "Polytrichum commune",
+  "en": "Common haircap moss",
+  "wiki": "Polytrichum commune",
+  "group": "fern",
+  "habitats": [
+   "forest",
+   "water",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 30 cm",
+  "food": "Pas de fleurs : des capsules de spores",
+  "when": "Toute l'année ; capsules en été",
+  "look": "Mousse en touffes de tiges dressées, chacune avec des feuilles en étoile comme un mini-sapin.",
+  "fact": "C'est l'une des plus grandes mousses d'Europe. Ses capsules de spores portent un petit chapeau poilu, comme un bonnet !",
+  "emoji": "🌱",
+  "caution": null
+ },
+ {
+  "id": "pomme-de-terre",
+  "name": "Pomme de terre",
+  "latin": "Solanum tuberosum",
+  "en": "Potato",
+  "wiki": "Pomme de terre",
+  "group": "crop",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1 m",
+  "food": "Tubercules sous terre ; petites baies vertes toxiques",
+  "when": "En fleur en juin et juillet ; récoltée en été",
+  "look": "Touffes de feuilles découpées, fleurs blanches ou mauves au cœur jaune, et tubercules sous la terre.",
+  "fact": "Elle vient des montagnes d'Amérique du Sud. Ce qu'on mange n'est pas une racine mais un tubercule, une réserve de nourriture qui pousse sous terre.",
+  "emoji": "🥔",
+  "caution": "Ses feuilles, ses petits fruits verts et ses germes sont toxiques : on ne mange jamais les pousses ni les parties vertes."
+ },
+ {
+  "id": "pommier",
+  "name": "Pommier",
+  "latin": "Malus domestica",
+  "en": "Apple tree",
+  "wiki": "Pommier domestique",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 3 à 10 m",
+  "food": "Pommes en fin d'été et en automne",
+  "when": "En fleur en avril et mai ; pommes d'août à octobre",
+  "look": "Fleurs blanches teintées de rose au printemps, puis pommes vertes, jaunes ou rouges.",
+  "fact": "Il existe des milliers de variétés de pommes ! Le pommier vient d'Asie centrale, où poussent encore des forêts de pommiers sauvages.",
+  "emoji": "🍎",
+  "caution": null
+ },
+ {
+  "id": "populage-des-marais",
+  "name": "Populage des marais",
+  "latin": "Caltha palustris",
+  "en": "Marsh marigold",
+  "wiki": "Populage des marais",
+  "group": "flower",
+  "habitats": [
+   "water",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 40 cm",
+  "food": "Petites gousses en étoile pleines de graines",
+  "when": "En fleur de mars à mai",
+  "look": "Grosses fleurs jaunes brillantes, comme des boutons d'or géants, et feuilles rondes luisantes en cœur.",
+  "fact": "Ses fleurs portent des dessins que seuls les insectes peuvent voir : leurs yeux voient des couleurs invisibles pour nous ! On l'appelle aussi « souci d'eau ».",
+  "emoji": "🌼",
+  "caution": "Plante toxique et sa sève irrite la peau : ne la cueille pas et ne la mets jamais à la bouche."
+ },
+ {
+  "id": "posidonie",
+  "name": "Posidonie",
+  "latin": "Posidonia oceanica",
+  "en": "Neptune grass",
+  "wiki": "Posidonia oceanica",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 3,
+  "size": "feuilles jusqu'à 1 m",
+  "food": "Fruits flottants appelés « olives de mer »",
+  "when": "Toute l'année en Méditerranée ; pelotes sur les plages après les tempêtes",
+  "look": "Longs rubans verts sous l'eau ; sur la plage, tas de feuilles brunes et boules de fibres.",
+  "fact": "Les vagues roulent ses fibres en petites boules marron, les « pelotes de mer ». Ses prairies sous l'eau abritent beaucoup de poissons et gardent l'eau claire.",
+  "emoji": "🌊",
+  "caution": "Plante protégée : on la photographie, on ne la cueille pas."
+ },
+ {
+  "id": "potiron",
+  "name": "Potiron",
+  "latin": "Cucurbita maxima",
+  "en": "Winter squash",
+  "wiki": "Potiron",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "tiges rampantes de plusieurs mètres",
+  "food": "Gros fruits orange, récoltés en automne",
+  "when": "Fruits récoltés en septembre et octobre",
+  "look": "Longues tiges rampantes aux immenses feuilles, et gros fruits ronds et aplatis, souvent orange.",
+  "fact": "C'est un cousin de la citrouille. Les plus gros potirons du monde pèsent plus lourd qu'une petite voiture !",
+  "emoji": "🎃",
+  "caution": null
+ },
+ {
+  "id": "prele-des-champs",
+  "name": "Prêle des champs",
+  "latin": "Equisetum arvense",
+  "en": "Field horsetail",
+  "wiki": "Prêle des champs",
+  "group": "fern",
+  "habitats": [
+   "fields",
+   "city",
+   "water"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 50 cm",
+  "food": "Pas de fleurs : un épi de spores",
+  "when": "Épis bruns en mars-avril ; tiges vertes en été",
+  "look": "Tiges vertes en morceaux emboîtés, avec des couronnes de fines branches, comme un petit sapin.",
+  "fact": "Bien avant les dinosaures, certaines prêles étaient aussi grandes que des arbres ! Autrefois, on se servait des prêles pour récurer les casseroles.",
+  "emoji": "🌱",
+  "caution": null
+ },
+ {
+  "id": "primevere-officinale",
+  "name": "Primevère officinale",
+  "latin": "Primula veris",
+  "en": "Cowslip",
+  "wiki": "Primevère officinale",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 30 cm",
+  "food": "Petite capsule pleine de graines",
+  "when": "En fleur de mars à mai",
+  "look": "Bouquet de petites clochettes jaune d'or tachées d'orange, penchées au bout d'une tige.",
+  "fact": "On l'appelle aussi « coucou », car elle fleurit quand le coucou se met à chanter. « Primevère » veut dire « premier printemps ».",
+  "emoji": "🌼",
+  "caution": null
+ },
+ {
+  "id": "prunellier",
+  "name": "Prunellier",
+  "latin": "Prunus spinosa",
+  "en": "Blackthorn",
+  "wiki": "Prunellier",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "de 1 à 4 m",
+  "food": "Petites prunes bleu-noir, les prunelles",
+  "when": "En fleur en mars et avril ; prunelles en automne",
+  "look": "Buisson très épineux couvert de fleurs blanches qui s'ouvrent avant les feuilles, au début du printemps.",
+  "fact": "Ses fleurs blanches apparaissent quand ses branches sont encore toutes nues. Ses épines protègent les nids des petits oiseaux contre les chats et les renards.",
+  "emoji": "🌸",
+  "caution": "Attention, il pique : regarde sans toucher les épines. Ne cueille et ne goûte des baies sauvages qu'avec un adulte qui les connaît."
+ },
+ {
+  "id": "prunier",
+  "name": "Prunier",
+  "latin": "Prunus domestica",
+  "en": "Plum tree",
+  "wiki": "Prunier",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 4 à 10 m",
+  "food": "Prunes, mirabelles et quetsches en été",
+  "when": "En fleur en mars et avril ; prunes de juillet à septembre",
+  "look": "Fleurs blanches au printemps, puis fruits violets, jaunes ou verts couverts d'une fine poudre.",
+  "fact": "La mirabelle, la quetsche et la reine-claude sont toutes des prunes ! Et les pruneaux sont des prunes séchées.",
+  "emoji": "🍑",
+  "caution": null
+ },
+ {
+  "id": "radis",
+  "name": "Radis",
+  "latin": "Raphanus sativus",
+  "en": "Radish",
+  "wiki": "Radis",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "feuilles de 20 cm",
+  "food": "Petite racine rose et blanche",
+  "when": "Récolté du printemps à l'automne",
+  "look": "Petite racine ronde, rose et blanche, sous une touffe de feuilles rugueuses.",
+  "fact": "C'est un des légumes les plus rapides du potager : on le récolte environ un mois après l'avoir semé !",
+  "emoji": "🌱",
+  "caution": null
+ },
+ {
+  "id": "rhododendron-ferrugineux",
+  "name": "Rhododendron ferrugineux",
+  "latin": "Rhododendron ferrugineum",
+  "en": "Alpenrose",
+  "wiki": "Rhododendron ferrugineux",
+  "group": "shrub",
+  "habitats": [
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "de 50 cm à 1 m",
+  "food": "Petites capsules brunes",
+  "when": "En fleur de juin à août",
+  "look": "Petit buisson de montagne aux feuilles brillantes, couleur rouille dessous, et aux fleurs rose vif.",
+  "fact": "On l'appelle aussi rose des Alpes. Le dessous de ses feuilles est couvert de petits points couleur rouille : ferrugineux veut dire couleur de rouille.",
+  "emoji": "🌺",
+  "caution": "Toute la plante est toxique : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "robinier-faux-acacia",
+  "name": "Robinier faux-acacia",
+  "latin": "Robinia pseudoacacia",
+  "en": "Black locust",
+  "wiki": "Robinia pseudoacacia",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 25 m",
+  "food": "Gousses plates et brunes, comme des haricots secs",
+  "when": "Fleurs blanches parfumées en mai et juin",
+  "look": "Feuilles faites de petites feuilles rondes, deux épines à leur base, et grappes de fleurs blanches.",
+  "fact": "Le « miel d'acacia » vient en réalité de ses fleurs. Le plus vieil arbre de Paris est un robinier planté il y a plus de 400 ans !",
+  "emoji": "🌳",
+  "caution": "Ses branches portent des épines, et ses graines, son écorce et ses feuilles sont toxiques : ne les mets pas à la bouche."
+ },
+ {
+  "id": "romarin",
+  "name": "Romarin",
+  "latin": "Salvia rosmarinus",
+  "en": "Rosemary",
+  "wiki": "Romarin",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 1,50 m",
+  "food": "Petites fleurs bleu pâle, même en hiver",
+  "when": "Toute l'année ; fleurs de l'hiver au printemps",
+  "look": "Buisson aux feuilles fines comme des aiguilles, vert foncé dessus, blanchâtres dessous, très parfumées.",
+  "fact": "Il fleurit souvent en plein hiver : un repas précieux pour les abeilles quand il fait froid. Son nom veut dire « rosée de la mer ».",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "ronce-commune",
+  "name": "Ronce commune",
+  "latin": "Rubus fruticosus",
+  "en": "Bramble",
+  "wiki": "Ronce commune",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "buisson de 1 à 3 m",
+  "food": "Mûres noires à la fin de l'été",
+  "when": "En fleur de mai à août ; mûres en août et septembre",
+  "look": "Tiges arquées couvertes d'épines crochues, fleurs blanches ou roses, puis mûres rouges devenant noires.",
+  "fact": "Quand le bout de ses longues tiges touche le sol, il fait des racines : c'est comme ça qu'elle avance ! Ses buissons abritent oiseaux, hérissons et lapins.",
+  "emoji": "🫐",
+  "caution": "Attention, il pique : regarde sans toucher les épines. Ne cueille et ne goûte des baies sauvages qu'avec un adulte qui les connaît."
+ },
+ {
+  "id": "roquette-de-mer",
+  "name": "Roquette de mer",
+  "latin": "Cakile maritima",
+  "en": "Sea rocket",
+  "wiki": "Roquette de mer",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 40 cm",
+  "food": "Petits fruits en deux parties, qui flottent",
+  "when": "En fleur de juin à septembre",
+  "look": "Plante grasse en haut de la plage, aux petites fleurs mauves à quatre pétales.",
+  "fact": "Elle pousse là où la mer dépose les algues sèches. Ses fruits flottent : les vagues les emportent vers d'autres plages.",
+  "emoji": "🏖️",
+  "caution": null
+ },
+ {
+  "id": "roseau-commun",
+  "name": "Roseau commun",
+  "latin": "Phragmites australis",
+  "en": "Common reed",
+  "wiki": "Roseau commun",
+  "group": "flower",
+  "habitats": [
+   "water"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 3 m",
+  "food": "Plumeaux de graines soyeuses",
+  "when": "Toute l'année ; plumeaux de la fin de l'été à l'hiver",
+  "look": "Très hautes tiges creuses serrées au bord de l'eau, avec un plumeau violet-brun au sommet.",
+  "fact": "Les roselières sont la maison de nombreux oiseaux, comme la rousserolle qui accroche son nid aux tiges. Autrefois, on couvrait les toits de chaume avec ses tiges.",
+  "emoji": "🌾",
+  "caution": null
+ },
+ {
+  "id": "salicaire-commune",
+  "name": "Salicaire commune",
+  "latin": "Lythrum salicaria",
+  "en": "Purple loosestrife",
+  "wiki": "Salicaire commune",
+  "group": "flower",
+  "habitats": [
+   "water",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1,5 m",
+  "food": "Très nombreuses graines minuscules",
+  "when": "En fleur de juin à septembre",
+  "look": "Longs épis de fleurs rose-violet vif au bord de l'eau, et feuilles étroites comme celles du saule.",
+  "fact": "Son nom vient du saule, car ses feuilles ressemblent aux siennes. En Amérique, où on l'a apportée, elle envahit les marais !",
+  "emoji": "🌺",
+  "caution": null
+ },
+ {
+  "id": "salicorne",
+  "name": "Salicorne",
+  "latin": "Salicornia europaea",
+  "en": "Common glasswort",
+  "wiki": "Salicorne d'Europe",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 30 cm",
+  "food": "Fleurs minuscules cachées dans les tiges",
+  "when": "De juin à octobre ; rouge en automne",
+  "look": "Petite plante sans feuilles, aux tiges vertes, grasses et articulées comme des petits cactus.",
+  "fact": "Elle pousse les pieds dans l'eau salée, là où presque aucune autre plante ne survit. En automne, ses tiges vertes deviennent rouges !",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "sapin-pectine",
+  "name": "Sapin pectiné",
+  "latin": "Abies alba",
+  "en": "Silver fir",
+  "wiki": "Abies alba",
+  "group": "tree",
+  "habitats": [
+   "mountain",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 50 m",
+  "food": "Cônes dressés qui se défont sur l'arbre",
+  "when": "Toujours vert ; cônes en automne",
+  "look": "Aiguilles plates rangées comme les dents d'un peigne, avec deux lignes blanches dessous.",
+  "fact": "Ses cônes poussent debout et tombent en miettes sur l'arbre : on ne trouve presque jamais une pomme de sapin entière par terre !",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "sargasse-japonaise",
+  "name": "Sargasse japonaise",
+  "latin": "Sargassum muticum",
+  "en": "Japanese wireweed",
+  "wiki": "Sargassum muticum",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à plusieurs mètres",
+  "food": "Ni fleurs ni graines : petits bouts gonflés",
+  "when": "Toute l'année ; très grande en été, dans les flaques et les ports",
+  "look": "Longue algue brune très ramifiée, avec des petites feuilles et des minuscules boules d'air comme des billes.",
+  "fact": "Elle est arrivée du Japon accrochée à des huîtres, il y a environ 50 ans. Elle pousse si vite qu'elle gêne les bateaux et prend la place des algues d'ici.",
+  "emoji": "🌊",
+  "caution": null
+ },
+ {
+  "id": "sauge-des-pres",
+  "name": "Sauge des prés",
+  "latin": "Salvia pratensis",
+  "en": "Meadow clary",
+  "wiki": "Salvia pratensis",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 80 cm",
+  "food": "Quatre petites graines au fond de chaque fleur",
+  "when": "En fleur de mai à août",
+  "look": "Épis de fleurs bleu-violet en forme de gueule ouverte, et feuilles ridées au pied de la tige.",
+  "fact": "Quand un bourdon entre dans sa fleur, il appuie sur une petite bascule qui lui pose du pollen sur le dos. Malin !",
+  "emoji": "💐",
+  "caution": null
+ },
+ {
+  "id": "saule-blanc",
+  "name": "Saule blanc",
+  "latin": "Salix alba",
+  "en": "White willow",
+  "wiki": "Salix alba",
+  "group": "tree",
+  "habitats": [
+   "water",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 25 m",
+  "food": "Chatons au printemps, puis graines cotonneuses",
+  "when": "Feuilles argentées d'avril à novembre",
+  "look": "Longues feuilles étroites, argentées dessous ; il pousse presque toujours au bord de l'eau.",
+  "fact": "Son écorce a aidé les savants à inventer l'aspirine, un médicament. On le taille souvent en « têtard » : un tronc court coiffé d'une touffe de branches.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "saule-marsault",
+  "name": "Saule marsault",
+  "latin": "Salix caprea",
+  "en": "Goat willow",
+  "wiki": "Saule marsault",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "fields",
+   "water"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 12 m",
+  "food": "Graines avec du duvet blanc, en mai",
+  "when": "Chatons argentés de février à avril",
+  "look": "Feuilles ovales, grises et douces dessous ; à la fin de l'hiver, pompons argentés sur les branches nues.",
+  "fact": "Ses chatons tout doux s'ouvrent dès la fin de l'hiver : c'est l'un des premiers repas des abeilles de l'année. Les chatons mâles deviennent jaunes de pollen.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "saule-pleureur",
+  "name": "Saule pleureur",
+  "latin": "Salix babylonica",
+  "en": "Weeping willow",
+  "wiki": "Saule pleureur",
+  "group": "tree",
+  "habitats": [
+   "city",
+   "water"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 15 m",
+  "food": "Petits chatons verts au printemps",
+  "when": "Feuilles vert clair de mars à novembre",
+  "look": "Longues branches fines qui pendent jusqu'au sol ou jusqu'à l'eau, comme des cheveux.",
+  "fact": "Son nom latin parle de Babylone, mais il vient en réalité de Chine ! Sous ses branches qui tombent jusqu'au sol, on se croirait dans une cabane.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "scabieuse-des-champs",
+  "name": "Scabieuse des champs",
+  "latin": "Knautia arvensis",
+  "en": "Field scabious",
+  "wiki": "Knautie des champs",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1 m",
+  "food": "Petites graines que les fourmis transportent",
+  "when": "En fleur de juin à septembre",
+  "look": "Fleur mauve, plate comme un petit coussin plein d'épingles, au bout d'une longue tige.",
+  "fact": "Sa fleur ressemble à une pelote à épingles. Elle attire énormément de papillons : regarde bien, il y en a souvent un posé dessus !",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "scolopendre",
+  "name": "Scolopendre",
+  "latin": "Asplenium scolopendrium",
+  "en": "Hart's-tongue fern",
+  "wiki": "Scolopendre (fougère)",
+  "group": "fern",
+  "habitats": [
+   "forest",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "fronde jusqu'à 60 cm",
+  "food": "Pas de fleurs : des traits de spores",
+  "when": "Toute l'année, verte même en hiver",
+  "look": "Longue feuille entière, lisse et brillante comme une langue, rayée de traits bruns dessous.",
+  "fact": "C'est une fougère, même si sa feuille n'est pas découpée ! Les traits de spores dessous rappellent les pattes du mille-pattes appelé scolopendre, d'où son nom.",
+  "emoji": "🍃",
+  "caution": null
+ },
+ {
+  "id": "sequoia-geant",
+  "name": "Séquoia géant",
+  "latin": "Sequoiadendron giganteum",
+  "en": "Giant sequoia",
+  "wiki": "Séquoia géant",
+  "group": "tree",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 90 m en Californie",
+  "food": "Petits cônes ovales",
+  "when": "Toujours vert ; toute l'année",
+  "look": "Écorce rousse très épaisse et moelleuse, et rameaux couverts de petites écailles pointues.",
+  "fact": "En Californie, ce sont les plus gros arbres du monde ! Son écorce épaisse et douce comme une éponge le protège des incendies.",
+  "emoji": "🌲",
+  "caution": null
+ },
+ {
+  "id": "sorbier-des-oiseleurs",
+  "name": "Sorbier des oiseleurs",
+  "latin": "Sorbus aucuparia",
+  "en": "Rowan",
+  "wiki": "Sorbus aucuparia",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "mountain",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 15 m",
+  "food": "Grappes de petites baies rouge-orange",
+  "when": "Fleurs blanches en mai ; baies rouges d'août à octobre",
+  "look": "Feuilles faites de petites feuilles dentées par paires, et grosses grappes de baies rouge-orange.",
+  "fact": "Les merles et les grives adorent ses baies. Autrefois, les chasseurs d'oiseaux, les oiseleurs, s'en servaient pour les attirer : d'où son nom !",
+  "emoji": "🌳",
+  "caution": "Ses baies ne sont pas pour nous : laisse-les aux oiseaux et ne les mets pas à la bouche."
+ },
+ {
+  "id": "sphaigne-palustre",
+  "name": "Sphaigne palustre",
+  "latin": "Sphagnum palustre",
+  "en": "Blunt-leaved bog-moss",
+  "wiki": "Sphaigne palustre",
+  "group": "fern",
+  "habitats": [
+   "water",
+   "mountain",
+   "forest"
+  ],
+  "rarity": 3,
+  "size": "tiges jusqu'à 20 cm",
+  "food": "Pas de fleurs : des capsules de spores",
+  "when": "Toute l'année",
+  "look": "Mousse molle vert pâle ou rosée, en gros coussins gorgés d'eau dans les tourbières.",
+  "fact": "Elle boit l'eau comme une éponge, bien plus que son propre poids ! Au fil des siècles, les sphaignes mortes s'entassent et forment la tourbe.",
+  "emoji": "🌱",
+  "caution": "Les tourbières sont fragiles : on reste sur le chemin et on ne l'arrache pas."
+ },
+ {
+  "id": "sureau-noir",
+  "name": "Sureau noir",
+  "latin": "Sambucus nigra",
+  "en": "Elder",
+  "wiki": "Sambucus nigra",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "forest",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "de 2 à 8 m",
+  "food": "Grappes de petites baies noires, fin d'été",
+  "when": "En fleur en mai et juin ; baies noires en août et septembre",
+  "look": "Larges bouquets plats de petites fleurs blanc crème, puis grappes de baies noires qui pendent.",
+  "fact": "Ses branches sont remplies d'une moelle blanche et tendre. Autrefois, les enfants la vidaient pour fabriquer des sifflets et des sarbacanes.",
+  "emoji": "🌿",
+  "caution": "Ses feuilles et ses baies crues rendent malade : ne les mets jamais à la bouche. Seul un adulte qui les connaît peut cuisiner les baies."
+ },
+ {
+  "id": "thym",
+  "name": "Thym",
+  "latin": "Thymus vulgaris",
+  "en": "Common thyme",
+  "wiki": "Thymus vulgaris",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 cm",
+  "food": "Petites fleurs roses ou blanches au printemps",
+  "when": "Toute l'année ; en fleur d'avril à juin",
+  "look": "Petit buisson aux minuscules feuilles grises, qui sent très fort quand on le frôle.",
+  "fact": "Dans le Sud de la France, il pousse aussi tout seul sur les collines sèches. Les abeilles adorent ses fleurs.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "tilleul-a-petites-feuilles",
+  "name": "Tilleul à petites feuilles",
+  "latin": "Tilia cordata",
+  "en": "Small-leaved lime",
+  "wiki": "Tilleul à petites feuilles",
+  "group": "tree",
+  "habitats": [
+   "city",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 m",
+  "food": "Petites boules accrochées à une languette verte",
+  "when": "En fleur en juin et juillet ; ça sent très bon",
+  "look": "Feuilles en forme de cœur, et fleurs ou petites boules pendues sous une languette vert pâle.",
+  "fact": "Quand il fleurit, il sent le miel et des centaines d'abeilles bourdonnent dedans. Ses boules de graines tombent en tournoyant grâce à leur languette.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "tomate",
+  "name": "Tomate",
+  "latin": "Solanum lycopersicum",
+  "en": "Tomato",
+  "wiki": "Tomate",
+  "group": "crop",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 2 m",
+  "food": "Fruits rouges, jaunes ou presque noirs",
+  "when": "Fruits mûrs de juillet à septembre",
+  "look": "Plante attachée à un tuteur, aux feuilles découpées qui sentent fort, et aux petites fleurs jaunes.",
+  "fact": "Pour les savants, la tomate est un fruit, car elle contient des graines ! Elle nous vient d'Amérique.",
+  "emoji": "🍅",
+  "caution": null
+ },
+ {
+  "id": "tournesol",
+  "name": "Tournesol",
+  "latin": "Helianthus annuus",
+  "en": "Sunflower",
+  "wiki": "Tournesol",
+  "group": "crop",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 2 m",
+  "food": "Graines rayées au cœur de la fleur",
+  "when": "En fleur en juillet et août",
+  "look": "Très grande fleur jaune au cœur brun, sur une tige épaisse et poilue.",
+  "fact": "Quand il est jeune, sa tête suit le soleil d'est en ouest pendant la journée. Une fois en fleur, il reste tourné vers l'est.",
+  "emoji": "🌻",
+  "caution": null
+ },
+ {
+  "id": "trefle-blanc",
+  "name": "Trèfle blanc",
+  "latin": "Trifolium repens",
+  "en": "White clover",
+  "wiki": "Trèfle blanc",
+  "group": "flower",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 20 cm",
+  "food": "Petites gousses avec quelques graines",
+  "when": "En fleur de mai à octobre",
+  "look": "Trois petites feuilles rondes souvent marquées d'un V blanc, et une boule de fleurs blanches.",
+  "fact": "Trouver un trèfle à quatre feuilles, c'est très rare : on dit que ça porte bonheur ! Les abeilles adorent butiner ses fleurs.",
+  "emoji": "🍀",
+  "caution": null
+ },
+ {
+  "id": "trefle-des-pres",
+  "name": "Trèfle des prés",
+  "latin": "Trifolium pratense",
+  "en": "Red clover",
+  "wiki": "Trèfle des prés",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 50 cm",
+  "food": "Petites gousses avec une graine",
+  "when": "En fleur de mai à septembre",
+  "look": "Boule de fleurs rose-violet et trois feuilles ovales marquées d'un croissant plus clair.",
+  "fact": "Ses racines abritent des bactéries qui fabriquent de l'engrais naturel. Les agriculteurs le sèment pour rendre la terre plus riche.",
+  "emoji": "☘️",
+  "caution": null
+ },
+ {
+  "id": "tremble",
+  "name": "Tremble",
+  "latin": "Populus tremula",
+  "en": "Aspen",
+  "wiki": "Tremble",
+  "group": "tree",
+  "habitats": [
+   "forest",
+   "mountain"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 25 m",
+  "food": "Graines duveteuses au printemps",
+  "when": "Feuilles d'avril à octobre ; jaune d'or en automne",
+  "look": "Feuilles rondes aux bords ondulés qui tremblent sans arrêt, et écorce lisse gris-vert.",
+  "fact": "Ses feuilles bougent et bruissent au moindre souffle de vent : c'est ce qui lui a donné son nom. Ses racines font pousser de jeunes trembles tout autour.",
+  "emoji": "🌳",
+  "caution": null
+ },
+ {
+  "id": "troene",
+  "name": "Troène",
+  "latin": "Ligustrum vulgare",
+  "en": "Wild privet",
+  "wiki": "Troène commun",
+  "group": "shrub",
+  "habitats": [
+   "fields",
+   "city",
+   "forest"
+  ],
+  "rarity": 1,
+  "size": "de 1 à 4 m",
+  "food": "Petites baies noires et brillantes",
+  "when": "En fleur en juin ; baies noires en automne et en hiver",
+  "look": "Petites feuilles lisses et allongées, bouquets de fleurs blanches au parfum fort, puis baies noires.",
+  "fact": "On le plante souvent en haie autour des jardins. Ses fleurs attirent beaucoup de papillons, et ses baies nourrissent les oiseaux en hiver.",
+  "emoji": "🌿",
+  "caution": "Ses baies noires sont toxiques : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "usnee-barbue",
+  "name": "Usnée barbue",
+  "latin": "Usnea barbata",
+  "en": "Old man's beard",
+  "wiki": "Usnea barbata",
+  "group": "fern",
+  "habitats": [
+   "mountain",
+   "forest"
+  ],
+  "rarity": 2,
+  "size": "touffes jusqu'à 20 cm",
+  "food": "Pas de fleurs : des morceaux qui repoussent",
+  "when": "Toute l'année",
+  "look": "Fils vert-gris qui pendent des branches comme une barbe, avec un fil blanc élastique au centre.",
+  "fact": "Ce n'est pas une plante mais un lichen : un champignon et une algue qui vivent ensemble. Cette « barbe de vieillard » ne pousse que là où l'air est très pur.",
+  "emoji": "🌿",
+  "caution": null
+ },
+ {
+  "id": "valeriane-rouge",
+  "name": "Valériane rouge",
+  "latin": "Centranthus ruber",
+  "en": "Red valerian",
+  "wiki": "Centranthe rouge",
+  "group": "flower",
+  "habitats": [
+   "city",
+   "mountain"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 80 cm",
+  "food": "Petites graines à plumet blanc",
+  "when": "En fleur de mai à octobre",
+  "look": "Bouquets de petites fleurs rouges, roses ou blanches qui poussent dans les fentes des vieux murs.",
+  "fact": "Elle pousse dans les murs, presque sans terre ! Le moro-sphinx, un papillon qui vole sur place comme un colibri, adore son nectar.",
+  "emoji": "🌺",
+  "caution": null
+ },
+ {
+  "id": "veronique-de-perse",
+  "name": "Véronique de Perse",
+  "latin": "Veronica persica",
+  "en": "Common field-speedwell",
+  "wiki": "Veronica persica",
+  "group": "flower",
+  "habitats": [
+   "city",
+   "fields"
+  ],
+  "rarity": 1,
+  "size": "jusqu'à 30 cm",
+  "food": "Petites capsules en forme de cœur",
+  "when": "En fleur presque toute l'année",
+  "look": "Toute petite fleur bleu ciel à quatre pétales rayés, dont le pétale du bas est plus pâle.",
+  "fact": "Elle est venue d'Asie et s'est installée dans tous nos jardins. Sa fleur est si fragile que ses pétales tombent dès qu'on la touche.",
+  "emoji": "🌼",
+  "caution": null
+ },
+ {
+  "id": "vigne",
+  "name": "Vigne",
+  "latin": "Vitis vinifera",
+  "en": "Grapevine",
+  "wiki": "Vitis vinifera",
+  "group": "fruit",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 1,
+  "size": "taillée à 1 ou 2 m dans les vignes",
+  "food": "Grappes de raisins à la fin de l'été",
+  "when": "Vendanges en septembre et octobre ; feuilles jaunes ou rouges en automne",
+  "look": "Feuilles découpées comme une main, vrilles qui s'enroulent et grappes de raisins.",
+  "fact": "Elle s'accroche avec des vrilles, de petits ressorts qui s'enroulent autour de tout ce qu'ils touchent. La récolte des raisins s'appelle les vendanges.",
+  "emoji": "🍇",
+  "caution": null
+ },
+ {
+  "id": "vigne-vierge",
+  "name": "Vigne vierge",
+  "latin": "Parthenocissus tricuspidata",
+  "en": "Boston ivy",
+  "wiki": "Parthenocissus tricuspidata",
+  "group": "shrub",
+  "habitats": [
+   "city"
+  ],
+  "rarity": 1,
+  "size": "liane jusqu'à 20 m",
+  "food": "Petites baies bleu-noir",
+  "when": "Feuilles rouge vif en automne ; branches nues en hiver",
+  "look": "Liane qui couvre les murs, aux feuilles à 3 pointes qui deviennent rouge vif en automne.",
+  "fact": "Elle grimpe sur les murs grâce à de minuscules ventouses au bout de ses vrilles. En automne, des façades entières deviennent rouges !",
+  "emoji": "🍃",
+  "caution": "Ses baies ne se mangent pas : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "violette-odorante",
+  "name": "Violette odorante",
+  "latin": "Viola odorata",
+  "en": "Sweet violet",
+  "wiki": "Violette odorante",
+  "group": "flower",
+  "habitats": [
+   "forest",
+   "city",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 15 cm",
+  "food": "Graines que les fourmis emportent et sèment",
+  "when": "En fleur de février à avril",
+  "look": "Petite fleur violette à cinq pétales, très parfumée, et feuilles en forme de cœur.",
+  "fact": "Quand tu la sens, son parfum semble disparaître après quelques secondes : il endort un instant ton nez ! Sens-la encore un peu plus tard, il revient.",
+  "emoji": "🌸",
+  "caution": null
+ },
+ {
+  "id": "viorne-obier",
+  "name": "Viorne obier",
+  "latin": "Viburnum opulus",
+  "en": "Guelder rose",
+  "wiki": "Viorne obier",
+  "group": "shrub",
+  "habitats": [
+   "forest",
+   "water",
+   "fields"
+  ],
+  "rarity": 2,
+  "size": "de 2 à 4 m",
+  "food": "Grappes de baies rouges et brillantes",
+  "when": "En fleur en mai et juin ; baies rouges en automne",
+  "look": "Feuilles à 3 lobes comme celles d'un érable, et grappes de baies rouges presque transparentes.",
+  "fact": "Autour de ses bouquets, de grandes fleurs blanches servent juste à attirer les insectes. Au jardin, une variété toute ronde s'appelle la boule-de-neige.",
+  "emoji": "🌸",
+  "caution": "Ses baies crues sont toxiques : ne les mets jamais à la bouche."
+ },
+ {
+  "id": "viperine-commune",
+  "name": "Vipérine commune",
+  "latin": "Echium vulgare",
+  "en": "Viper's bugloss",
+  "wiki": "Vipérine commune",
+  "group": "flower",
+  "habitats": [
+   "fields",
+   "city"
+  ],
+  "rarity": 2,
+  "size": "jusqu'à 1 m",
+  "food": "Graines en forme de tête de vipère",
+  "when": "En fleur de juin à septembre",
+  "look": "Épi de fleurs bleues sortant de boutons roses, sur une tige hérissée de poils raides.",
+  "fact": "Ses petites graines ressemblent à une tête de vipère, d'où son nom. Les bourdons et les abeilles adorent son nectar.",
+  "emoji": "💐",
+  "caution": "Ses poils raides piquent un peu et la plante est toxique : ne la mets jamais à la bouche."
+ },
+ {
+  "id": "xanthorie-des-murailles",
+  "name": "Xanthorie des murailles",
+  "latin": "Xanthoria parietina",
+  "en": "Common orange lichen",
+  "wiki": "Xanthoria parietina",
+  "group": "fern",
+  "habitats": [
+   "city",
+   "fields",
+   "sea"
+  ],
+  "rarity": 1,
+  "size": "plaques jusqu'à 10 cm",
+  "food": "Pas de fleurs : petites coupes orange à spores",
+  "when": "Toute l'année",
+  "look": "Taches jaune-orange vif, comme de la peinture, sur les murs, les toits et l'écorce des arbres.",
+  "fact": "Un lichen n'est pas une plante : c'est un champignon et une algue qui vivent ensemble et s'entraident. On le range avec les mousses, car il leur ressemble.",
+  "emoji": "🍂",
+  "caution": null
+ },
+ {
+  "id": "zostere-marine",
+  "name": "Zostère marine",
+  "latin": "Zostera marina",
+  "en": "Common eelgrass",
+  "wiki": "Zostère marine",
+  "group": "seaweed",
+  "habitats": [
+   "sea"
+  ],
+  "rarity": 2,
+  "size": "feuilles jusqu'à 1 m",
+  "food": "Fleurs minuscules sous l'eau, puis petites graines",
+  "when": "Toute l'année ; feuilles échouées sur la plage",
+  "look": "Longues feuilles vertes, étroites et plates comme des rubans, qui poussent dans le sable sous l'eau.",
+  "fact": "Ce n'est pas une algue mais une vraie plante à fleurs qui vit sous la mer ! Dans ses prairies se cachent même des hippocampes.",
+  "emoji": "🌊",
+  "caution": "Ses prairies sous-marines sont fragiles et protégées à certains endroits : on la regarde sans l'arracher."
+ }
+]

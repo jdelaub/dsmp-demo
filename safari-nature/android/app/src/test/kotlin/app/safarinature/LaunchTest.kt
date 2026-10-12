@@ -27,6 +27,6 @@ class LaunchTest {
         rule.onNodeWithContentDescription("Ton prénom").performTextInput("Maylis")
         rule.onNodeWithContentDescription("C'est parti !").performClick()
         rule.onNodeWithText("Salut Maylis !").assertExists()
-        rule.onNodeWithContentDescription("Photographier un animal").assertExists()
+        rule.onNodeWithContentDescription("Photographier un animal ou une plante").assertExists()
     }
 }

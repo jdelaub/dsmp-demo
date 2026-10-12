@@ -33,7 +33,7 @@ import androidx.compose.ui.unit.sp
 import app.safarinature.flow.Flow
 import app.safarinature.flow.Mode
 import app.safarinature.flow.Screen
-import sn.core.catalog.Animal
+import sn.core.catalog.Species
 
 /** Where a reference photo was published: its credit names the site. */
 fun photoHome(source: String) = if ("inaturalist" in source) "iNaturalist" else "Wikimedia Commons"
@@ -45,15 +45,18 @@ fun rarityWords(r: Int) = when (r) {
 }
 
 /** Everything read aloud for a card, in the order it is shown. */
-fun spoken(a: Animal) = buildString {
+/** The plants' rule, on every plant card that has no warning of its own. */
+const val PlantRule = "On regarde et on photographie. On ne goûte jamais une plante, une baie ou une algue sans un adulte."
+
+fun spoken(a: Species) = buildString {
     append("${a.name}. ")
     append("Comment le reconnaître : ${a.look} ")
     append("Le savais-tu ? ${a.fact}")
-    a.caution?.let { append(" Attention : $it") }
+    a.caution?.let { append(" Attention : $it") } ?: run { if (a.isPlant) append(" $PlantRule") }
 }
 
 /**
- * An animal's card. In "identify" the child compares their photo with it and says "C'est lui !";
+ * An animal's or a plant's card. In "identify" the child compares their photo with it and says "C'est lui !" (or "elle");
  * in "explore" they read, listen, and can go and photograph it.
  */
 @Composable
@@ -72,10 +75,10 @@ fun CardScreen(f: Flow, id: String, mode: Mode) {
                         Labelled("Ta photo", Modifier.weight(1f)) {
                             Picture(FilePic(f.photoFile(f.pending!!.photo!!).path), Modifier.fillMaxWidth().aspectRatio(0.9f), px = 600)
                         }
-                        Labelled(a.name, Modifier.weight(1f)) { AnimalPicture(f, a, Modifier.fillMaxWidth().aspectRatio(0.9f), own = false, px = 600) }
+                        Labelled(a.name, Modifier.weight(1f)) { SpeciesPicture(f, a, Modifier.fillMaxWidth().aspectRatio(0.9f), own = false, px = 600) }
                     }
                 } else {
-                    AnimalPicture(f, a, Modifier.fillMaxWidth().height(300.dp).clip(RoundedCornerShape(bottomStart = 36.dp, bottomEnd = 36.dp)), own = false, px = 900)
+                    SpeciesPicture(f, a, Modifier.fillMaxWidth().height(300.dp).clip(RoundedCornerShape(bottomStart = 36.dp, bottomEnd = 36.dp)), own = false, px = 900)
                 }
                 Row(Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
                     RoundButton("←", "Retour") { f.back() }
@@ -112,6 +115,18 @@ fun CardScreen(f: Flow, id: String, mode: Mode) {
                             Text(c, style = T.Body.copy(color = C.CautionInk), modifier = Modifier.weight(1f))
                         }
                     }
+                } ?: run {
+                    // Every plant without a warning of its own still says: we don't taste.
+                    if (a.isPlant) {
+                        Spacer(Modifier.height(14.dp))
+                        Paper(Modifier.fillMaxWidth(), color = Color(0xFFE6F4E8)) {
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Text("🤲", style = T.Emoji.copy(fontSize = 28.sp))
+                                Spacer(Modifier.width(12.dp))
+                                Text(PlantRule, style = T.Body.copy(color = C.GreenLip, fontSize = 16.sp, lineHeight = 22.sp), modifier = Modifier.weight(1f))
+                            }
+                        }
+                    }
                 }
                 Spacer(Modifier.height(14.dp))
                 Section("🔍", "Comment le reconnaître", a.look, color)
@@ -121,7 +136,7 @@ fun CardScreen(f: Flow, id: String, mode: Mode) {
                 Paper(Modifier.fillMaxWidth()) {
                     Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                         Fact("📏", "Taille", a.size)
-                        Fact("🍽️", "Au menu", a.food)
+                        if (a.isPlant) Fact("🌰", "Fruits et graines", a.food) else Fact("🍽️", "Au menu", a.food)
                         Fact("📅", "Quand le voir", a.season)
                     }
                 }
@@ -147,15 +162,15 @@ fun CardScreen(f: Flow, id: String, mode: Mode) {
         // The action stays at the bottom, always in reach of a thumb.
         Column(Modifier.fillMaxWidth().background(C.Paper).padding(horizontal = 18.dp, vertical = 10.dp)) {
             if (identify) {
-                Chunky("C'est lui !", Modifier.fillMaxWidth(), C.Green, "✅", f = f) { f.confirm(a.id) }
+                Chunky(if (a.isPlant) "C'est elle !" else "C'est lui !", Modifier.fillMaxWidth(), C.Green, "✅", f = f) { f.confirm(a.id) }
                 Text(
-                    "Non, ce n'est pas lui", style = T.Label.copy(color = C.Soft, textAlign = TextAlign.Center),
+                    if (a.isPlant) "Non, ce n'est pas elle" else "Non, ce n'est pas lui", style = T.Label.copy(color = C.Soft, textAlign = TextAlign.Center),
                     modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(50)).clickable { f.back() }.padding(12.dp),
                 )
             } else {
-                Chunky("Je le prends en photo", Modifier.fillMaxWidth(), C.Orange, "📸", f = f) { f.openCamera(a.id) }
+                Chunky(if (a.isPlant) "Je la prends en photo" else "Je le prends en photo", Modifier.fillMaxWidth(), C.Orange, "📸", f = f) { f.openCamera(a.id) }
                 Text(
-                    "👀 Je l'ai vu sans photo", style = T.Label.copy(color = C.Soft, textAlign = TextAlign.Center),
+                    if (a.isPlant) "👀 Je l'ai vue sans photo" else "👀 Je l'ai vu sans photo", style = T.Label.copy(color = C.Soft, textAlign = TextAlign.Center),
                     modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(50)).clickable { f.seenWithoutPhoto(a.id) }.padding(12.dp),
                 )
             }

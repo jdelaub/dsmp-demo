@@ -17,6 +17,7 @@ import kotlinx.coroutines.withContext
 import sn.core.catalog.Catalog
 import sn.core.catalog.Group
 import sn.core.catalog.Habitat
+import sn.core.catalog.Kingdom
 import sn.core.progress.Challenge
 import sn.core.progress.Challenges
 import sn.core.progress.Outcome
@@ -27,18 +28,20 @@ import sn.core.progress.Summary
 import java.io.File
 import java.time.LocalDateTime
 
-/** Identify: a photo is waiting for its animal. Explore: the encyclopedia, nothing waiting. */
+/** Identify: a photo is waiting for its name. Explore: the encyclopedia, nothing waiting. */
 enum class Mode { IDENTIFY, EXPLORE }
 
 sealed interface Screen {
     data object Welcome : Screen
     data object Home : Screen
-    /** [target]: the animal already chosen (from its card), so the photo goes straight to it. */
+    /** [target]: the animal or plant already chosen (from its card), so the photo goes straight to it. */
     data class Camera(val target: String? = null) : Screen
     data object Review : Screen
-    data class Places(val mode: Mode) : Screen
-    data class Families(val mode: Mode, val habitat: Habitat?) : Screen
-    data class Animals(val mode: Mode, val habitat: Habitat?, val group: Group?) : Screen
+    /** "Un animal ou une plante ?": the first question, then the place, the family, the pictures. [kingdom] null: both. */
+    data class Kinds(val mode: Mode) : Screen
+    data class Places(val mode: Mode, val kingdom: Kingdom?) : Screen
+    data class Families(val mode: Mode, val kingdom: Kingdom?, val habitat: Habitat?) : Screen
+    data class Grid(val mode: Mode, val kingdom: Kingdom?, val habitat: Habitat?, val group: Group?) : Screen
     data class Search(val mode: Mode) : Screen
     data class Card(val id: String, val mode: Mode) : Screen
     data object Celebrate : Screen
@@ -51,7 +54,7 @@ sealed interface Screen {
     data object Credits : Screen
 }
 
-/** A photo (or none) waiting for its animal's name. [solving]: a mystery photo named later. [target]: already named. */
+/** A photo (or none) waiting for its name. [solving]: a mystery photo named later. [target]: already named. */
 data class Pending(val photo: String?, val solving: Long? = null, val target: String? = null)
 
 /**
@@ -118,7 +121,7 @@ class Flow @JvmOverloads constructor(app: Application, dbName: String? = "safari
         voice.hush()
         // Leaving the photo's review means "take it again": that photo is not kept.
         if (leaving == Screen.Review) pending?.takeIf { it.solving == null }?.photo?.let { photos.delete(it); pending = null }
-        if (leaving is Screen.Places && leaving.mode == Mode.IDENTIFY && pending?.solving != null) pending = null
+        if (leaving is Screen.Kinds && leaving.mode == Mode.IDENTIFY && pending?.solving != null) pending = null
         if (stack.last() == Screen.Home) pending = null
     }
 
@@ -182,21 +185,23 @@ class Flow @JvmOverloads constructor(app: Application, dbName: String? = "safari
     /** "Keep it": straight to the animal when it was chosen first, otherwise "where are you?". */
     fun keepPhoto() {
         val p = pending ?: return
-        if (p.target != null) confirm(p.target) else go(Screen.Places(Mode.IDENTIFY))
+        if (p.target != null) confirm(p.target) else go(Screen.Kinds(Mode.IDENTIFY))
     }
 
     /** The animal ran away before the photo: name it anyway. */
     fun withoutPhoto() {
         pending = Pending(null)
-        go(Screen.Places(Mode.IDENTIFY))
+        go(Screen.Kinds(Mode.IDENTIFY))
     }
 
-    fun choosePlace(mode: Mode, h: Habitat?) {
+    fun chooseKind(mode: Mode, k: Kingdom?) = go(Screen.Places(mode, k))
+
+    fun choosePlace(mode: Mode, k: Kingdom?, h: Habitat?) {
         if (mode == Mode.IDENTIFY) habitat = h
-        go(Screen.Families(mode, h))
+        go(Screen.Families(mode, k, h))
     }
 
-    fun chooseFamily(mode: Mode, h: Habitat?, g: Group?) = go(Screen.Animals(mode, h, g))
+    fun chooseFamily(mode: Mode, k: Kingdom?, h: Habitat?, g: Group?) = go(Screen.Grid(mode, k, h, g))
 
     fun open(id: String, mode: Mode) = go(Screen.Card(id, mode))
 
@@ -249,7 +254,7 @@ class Flow @JvmOverloads constructor(app: Application, dbName: String? = "safari
     fun solve(sighting: Sighting) {
         pending = Pending(sighting.photo, solving = sighting.id)
         habitat = sighting.habitat
-        go(Screen.Places(Mode.IDENTIFY))
+        go(Screen.Kinds(Mode.IDENTIFY))
     }
 
     fun delete(s: Sighting) {

@@ -2,6 +2,7 @@ package sn.core.progress
 
 import sn.core.catalog.Group
 import sn.core.catalog.Habitat
+import sn.core.catalog.Kingdom
 import java.time.Month
 
 /**
@@ -26,7 +27,7 @@ object Medals {
         Medal(id, emoji, title, "Trouve $n $what", n) { it.discoveredIn(g) }
 
     private fun place(id: String, emoji: String, title: String, h: Habitat, n: Int) =
-        Medal(id, emoji, title, "Trouve $n animaux ${h.where}", n) { it.discoveredIn(h) }
+        Medal(id, emoji, title, if (h == Habitat.FARM) "Trouve $n animaux ${h.where}" else "Fais $n découvertes ${h.where}", n) { it.discoveredIn(h) }
 
     private fun season(m: Month) = when (m) {
         Month.DECEMBER, Month.JANUARY, Month.FEBRUARY -> 0
@@ -35,13 +36,16 @@ object Medals {
         else -> 3
     }
 
+    private val animalFamilies = Group.entries.filter { it.kingdom == Kingdom.ANIMAL }
+    private val plantFamilies = Group.entries.filter { it.kingdom == Kingdom.PLANT }
+
     val all: List<Medal> = listOf(
-        Medal("first", "👣", "Premier pas", "Découvre ton premier animal", 1) { it.discovered.size },
-        Medal("photo10", "📸", "Photographe", "Prends 10 photos d'animaux", 10) { p -> p.sightings.count { it.photo != null } },
-        Medal("species10", "🗂️", "Collectionneur", "Découvre 10 animaux différents", 10) { it.discovered.size },
-        Medal("species25", "🎒", "Grand collectionneur", "Découvre 25 animaux différents", 25) { it.discovered.size },
-        Medal("species50", "🏆", "Champion", "Découvre 50 animaux différents", 50) { it.discovered.size },
-        Medal("species100", "📚", "Encyclopédie vivante", "Découvre 100 animaux différents", 100) { it.discovered.size },
+        Medal("first", "👣", "Premier pas", "Fais ta première découverte", 1) { it.discovered.size },
+        Medal("photo10", "📸", "Photographe", "Prends 10 photos d'animaux ou de plantes", 10) { p -> p.sightings.count { it.photo != null } },
+        Medal("species10", "🗂️", "Collectionneur", "Découvre 10 animaux ou plantes différents", 10) { it.discovered.size },
+        Medal("species25", "🎒", "Grand collectionneur", "Découvre 25 animaux ou plantes différents", 25) { it.discovered.size },
+        Medal("species50", "🏆", "Champion", "Découvre 50 animaux ou plantes différents", 50) { it.discovered.size },
+        Medal("species100", "📚", "Encyclopédie vivante", "Découvre 100 animaux ou plantes différents", 100) { it.discovered.size },
 
         group("birds10", "🐦", "Ami des oiseaux", Group.BIRD, 10, "oiseaux"),
         group("birds25", "🦅", "Roi du ciel", Group.BIRD, 25, "oiseaux"),
@@ -56,6 +60,15 @@ object Medals {
         },
         Medal("spiders", "🕸️", "Sans peur", "Trouve 3 araignées", 3) { it.discoveredIn(Group.SPIDER) },
 
+        group("trees10", "🌳", "Ami des arbres", Group.TREE, 10, "arbres"),
+        group("flowers10", "🌼", "Bouquet de fleurs", Group.FLOWER, 10, "fleurs ou herbes"),
+        group("fruits5", "🍎", "Roi du verger", Group.FRUIT, 5, "arbres fruitiers ou plantes à baies"),
+        group("shrubs5", "🌿", "Gardien des haies", Group.SHRUB, 5, "arbustes ou lianes"),
+        group("seaweeds5", "🏖️", "Jardinier des mers", Group.SEAWEED, 5, "algues ou plantes de la plage"),
+        group("garden5", "🥕", "Petit jardinier", Group.CROP, 5, "plantes des champs ou du potager"),
+        group("ferns3", "🌱", "Sous-bois secret", Group.FERN, 3, "fougères, mousses ou lichens"),
+        Medal("plants25", "📗", "Herbier vivant", "Découvre 25 plantes différentes", 25) { it.discoveredIn(Kingdom.PLANT) },
+
         place("forest", "🌲", "Explorateur de la forêt", Habitat.FOREST, 10),
         place("sea", "🌊", "Loup de mer", Habitat.SEA, 10),
         place("city", "🏙️", "Safari en ville", Habitat.CITY, 10),
@@ -64,27 +77,30 @@ object Medals {
         place("mountain", "⛰️", "Grimpeur des cimes", Habitat.MOUNTAIN, 5),
         place("farm", "🚜", "Petit fermier", Habitat.FARM, 6),
 
-        Medal("everywhere", "🌍", "Tour de France", "Trouve un animal dans chaque endroit", Habitat.entries.size) { p ->
+        Medal("everywhere", "🌍", "Tour de France", "Fais une découverte dans chaque endroit", Habitat.entries.size) { p ->
             Habitat.entries.count { p.discoveredIn(it) > 0 }
         },
-        Medal("families", "🎨", "Toutes les familles", "Trouve un animal de chaque famille", Group.entries.size) { p ->
-            Group.entries.count { p.discoveredIn(it) > 0 }
+        Medal("families", "🎨", "Toutes les familles", "Trouve un animal de chaque famille", animalFamilies.size) { p ->
+            animalFamilies.count { p.discoveredIn(it) > 0 }
         },
-        Medal("lucky", "🍀", "Chanceux", "Trouve un animal rare ⭐⭐⭐", 1) { p -> p.species.count { it.rarity >= 3 } },
-        Medal("rare5", "💎", "Chasseur de trésors", "Trouve 5 animaux rares ⭐⭐⭐", 5) { p -> p.species.count { it.rarity >= 3 } },
-        Medal("early", "🌅", "Lève-tôt", "Observe un animal avant 8 heures du matin", 1) { p ->
+        Medal("botanist", "🔎", "Petit botaniste", "Trouve une plante de chaque famille", plantFamilies.size) { p ->
+            plantFamilies.count { p.discoveredIn(it) > 0 }
+        },
+        Medal("lucky", "🍀", "Chanceux", "Trouve un trésor rare ⭐⭐⭐", 1) { p -> p.species.count { it.rarity >= 3 } },
+        Medal("rare5", "💎", "Chasseur de trésors", "Trouve 5 trésors rares ⭐⭐⭐", 5) { p -> p.species.count { it.rarity >= 3 } },
+        Medal("early", "🌅", "Lève-tôt", "Fais une découverte avant 8 heures du matin", 1) { p ->
             p.sightings.count { it.at.hour in 4..7 }
         },
-        Medal("night", "🦉", "Oiseau de nuit", "Observe un animal après 21 heures", 1) { p ->
+        Medal("night", "🦉", "Oiseau de nuit", "Fais une découverte après 21 heures", 1) { p ->
             p.sightings.count { it.at.hour >= 21 || it.at.hour < 4 }
         },
         Medal("days5", "📅", "Explorateur fidèle", "Pars en exploration 5 jours différents", 5) { p ->
             p.sightings.map { it.at.toLocalDate() }.distinct().size
         },
-        Medal("seasons", "🍂", "Quatre saisons", "Observe des animaux en hiver, au printemps, en été et en automne", 4) { p ->
+        Medal("seasons", "🍂", "Quatre saisons", "Explore la nature en hiver, au printemps, en été et en automne", 4) { p ->
             p.sightings.map { season(it.at.month) }.distinct().size
         },
-        Medal("detective", "🕵️", "Détective", "Retrouve le nom d'un animal mystère", 1) { p ->
+        Medal("detective", "🕵️", "Détective", "Retrouve le nom d'un mystère", 1) { p ->
             p.sightings.count { it.solved && it.animal != null }
         },
     )

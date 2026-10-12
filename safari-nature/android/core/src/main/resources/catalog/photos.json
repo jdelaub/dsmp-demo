@@ -8,12 +8,36 @@
   "source": "https://commons.wikimedia.org/wiki/File:(MHNT)_Apis_mellifera_(female)_-_on_viburnum_tinus_flowers.jpg"
  },
  {
+  "id": "abricotier",
+  "file": "Abricot.jpg",
+  "author": "Craig Ledbetter, USDA ARS",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Abricot.jpg"
+ },
+ {
   "id": "accenteur-mouchet",
   "file": "Dunnock_in_Bute_Park,_Cardiff.jpg",
   "author": "Dominic Nelson",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Dunnock_in_Bute_Park,_Cardiff.jpg"
+ },
+ {
+  "id": "achillee-millefeuille",
+  "file": "Achillea millefolium (52354).jpg",
+  "author": "Rhododendrites",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Achillea_millefolium_(52354).jpg"
+ },
+ {
+  "id": "aconit-napel",
+  "file": "Aconitum_napellus_-_Köhler–s_Medizinal-Pflanzen-151.jpg",
+  "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Aconitum_napellus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-151.jpg"
  },
  {
   "id": "agrion-jouvencelle",
@@ -40,6 +64,38 @@
   "source": "https://commons.wikimedia.org/wiki/File:Aigrette_garzette_au_lac_sud_de_Tunis_(site_RAMSAR).jpg"
  },
  {
+  "id": "ail",
+  "file": "Allium_sativum_Woodwill_1793.jpg",
+  "author": "Auteur inconnu",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Allium_sativum_Woodwill_1793.jpg"
+ },
+ {
+  "id": "ail-des-ours",
+  "file": "Illustration_Allium_ursinum1.jpg",
+  "author": "Auteur inconnu",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Illustration_Allium_ursinum1.jpg"
+ },
+ {
+  "id": "airelle-rouge",
+  "file": "Vaccinium_vitis-idaea_L..jpg",
+  "author": "Carl Axel Magnus Lindman",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Vaccinium_vitis-idaea_L..jpg"
+ },
+ {
+  "id": "ajonc-d-europe",
+  "file": "Illustration_Ulex_europaeus0.jpg",
+  "author": "Auteur inconnu",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Illustration_Ulex_europaeus0.jpg"
+ },
+ {
   "id": "alouette-des-champs",
   "file": "Alauda_arvensis_2.jpg",
   "author": "Daniel Pettersson",
@@ -64,6 +120,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Common_Midwife_Toad_(Alytes_obstetricans)_male_carrying_eggs_..._(43973020765).jpg"
  },
  {
+  "id": "amandier",
+  "file": "94_Amygdalus_communis_L.jpg",
+  "author": "Amédée Masclef",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:94_Amygdalus_communis_L.jpg"
+ },
+ {
   "id": "anatife-commun",
   "file": "Entenmuscheol.jpg",
   "author": "Michel Estermann",
@@ -86,6 +150,14 @@
   "license": "Public domain",
   "licenseUrl": "",
   "source": "https://commons.wikimedia.org/wiki/File:Donkey_in_Clovelly,_North_Devon,_England.jpg"
+ },
+ {
+  "id": "anemone-des-bois",
+  "file": "Cleaned-Illustration_Anemone_nemorosa.jpg",
+  "author": "Auteur inconnu",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Cleaned-Illustration_Anemone_nemorosa.jpg"
  },
  {
   "id": "anemone-verte",
@@ -120,6 +192,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:Speyer_Krebs.jpg"
  },
  {
+  "id": "araucaria-du-chili",
+  "file": "Araucaria_araucana_by_Scott_Zona_-_002.jpg",
+  "author": "scott.zona",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Araucaria_araucana_by_Scott_Zona_-_002.jpg"
+ },
+ {
+  "id": "arbousier",
+  "file": "Arbutus_unedo_Corsica.jpg",
+  "author": "jxandreani",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arbutus_unedo_Corsica.jpg"
+ },
+ {
+  "id": "arbre-aux-papillons",
+  "file": "Buddleja_davidii.001_-_A_Pontenova.jpg",
+  "author": "Fernando Losada Rodríguez",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Buddleja_davidii.001_-_A_Pontenova.jpg"
+ },
+ {
   "id": "argiope-frelon",
   "file": "(MHNT)_Argiope_bruennichi_female_dorsal.jpg",
   "author": "Didier Descouens",
@@ -128,12 +224,68 @@
   "source": "https://commons.wikimedia.org/wiki/File:(MHNT)_Argiope_bruennichi_female_dorsal.jpg"
  },
  {
+  "id": "armerie-maritime",
+  "file": "Armérie_maritime_à_Carantec3.JPG",
+  "author": "Thesupermat",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arm%C3%A9rie_maritime_%C3%A0_Carantec3.JPG"
+ },
+ {
+  "id": "arnica-des-montagnes",
+  "file": "Arnica_montana_-_Köhler–s_Medizinal-Pflanzen-015.jpg",
+  "author": "Franz Eugen Köhler, Köhlers Medizinal-Pflanzen",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Arnica_montana_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-015.jpg"
+ },
+ {
+  "id": "artichaut",
+  "file": "Artischocketoskana.jpg",
+  "author": "Auteur inconnu",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Artischocketoskana.jpg"
+ },
+ {
+  "id": "arum-tachete",
+  "file": "Aro_scuro.jpg",
+  "author": "Francesco Scelsa",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Aro_scuro.jpg"
+ },
+ {
+  "id": "ascophylle-noueuse",
+  "file": "Ascophyllum_nodosum.jpg",
+  "author": "Dozens at en.wikipedia",
+  "license": "CC BY 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+  "source": "https://commons.wikimedia.org/wiki/File:Ascophyllum_nodosum.jpg"
+ },
+ {
   "id": "asterine-bossue",
   "file": "Asterina_gibbosa_3.jpg",
   "author": "Frédéric Ducarme",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Asterina_gibbosa_3.jpg"
+ },
+ {
+  "id": "aubepine",
+  "file": "Crataegus_monogyna_-_Common_hawthorn.jpg",
+  "author": "Auteur inconnu",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Crataegus_monogyna_-_Common_hawthorn.jpg"
+ },
+ {
+  "id": "aulne-glutineux",
+  "file": "iNaturalist 204625600",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/204625600"
  },
  {
   "id": "aurelie",
@@ -272,6 +424,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Pagurus_bernhardus.jpg"
  },
  {
+  "id": "betterave-sucriere",
+  "file": "iNaturalist 11321686",
+  "author": "Michael Bakker Paiva",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/11321686"
+ },
+ {
   "id": "bigorneau",
   "file": "Sea_snail,_underneath,_full_view.jpg",
   "author": "Photographed by Guttorm Flatabø (user:dittaeva).",
@@ -288,12 +448,36 @@
   "source": "https://commons.wikimedia.org/wiki/File:%27Honey%27_the_badger_in_daylight.jpg"
  },
  {
+  "id": "ble-tendre",
+  "file": "iNaturalist 127585014",
+  "author": "Cole Shoemaker",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/127585014"
+ },
+ {
   "id": "blennie-mordocet",
   "file": "Ranhosa.JPG",
   "author": "Ricardo Barreto",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "https://commons.wikimedia.org/wiki/File:Ranhosa.JPG"
+ },
+ {
+  "id": "bleuet",
+  "file": "iNaturalist 143259788",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/143259788"
+ },
+ {
+  "id": "bouleau-verruqueux",
+  "file": "iNaturalist 175067773",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/175067773"
  },
  {
   "id": "bouquetin-des-alpes",
@@ -310,6 +494,14 @@
   "license": "Attribution",
   "licenseUrl": "",
   "source": "https://commons.wikimedia.org/wiki/File:Bombus_terrestris01.jpg"
+ },
+ {
+  "id": "bouton-d-or",
+  "file": "iNaturalist 102792039",
+  "author": "Daniel Cahen",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/102792039"
  },
  {
   "id": "bouvreuil-pivoine",
@@ -334,6 +526,30 @@
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
   "source": "https://commons.wikimedia.org/wiki/File:Yellowhammer.jpg"
+ },
+ {
+  "id": "bruyere-cendree",
+  "file": "iNaturalist 401262195",
+  "author": "Paulo Martins",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/401262195"
+ },
+ {
+  "id": "buis",
+  "file": "iNaturalist 35061056",
+  "author": "Julien Renoult",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/35061056"
+ },
+ {
+  "id": "buisson-ardent",
+  "file": "Brosen_pyracantha_coccinea1.jpg",
+  "author": "Brosen",
+  "license": "CC BY 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+  "source": "https://commons.wikimedia.org/wiki/File:Brosen_pyracantha_coccinea1.jpg"
  },
  {
   "id": "bulot",
@@ -368,6 +584,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Kerro-_Coturnix_coturnix.jpg"
  },
  {
+  "id": "callune",
+  "file": "iNaturalist 4882011",
+  "author": "Andreas Rockstein",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/4882011"
+ },
+ {
   "id": "calopteryx-eclatant",
   "file": "♂_Gebänderte_Prachtlibelle_Calopteryx_splendens_4_(cropped).JPG",
   "author": "böhringer friedrich",
@@ -384,12 +608,28 @@
   "source": "https://commons.wikimedia.org/wiki/File:Feldmaus_Microtus_arvalis.jpg"
  },
  {
+  "id": "campanule-a-feuilles-rondes",
+  "file": "Campanula_rotundifolia_(plant).jpg",
+  "author": "Hans Hillewaert",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Campanula_rotundifolia_(plant).jpg"
+ },
+ {
   "id": "canard-colvert",
   "file": "Anas_platyrhynchos_male_female_quadrat.jpg",
   "author": "This picture was realized by Richard Bartz by using a Canon EF 70-300mm f/4-5.6 IS USM Lens",
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
   "source": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female_quadrat.jpg"
+ },
+ {
+  "id": "capillaire-des-murailles",
+  "file": "iNaturalist 228739362",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/228739362"
  },
  {
   "id": "carabe-dore",
@@ -400,12 +640,36 @@
   "source": "https://commons.wikimedia.org/wiki/File:Carabe_dor%C3%A9_dos.jpg"
  },
  {
+  "id": "carotte",
+  "file": "Carrots_on_Display.jpg",
+  "author": "MarkBuckawicki",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Carrots_on_Display.jpg"
+ },
+ {
+  "id": "carotte-sauvage",
+  "file": "iNaturalist 115648219",
+  "author": "Eleftherios Katsillis",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/115648219"
+ },
+ {
   "id": "carpe-commune",
   "file": "Common_carp.jpg",
   "author": "USFWS",
   "license": "Public domain",
   "licenseUrl": "",
   "source": "https://commons.wikimedia.org/wiki/File:Common_carp.jpg"
+ },
+ {
+  "id": "cassissier",
+  "file": "iNaturalist 130495402",
+  "author": "Nina Filippova",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/130495402"
  },
  {
   "id": "castor-d-europe",
@@ -416,12 +680,44 @@
   "source": "https://commons.wikimedia.org/wiki/File:Beaver_pho34.jpg"
  },
  {
+  "id": "catalpa",
+  "file": "iNaturalist 3962275",
+  "author": "Megan Hansen",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/3962275"
+ },
+ {
+  "id": "cedre-de-l-atlas",
+  "file": "Cedrus_atlantica.jpg",
+  "author": "Auteur inconnu",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Cedrus_atlantica.jpg"
+ },
+ {
+  "id": "centauree-jacee",
+  "file": "iNaturalist 335736479",
+  "author": "Thierry Arbault",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/335736479"
+ },
+ {
   "id": "cerf-elaphe",
   "file": "Cervus_elaphus_Luc_Viatour_6.jpg",
   "author": "Lviatour",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_6.jpg"
+ },
+ {
+  "id": "cerisier",
+  "file": "iNaturalist 93580624",
+  "author": "hedera.baltica",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/93580624"
  },
  {
   "id": "cetoine-doree",
@@ -456,6 +752,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Carduelis_carduelis_(2012).jpg"
  },
  {
+  "id": "charme-commun",
+  "file": "iNaturalist 171859554",
+  "author": "Zo Clark",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/171859554"
+ },
+ {
   "id": "chat",
   "file": "Cat_November_2010-1a.jpg",
   "author": "Alvesgaspar",
@@ -470,6 +774,46 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_silvestris_Luc_Viatour.jpg"
+ },
+ {
+  "id": "chataignier",
+  "file": "Illustration_Castanea_sativa0_clean.jpg",
+  "author": "User:Kilom691",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Illustration_Castanea_sativa0_clean.jpg"
+ },
+ {
+  "id": "chene-liege",
+  "file": "iNaturalist 159050222",
+  "author": "Duarte Frade",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/159050222"
+ },
+ {
+  "id": "chene-pedoncule",
+  "file": "iNaturalist 326660041",
+  "author": "Veronica Jendrick",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/326660041"
+ },
+ {
+  "id": "chene-sessile",
+  "file": "Quercus petraea RF.jpg",
+  "author": "Robert Flogaus-Faust",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Quercus_petraea_RF.jpg"
+ },
+ {
+  "id": "chene-vert",
+  "file": "iNaturalist 164397569",
+  "author": "Thomas Dreux",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/164397569"
  },
  {
   "id": "cheval",
@@ -504,12 +848,28 @@
   "source": "https://commons.wikimedia.org/wiki/File:She-goat_J1.jpg"
  },
  {
+  "id": "chevrefeuille-des-bois",
+  "file": "iNaturalist 98746995",
+  "author": "Daniel Cahen",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/98746995"
+ },
+ {
   "id": "chevreuil-europeen",
   "file": "Rehbock,_Capreolus_capreolus_in_Hamburg.jpg",
   "author": "Karbohut",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Rehbock,_Capreolus_capreolus_in_Hamburg.jpg"
+ },
+ {
+  "id": "chicoree-sauvage",
+  "file": "iNaturalist 84357136",
+  "author": "no rights reserved, uploaded by Алексей Ябс",
+  "license": "CC0",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/84357136"
  },
  {
   "id": "chien",
@@ -526,6 +886,22 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Chocard_%C3%A0_bec_jaune.jpg"
+ },
+ {
+  "id": "chou",
+  "file": "iNaturalist 123828131",
+  "author": "Eleftherios Katsillis",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/123828131"
+ },
+ {
+  "id": "chou-marin",
+  "file": "Crambe Maritima Estonia.jpg",
+  "author": "Siim at et.wikipedia",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "source": "https://commons.wikimedia.org/wiki/File:Crambe_Maritima_Estonia.jpg"
  },
  {
   "id": "choucas-des-tours",
@@ -592,6 +968,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Circaetus_gallicus_01.JPG"
  },
  {
+  "id": "cirse-commun",
+  "file": "iNaturalist 106346873",
+  "author": "Sandy Wolkenberg",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/106346873"
+ },
+ {
   "id": "cistude-d-europe",
   "file": "Emys_orbicularis_2009_G1.jpg",
   "author": "George Chernilevsky",
@@ -606,6 +990,14 @@
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
   "source": "https://commons.wikimedia.org/wiki/File:Zitronenfalter_%E2%99%82_Gonepteryx_rhamni.JPG"
+ },
+ {
+  "id": "clematite-des-haies",
+  "file": "iNaturalist 218591388",
+  "author": "Alexis Tinker-Tsavalas",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/218591388"
  },
  {
   "id": "cloporte-commun",
@@ -648,12 +1040,52 @@
   "source": "https://commons.wikimedia.org/wiki/File:Yoyocochondinde.JPG"
  },
  {
+  "id": "cognassier",
+  "file": "iNaturalist 336907233",
+  "author": "no rights reserved, uploaded by flamelily",
+  "license": "CC0",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/336907233"
+ },
+ {
+  "id": "colchique-d-automne",
+  "file": "iNaturalist 116803680",
+  "author": "Denis Bastianelli",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/116803680"
+ },
+ {
+  "id": "colza",
+  "file": "iNaturalist 497000036",
+  "author": "Pavel Kacl",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/497000036"
+ },
+ {
+  "id": "compagnon-rouge",
+  "file": "iNaturalist 367630324",
+  "author": "Kieran Roy Powell",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/367630324"
+ },
+ {
   "id": "coque-commune",
   "file": "Coque_blanche_(Cerastoderma_edule).jpg",
   "author": "Féron Benjamin",
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Coque_blanche_(Cerastoderma_edule).jpg"
+ },
+ {
+  "id": "coquelicot",
+  "file": "iNaturalist 114734771",
+  "author": "Eleftherios Katsillis",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/114734771"
  },
  {
   "id": "coquille-saint-jacques",
@@ -664,12 +1096,28 @@
   "source": "https://commons.wikimedia.org/wiki/File:Pecten_maximus_Pilgermuschel.jpg"
  },
  {
+  "id": "coralline",
+  "file": "iNaturalist 193293232",
+  "author": "Ian Manning",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/193293232"
+ },
+ {
   "id": "corbeau-freux",
   "file": "Rook-Corvus_frugilegus.jpg",
   "author": "Andreas Trepte",
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
   "source": "https://commons.wikimedia.org/wiki/File:Rook-Corvus_frugilegus.jpg"
+ },
+ {
+  "id": "cormier",
+  "file": "073 2015 05 25 Speierling südlich von Meckenheim (Wiki Loves Earth 2015).jpg",
+  "author": "Friedrich Haag",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:073_2015_05_25_Speierling_s%C3%BCdlich_von_Meckenheim_(Wiki_Loves_Earth_2015).jpg"
  },
  {
   "id": "cormoran-huppe",
@@ -686,6 +1134,22 @@
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Carrion_crow_2022_04_05_05_01.jpg"
+ },
+ {
+  "id": "cornouiller-male",
+  "file": "iNaturalist 13214014",
+  "author": "Andreas Rockstein",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/13214014"
+ },
+ {
+  "id": "cornouiller-sanguin",
+  "file": "iNaturalist 4629978",
+  "author": "Jason Grant",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/4629978"
  },
  {
   "id": "coucou-gris",
@@ -718,6 +1182,14 @@
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Natrix_maura_(cropped).jpg"
+ },
+ {
+  "id": "courgette",
+  "file": "Courgette_Cucurbita_pepo_2.jpg",
+  "author": "Meanos",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Courgette_Cucurbita_pepo_2.jpg"
  },
  {
   "id": "courlis-cendre",
@@ -784,12 +1256,44 @@
   "source": "https://commons.wikimedia.org/wiki/File:Crangon_crangon_(dorsal).jpg"
  },
  {
+  "id": "criste-marine",
+  "file": "iNaturalist 70523298",
+  "author": "no rights reserved, uploaded by ivan_humljani",
+  "license": "CC0",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/70523298"
+ },
+ {
   "id": "cygne-tubercule",
   "file": "CygneVaires.jpg",
   "author": "Sanchezn",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:CygneVaires.jpg"
+ },
+ {
+  "id": "cymbalaire-des-murs",
+  "file": "iNaturalist 480279752",
+  "author": "Didier Descouens",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/480279752"
+ },
+ {
+  "id": "cypres-de-provence",
+  "file": "iNaturalist 8573212",
+  "author": "Rockhopper2",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/8573212"
+ },
+ {
+  "id": "cytise",
+  "file": "iNaturalist 129203110",
+  "author": "Daniel Cahen",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/129203110"
  },
  {
   "id": "daim",
@@ -808,6 +1312,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Common_dolphin.jpg"
  },
  {
+  "id": "digitale-pourpre",
+  "file": "iNaturalist 464372621",
+  "author": "nbasargin",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/464372621"
+ },
+ {
   "id": "dinde-domestique",
   "file": "Large_White_turkey_female.jpg",
   "author": "Scott Bauer",
@@ -822,6 +1334,14 @@
   "license": "Public domain",
   "licenseUrl": "",
   "source": "https://commons.wikimedia.org/wiki/File:Colorado_potato_beetle.jpg"
+ },
+ {
+  "id": "douglas",
+  "file": "iNaturalist 146021534",
+  "author": "Danny Steaven",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/146021534"
  },
  {
   "id": "dytique-borde",
@@ -856,12 +1376,28 @@
   "source": "https://commons.wikimedia.org/wiki/File:Eichh%C3%B6rnchen_D%C3%BCsseldorf_Hofgarten_edit.jpg"
  },
  {
+  "id": "edelweiss",
+  "file": "iNaturalist 96213090",
+  "author": "Jonathan",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/96213090"
+ },
+ {
   "id": "effraie-des-clochers",
   "file": "20181203_-_22.11_Kerkuil_(Tyto_alba)_22.jpg",
   "author": "Rolf Tuinstra",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:20181203_-_22.11_Kerkuil_(Tyto_alba)_22.jpg"
+ },
+ {
+  "id": "eglantier",
+  "file": "iNaturalist 230621206",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/230621206"
  },
  {
   "id": "epeire-diademe",
@@ -880,12 +1416,44 @@
   "source": "https://commons.wikimedia.org/wiki/File:%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1-%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%B5%D0%BB%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_(Accipiter_nisus,_m),_%D0%98%D0%B7%D0%BC%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D0%B0%D1%80%D0%BA.jpg"
  },
  {
+  "id": "epicea-commun",
+  "file": "iNaturalist 547109733",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/547109733"
+ },
+ {
   "id": "epinoche",
   "file": "Gasterosteus_aculeatus.jpg",
   "author": "nl:Gebruiker:GerardM/Ron Offermans",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "https://commons.wikimedia.org/wiki/File:Gasterosteus_aculeatus.jpg"
+ },
+ {
+  "id": "erable-champetre",
+  "file": "iNaturalist 10778",
+  "author": "Peter O'Connor",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/10778"
+ },
+ {
+  "id": "erable-plane",
+  "file": "iNaturalist 542450548",
+  "author": "Ayotte, Gilles, 1948-",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/542450548"
+ },
+ {
+  "id": "erable-sycomore",
+  "file": "iNaturalist 270771593",
+  "author": "Willow",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/270771593"
  },
  {
   "id": "escargot-de-bourgogne",
@@ -976,6 +1544,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:Blackcap_(Sylvia_atricapilla)_male.jpg"
  },
  {
+  "id": "feve",
+  "file": "iNaturalist 154129963",
+  "author": "Lies Van Rompaey",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/154129963"
+ },
+ {
+  "id": "ficaire",
+  "file": "Ficaria verna 20210410.jpg",
+  "author": "Uoaei1",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ficaria_verna_20210410.jpg"
+ },
+ {
+  "id": "figuier",
+  "file": "iNaturalist 3069933",
+  "author": "Drepanostoma",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/3069933"
+ },
+ {
   "id": "flamant-rose",
   "file": "Flamant_Rose_Villeneuve-lès-Maguelone.jpg",
   "author": "Alexandre Benbrik",
@@ -992,12 +1584,36 @@
   "source": "https://commons.wikimedia.org/wiki/File:Iphiclides_podalirius.jpg"
  },
  {
+  "id": "forsythia",
+  "file": "iNaturalist 3369427",
+  "author": "Dr. Boli",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/3369427"
+ },
+ {
   "id": "fou-de-bassan",
   "file": "Two_Gannets_edit_2.jpg",
   "author": "Al Wilson, http://www.naturespicsonline.com/",
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
   "source": "https://commons.wikimedia.org/wiki/File:Two_Gannets_edit_2.jpg"
+ },
+ {
+  "id": "fougere-aigle",
+  "file": "iNaturalist 425840594",
+  "author": "Timothy McNitt",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/425840594"
+ },
+ {
+  "id": "fougere-male",
+  "file": "Uitrollend blad van een mannetjesvaren (Dryopteris filix-mas) 28-04-2025 (d.j.b.) 02.jpg",
+  "author": "Dominicus Johannes Bergsma.",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Uitrollend_blad_van_een_mannetjesvaren_(Dryopteris_filix-mas)_28-04-2025_(d.j.b.)_02.jpg"
  },
  {
   "id": "fouine",
@@ -1040,6 +1656,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:Ameisenjungfern.jpg"
  },
  {
+  "id": "fraisier-cultive",
+  "file": "Garden strawberry (Fragaria × ananassa) single2.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Garden_strawberry_(Fragaria_%C3%97_ananassa)_single2.jpg"
+ },
+ {
+  "id": "fraisier-des-bois",
+  "file": "iNaturalist 47851000",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/47851000"
+ },
+ {
+  "id": "framboisier",
+  "file": "iNaturalist 358785151",
+  "author": "Ole Husby",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/358785151"
+ },
+ {
   "id": "frelon-asiatique",
   "file": "Vespa_velutina_nigrithorax_MHNT.jpg",
   "author": "Didier Descouens",
@@ -1054,6 +1694,38 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Frelon_europeen.jpg"
+ },
+ {
+  "id": "frene-commun",
+  "file": "iNaturalist 281056884",
+  "author": "Jais Knudsen",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/281056884"
+ },
+ {
+  "id": "fucus-dente",
+  "file": "iNaturalist 230746522",
+  "author": "Donald Davesne",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/230746522"
+ },
+ {
+  "id": "fucus-vesiculeux",
+  "file": "Fucus vesiculosus at Lyngen fjord, Troms, Norway, 2015 September.jpg",
+  "author": "Ximonic (Simo Räsänen)",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fucus_vesiculosus_at_Lyngen_fjord,_Troms,_Norway,_2015_September.jpg"
+ },
+ {
+  "id": "fusain-d-europe",
+  "file": "iNaturalist 1021942",
+  "author": "Vedran Lastovčić",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/1021942"
  },
  {
   "id": "gallinule-poule-d-eau",
@@ -1096,12 +1768,36 @@
   "source": "https://commons.wikimedia.org/wiki/File:Pyrrhocoris_apterus_(punaise_rouge).JPG"
  },
  {
+  "id": "genet-a-balais",
+  "file": "iNaturalist 41500386",
+  "author": "Jonathan Eyestone",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/41500386"
+ },
+ {
   "id": "genette-commune",
   "file": "Genetta_genetta_01_by-dpc.jpg",
   "author": "David Perez",
   "license": "CC BY 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Genetta_genetta_01_by-dpc.jpg"
+ },
+ {
+  "id": "gentiane-acaule",
+  "file": "iNaturalist 8524061",
+  "author": "Luca Fornasari",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/8524061"
+ },
+ {
+  "id": "gentiane-jaune",
+  "file": "iNaturalist 482131",
+  "author": "Udo Schmidt",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/482131"
  },
  {
   "id": "geotrupe-des-bois",
@@ -1112,6 +1808,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Anoplotrupes_stercorosus_(2008-07-29).jpg"
  },
  {
+  "id": "geranium-herbe-a-robert",
+  "file": "iNaturalist 70283020",
+  "author": "Gilles San Martin",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/70283020"
+ },
+ {
   "id": "gerris-lacustre",
   "file": "Gerris.lacustris.jpg",
   "author": "James K. Lindsey",
@@ -1120,12 +1824,36 @@
   "source": "https://commons.wikimedia.org/wiki/File:Gerris.lacustris.jpg"
  },
  {
+  "id": "ginkgo",
+  "file": "iNaturalist 343545534",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/343545534"
+ },
+ {
   "id": "girelle-commune",
   "file": "Coris_julis_2.jpg",
   "author": "Yoruno",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "https://commons.wikimedia.org/wiki/File:Coris_julis_2.jpg"
+ },
+ {
+  "id": "giroflee-des-murailles",
+  "file": "iNaturalist 1200042",
+  "author": "Murray Dawson",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/1200042"
+ },
+ {
+  "id": "glycine",
+  "file": "iNaturalist 74403287",
+  "author": "Babij",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/74403287"
  },
  {
   "id": "gobie-paganel",
@@ -1232,6 +1960,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:Ardea_alba4.jpg"
  },
  {
+  "id": "grande-cigue",
+  "file": "iNaturalist 380322226",
+  "author": "L.J. Lamera",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/380322226"
+ },
+ {
+  "id": "grande-marguerite",
+  "file": "Leucanthemum vulgare 'Filigran' Flower 2200px.jpg",
+  "author": "Photo by and (c)2008 Derek Ramsey (Ram-Man). Co-attribution must be given to the Chanticleer Garden.",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Leucanthemum_vulgare_%27Filigran%27_Flower_2200px.jpg"
+ },
+ {
+  "id": "grande-ortie",
+  "file": "iNaturalist 178302727",
+  "author": "no rights reserved, uploaded by georgiasteel",
+  "license": "CC0",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/178302727"
+ },
+ {
   "id": "grande-sauterelle-verte",
   "file": "Heupferd_schraeg_von_hinten.jpg",
   "author": "Daniel Ruprecht (User:daniel.ruprecht)",
@@ -1256,6 +2008,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Great_crested_grebe_2025_10_16_05.jpg"
  },
  {
+  "id": "grenadier",
+  "file": "iNaturalist 4956594",
+  "author": "H. Zell",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/4956594"
+ },
+ {
   "id": "grenouille-rousse",
   "file": "Grasfrosch-Rana-temporaria-side.jpg",
   "author": "Holger Krisp",
@@ -1270,6 +2030,14 @@
   "license": "CC BY 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Rana_esculenta_on_Nymphaea_edit.JPG"
+ },
+ {
+  "id": "griffe-de-sorciere",
+  "file": "iNaturalist 153343754",
+  "author": "Alvesgaspar",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/153343754"
  },
  {
   "id": "grillon-champetre",
@@ -1304,6 +2072,22 @@
   "source": "https://commons.wikimedia.org/wiki/File:Coccothraustes_coccothraustes_3_(Martin_Mecnarowski).jpg"
  },
  {
+  "id": "groseillier-a-maquereau",
+  "file": "Grosella espinosa (Ribes uva-crispa), Múnich, Alemania, 2012-06-07, DD 01.jpg",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Grosella_espinosa_(Ribes_uva-crispa),_M%C3%BAnich,_Alemania,_2012-06-07,_DD_01.jpg"
+ },
+ {
+  "id": "groseillier-rouge",
+  "file": "iNaturalist 57647168",
+  "author": "Grzegorz Grzejszczak",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/57647168"
+ },
+ {
   "id": "grue-cendree",
   "file": "Common_crane_grus_grus.jpg",
   "author": "Andreas Trepte",
@@ -1328,6 +2112,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Gu%C3%A9pier_d%27Europe_Ichkeul_NP.jpg"
  },
  {
+  "id": "gui",
+  "file": "iNaturalist 61458098",
+  "author": "Patrick Hacker",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/61458098"
+ },
+ {
   "id": "gypaete-barbu",
   "file": "010e_Wild_Bearded_Vulture_in_flight_at_Pfyn-Finges_(Switzerland)_Photo_by_Giles_Laurent.jpg",
   "author": "Giles Laurent",
@@ -1350,6 +2142,22 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Melolontha_melolontha_MHNT.jpg"
+ },
+ {
+  "id": "haricot-de-mer",
+  "file": "Himanthalia elongata 106974176.jpg",
+  "author": "Michel Langeveld",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Himanthalia_elongata_106974176.jpg"
+ },
+ {
+  "id": "haricot-vert",
+  "file": "iNaturalist 96848588",
+  "author": "M. Socorro González Elizondo",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/96848588"
  },
  {
   "id": "herisson-d-europe",
@@ -1382,6 +2190,14 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:H%C3%A9ron_garde_boeufs_lac_sud_de_Tunis.jpg"
+ },
+ {
+  "id": "hetre-commun",
+  "file": "iNaturalist 394535806",
+  "author": "Rebecca Gimenez Husted",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/394535806"
  },
  {
   "id": "hibou-moyen-duc",
@@ -1424,6 +2240,22 @@
   "source": "https://commons.wikimedia.org/wiki/File:KreeftbijDenOsse.jpg"
  },
  {
+  "id": "hortensia",
+  "file": "iNaturalist 31091656",
+  "author": "Tony Rebelo",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/31091656"
+ },
+ {
+  "id": "houx",
+  "file": "Ilex aquifolium. Rúa da Fervenza, Santiago de Compostela. Galiza.jpg",
+  "author": "Luis Miguel Bugallo Sánchez",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ilex_aquifolium._R%C3%BAa_da_Fervenza,_Santiago_de_Compostela._Galiza.jpg"
+ },
+ {
   "id": "huitre-creuse",
   "file": "Crassostrea_gigas_01.jpg",
   "author": "Llez",
@@ -1448,6 +2280,38 @@
   "source": "https://commons.wikimedia.org/wiki/File:ABUBILLA_(Upupa_epops).jpg"
  },
  {
+  "id": "hypne-cypres",
+  "file": "iNaturalist 109728471",
+  "author": "Alexis Tinker-Tsavalas",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/109728471"
+ },
+ {
+  "id": "if-commun",
+  "file": "iNaturalist 79446798",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/79446798"
+ },
+ {
+  "id": "immortelle-des-dunes",
+  "file": "iNaturalist 4953850",
+  "author": "Thomas Koffel",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/4953850"
+ },
+ {
+  "id": "iris-des-marais",
+  "file": "iNaturalist 195862069",
+  "author": "E. Borchert",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/195862069"
+ },
+ {
   "id": "isard",
   "file": "Isard_des_pyrenees_bigorre_2003.jpg",
   "author": "Bernard-Boehne",
@@ -1464,6 +2328,22 @@
   "source": "https://commons.wikimedia.org/wiki/File:Tachypodoiulus_niger_1.jpg"
  },
  {
+  "id": "jacinthe-des-bois",
+  "file": "Boshyacint (Hyacinthoides non-scripta). 12-05-2021 (actm.) 01.jpg",
+  "author": "Agnes Monkelbaan",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Boshyacint_(Hyacinthoides_non-scripta)._12-05-2021_(actm.)_01.jpg"
+ },
+ {
+  "id": "jonquille",
+  "file": "iNaturalist 63617588",
+  "author": "Gilles San Martin",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/63617588"
+ },
+ {
   "id": "lagopede-alpin",
   "file": "Rock_Ptarmigan_(Lagopus_Muta).jpg",
   "author": "Jan Frode Haugseth",
@@ -1472,12 +2352,84 @@
   "source": "https://commons.wikimedia.org/wiki/File:Rock_Ptarmigan_(Lagopus_Muta).jpg"
  },
  {
+  "id": "laitue",
+  "file": "iNaturalist 102086345",
+  "author": "RAP",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/102086345"
+ },
+ {
+  "id": "laitue-de-mer",
+  "file": "iNaturalist 208065737",
+  "author": "Javier Sánchez Álvarez",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/208065737"
+ },
+ {
+  "id": "lamier-blanc",
+  "file": "Lamium album LC0137.jpg",
+  "author": "Jörg Hempel",
+  "license": "CC BY-SA 2.0 de",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Lamium_album_LC0137.jpg"
+ },
+ {
+  "id": "lamier-pourpre",
+  "file": "iNaturalist 42245692",
+  "author": "anonymous",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/42245692"
+ },
+ {
+  "id": "laminaire-digitee",
+  "file": "iNaturalist 131297",
+  "author": "InAweofGod'sCreation",
+  "license": "CC BY",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/131297"
+ },
+ {
   "id": "lapin-de-garenne",
   "file": "Oryctolagus_cuniculus_Tasmania_2.jpg",
   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Oryctolagus_cuniculus_Tasmania_2.jpg"
+ },
+ {
+  "id": "laurier-cerise",
+  "file": "Bloemknoppen van een Laurierkers (Prunus laurocerasus). 26-04-2026 (d.j.b.).jpg",
+  "author": "Dominicus Johannes Bergsma.",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Bloemknoppen_van_een_Laurierkers_(Prunus_laurocerasus)._26-04-2026_(d.j.b.).jpg"
+ },
+ {
+  "id": "laurier-rose",
+  "file": "Nerium oleander pink flower, Alex 005.jpg",
+  "author": "لا روسا",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Nerium_oleander_pink_flower,_Alex_005.jpg"
+ },
+ {
+  "id": "lavande",
+  "file": "Vanessa cardui on Lavandula angustifolia-2459.jpg",
+  "author": "Isiwal",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vanessa_cardui_on_Lavandula_angustifolia-2459.jpg"
+ },
+ {
+  "id": "lentille-d-eau",
+  "file": "Teichfrosch Pelophylax esculentus Gruga 003.jpg",
+  "author": "Tuxyso",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Teichfrosch_Pelophylax_esculentus_Gruga_003.jpg"
  },
  {
   "id": "lerot",
@@ -1520,6 +2472,22 @@
   "source": "https://commons.wikimedia.org/wiki/File:Libellula_depressa.jpg"
  },
  {
+  "id": "lichen-carragaheen",
+  "file": "Chondrus crispus 1.jpg",
+  "author": "Voctir",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Chondrus_crispus_1.jpg"
+ },
+ {
+  "id": "lierre-grimpant",
+  "file": "Hedera helix Dover.jpg",
+  "author": "kallerna",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Hedera_helix_Dover.jpg"
+ },
+ {
   "id": "lievre-d-europe",
   "file": "Lepus_europaeus_(Causse_Méjean,_Lozère)-cropped.jpg",
   "author": "Jean-Jacques Boujot from Paris, France",
@@ -1544,6 +2512,22 @@
   "source": "https://commons.wikimedia.org/wiki/File:Lepus_timidus_01-cropped.jpg"
  },
  {
+  "id": "lilas",
+  "file": "Сирень в Южно-Приморском парке 13.jpg",
+  "author": "Екатерина Борисова",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B8%D1%80%D0%B5%D0%BD%D1%8C_%D0%B2_%D0%AE%D0%B6%D0%BD%D0%BE-%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D0%BA%D0%B5_13.jpg"
+ },
+ {
+  "id": "lilas-de-mer",
+  "file": "Limonium vulgare narbonense, Vic-la-Gardiole.jpg",
+  "author": "Christian Ferrer",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Limonium_vulgare_narbonense,_Vic-la-Gardiole.jpg"
+ },
+ {
   "id": "limace-leopard",
   "file": "Limax_maximus_MHNT.jpg",
   "author": "Didier Descouens",
@@ -1560,12 +2544,44 @@
   "source": "https://commons.wikimedia.org/wiki/File:Orange_slug.jpg"
  },
  {
+  "id": "lin",
+  "file": "Linum usitatissimum qtl1.jpg",
+  "author": "Quartl",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Linum_usitatissimum_qtl1.jpg"
+ },
+ {
   "id": "linotte-melodieuse",
   "file": "Linaria_cannabina_-_Linotte_mélodieuse.jpg",
   "author": "Pierre Dalous",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Linaria_cannabina_-_Linotte_m%C3%A9lodieuse.jpg"
+ },
+ {
+  "id": "lis-martagon",
+  "file": "Türkenbund Lilie, Lilium martagon 2.JPG",
+  "author": "böhringer friedrich",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "source": "https://commons.wikimedia.org/wiki/File:T%C3%BCrkenbund_Lilie,_Lilium_martagon_2.JPG"
+ },
+ {
+  "id": "liseron-des-champs",
+  "file": "Convolvulus arvensis in Druelle.jpg",
+  "author": "Krzysztof Golik",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Convolvulus_arvensis_in_Druelle.jpg"
+ },
+ {
+  "id": "liseron-des-dunes",
+  "file": "Calystegia soldanella 060524wb.jpg",
+  "author": "User:Strobilomyces",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Calystegia_soldanella_060524wb.jpg"
  },
  {
   "id": "lithobie-a-pinces",
@@ -1624,6 +2640,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Lynx_lynx2.jpg"
  },
  {
+  "id": "lys-de-mer",
+  "file": "Pancratium maritimum - Sea daffodils 02-1.jpg",
+  "author": "Zeynel Cebeci",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pancratium_maritimum_-_Sea_daffodils_02-1.jpg"
+ },
+ {
   "id": "macareux-moine",
   "file": "Papageitaucher_Fratercula_arctica_02.jpg",
   "author": "Richard Bartz",
@@ -1638,6 +2662,22 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Schwalbenschwanz-Duell_Winterthur_Schweiz.jpg"
+ },
+ {
+  "id": "magnolia-a-grandes-fleurs",
+  "file": "Magnolia grandiflora - flower 1.jpg",
+  "author": "Ianaré Sévi",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Magnolia_grandiflora_-_flower_1.jpg"
+ },
+ {
+  "id": "mais",
+  "file": "iNaturalist 231734941",
+  "author": "Douglas Goldman",
+  "license": "CC BY-SA",
+  "licenseUrl": "",
+  "source": "https://www.inaturalist.org/photos/231734941"
  },
  {
   "id": "mante-religieuse",
@@ -1662,6 +2702,14 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:071_Wild_marmot_at_Grand_Muveran_Nature_Reserve_Photo_by_Giles_Laurent.jpg"
+ },
+ {
+  "id": "marronnier-d-inde",
+  "file": "Zwellende bladknop van een witte paardenkastanje (Aesculus hippocastanum) 16-03-2022. (d.j.b).jpg",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Zwellende_bladknop_van_een_witte_paardenkastanje_(Aesculus_hippocastanum)_16-03-2022._(d.j.b).jpg"
  },
  {
   "id": "marsouin-commun",
@@ -1694,6 +2742,38 @@
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Pine_Marten_(48173751702).jpg"
+ },
+ {
+  "id": "massette-a-larges-feuilles",
+  "file": "Zaadpluizen grote lisdodde (Typha latifolia). (d.j.b.).jpg",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Zaadpluizen_grote_lisdodde_(Typha_latifolia)._(d.j.b.).jpg"
+ },
+ {
+  "id": "mauve-sylvestre",
+  "file": "Malva sylvestris 3 RF.jpg",
+  "author": "Robert Flogaus-Faust",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Malva_sylvestris_3_RF.jpg"
+ },
+ {
+  "id": "meleze-d-europe",
+  "file": "Bergtocht van Peio Paese naar Lago Covel in het Nationaal park Stelvio (Italië). Wond van een afgebroken tak. Europese larix (Larix decidua) 02.jpg",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Bergtocht_van_Peio_Paese_naar_Lago_Covel_in_het_Nationaal_park_Stelvio_(Itali%C3%AB)._Wond_van_een_afgebroken_tak._Europese_larix_(Larix_decidua)_02.jpg"
+ },
+ {
+  "id": "menthe-verte",
+  "file": "Mint leaves (Mentha spicata).jpg",
+  "author": "Commonists",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mint_leaves_(Mentha_spicata).jpg"
  },
  {
   "id": "merle-noir",
@@ -1758,6 +2838,14 @@
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Milvus_milvus_Jura.jpg"
+ },
+ {
+  "id": "millepertuis-perfore",
+  "file": "Millepertuis perforé (Hypericum perforatum).jpg",
+  "author": "JackyM59",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Millepertuis_perfor%C3%A9_(Hypericum_perforatum).jpg"
  },
  {
   "id": "moineau-domestique",
@@ -1832,6 +2920,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Flock_of_sheep.jpg"
  },
  {
+  "id": "muguet",
+  "file": "Lelietje-van-dalen of meiklokje (Convallaria majalis). 14-05-2021 (actm.) 01.jpg",
+  "author": "Agnes Monkelbaan",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Lelietje-van-dalen_of_meiklokje_(Convallaria_majalis)._14-05-2021_(actm.)_01.jpg"
+ },
+ {
   "id": "mulet-porc",
   "file": "Liza_ramada.jpg",
   "author": "riblje-oko.hr",
@@ -1846,6 +2942,14 @@
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Wood_Mouse_2025_09_28.jpg"
+ },
+ {
+  "id": "murier-blanc",
+  "file": "Morus alba MHNT.BOT.2006.0.1270.JPG",
+  "author": "Roger Culos",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Morus_alba_MHNT.BOT.2006.0.1270.JPG"
  },
  {
   "id": "murin-de-daubenton",
@@ -1872,12 +2976,52 @@
   "source": "https://commons.wikimedia.org/wiki/File:Haselmaus.JPG"
  },
  {
+  "id": "myosotis-des-bois",
+  "file": "Myosotis sylvatica TK 2021-05-21 8.jpg",
+  "author": "T. Kebert",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Myosotis_sylvatica_TK_2021-05-21_8.jpg"
+ },
+ {
   "id": "myrtil",
   "file": "Naturschutzgebiet_Mittleres_Innerstetal_mit_Kanstein_-_Ochsenauge_(2).JPG",
   "author": "Ragnar1904",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Naturschutzgebiet_Mittleres_Innerstetal_mit_Kanstein_-_Ochsenauge_(2).JPG"
+ },
+ {
+  "id": "myrtillier",
+  "file": "Vaccinium myrtillus RecolteAuPeigne.JPG",
+  "author": "B.navez",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Vaccinium_myrtillus_RecolteAuPeigne.JPG"
+ },
+ {
+  "id": "neflier",
+  "file": "Mespilus germanica 2024-09-24-1.jpg",
+  "author": "Renée Kools",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mespilus_germanica_2024-09-24-1.jpg"
+ },
+ {
+  "id": "nenuphar-blanc",
+  "file": "Nymphaea alba in Duisburg.jpg",
+  "author": "DerHexer",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Nymphaea_alba_in_Duisburg.jpg"
+ },
+ {
+  "id": "nenuphar-jaune",
+  "file": "Nuphar lutea Krumpendorf 01.jpg",
+  "author": "Uoaei1",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Nuphar_lutea_Krumpendorf_01.jpg"
  },
  {
   "id": "noctule-commune",
@@ -1888,12 +3032,36 @@
   "source": "https://commons.wikimedia.org/wiki/File:Nyctalus_noctula.jpg"
  },
  {
+  "id": "noisetier",
+  "file": "Katjes van een hazelaar (Corylus avellana). 26-01-2021. (actm.) 02.jpg",
+  "author": "Agnes Monkelbaan",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Katjes_van_een_hazelaar_(Corylus_avellana)._26-01-2021._(actm.)_02.jpg"
+ },
+ {
   "id": "notonecte-glauque",
   "file": "Notonecta_glauca01.jpg",
   "author": "E. van Herk",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "https://commons.wikimedia.org/wiki/File:Notonecta_glauca01.jpg"
+ },
+ {
+  "id": "noyer-commun",
+  "file": "Juglans regia 2009 G2.jpg",
+  "author": "George Chernilevsky",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Juglans_regia_2009_G2.jpg"
+ },
+ {
+  "id": "obione",
+  "file": "Halimione portulacoides 2 RF.jpg",
+  "author": "Robert Flogaus-Faust",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Halimione_portulacoides_2_RF.jpg"
  },
  {
   "id": "oedipode-turquoise",
@@ -1920,6 +3088,22 @@
   "source": "https://commons.wikimedia.org/wiki/File:White_Sebastopol_Goose.jpg"
  },
  {
+  "id": "oignon",
+  "file": "Allium cepa Karmen and other vegetables 2023-07-20 8383.jpg",
+  "author": "Salicyna",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Allium_cepa_Karmen_and_other_vegetables_2023-07-20_8383.jpg"
+ },
+ {
+  "id": "olivier",
+  "file": "Olea europaea, Murviel-lès-Béziers.jpg",
+  "author": "Christian Ferrer",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Olea_europaea,_Murviel-l%C3%A8s-B%C3%A9ziers.jpg"
+ },
+ {
   "id": "ophiure-fragile",
   "file": "Ophiothrix_fragilis_Banyuls.jpg",
   "author": "Frédéric Ducarme",
@@ -1928,12 +3112,44 @@
   "source": "https://commons.wikimedia.org/wiki/File:Ophiothrix_fragilis_Banyuls.jpg"
  },
  {
+  "id": "ophrys-abeille",
+  "file": "Ophrys apifera Tegeirian y gwenyn.jpg",
+  "author": "Alun Williams333",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ophrys_apifera_Tegeirian_y_gwenyn.jpg"
+ },
+ {
+  "id": "orchis-pyramidal",
+  "file": "Anacamptis pyramidalis 2 RF.jpg",
+  "author": "Robert Flogaus-Faust",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Anacamptis_pyramidalis_2_RF.jpg"
+ },
+ {
   "id": "oreillard-roux",
   "file": "Plecotus_auritus_2013-2_(cropped).jpg",
   "author": "Fourrure from France",
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Plecotus_auritus_2013-2_(cropped).jpg"
+ },
+ {
+  "id": "orge",
+  "file": "Champ d'Orge carrée (Hordeum vulgare).jpg",
+  "author": "JackyM59",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Champ_d%27Orge_carr%C3%A9e_(Hordeum_vulgare).jpg"
+ },
+ {
+  "id": "orme-champetre",
+  "file": "Ulmus minor kz06.jpg",
+  "author": "Krzysztof Ziarnek, Kenraiz",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ulmus_minor_kz06.jpg"
  },
  {
   "id": "orvet-fragile",
@@ -1960,6 +3176,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:Paracentrotus_lividus_profil.JPG"
  },
  {
+  "id": "oyat",
+  "file": "Ammophila arenaria (frosted leaves).jpg",
+  "author": "Hans Hillewaert",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ammophila_arenaria_(frosted_leaves).jpg"
+ },
+ {
+  "id": "palmier-de-chine",
+  "file": "Trachycarpus fortunei.101 - Ponferrada.jpg",
+  "author": "Fernando Losada Rodríguez",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Trachycarpus_fortunei.101_-_Ponferrada.jpg"
+ },
+ {
+  "id": "panicaut-maritime",
+  "file": "Eryngium maritimum, Vic-la-Gardiole 02.jpg",
+  "author": "Christian Ferrer",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Eryngium_maritimum,_Vic-la-Gardiole_02.jpg"
+ },
+ {
   "id": "paon-bleu",
   "file": "023_Indian_peafowl_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg",
   "author": "Giles Laurent",
@@ -1976,6 +3216,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Paon_du_jour-_Face_dorsale.jpg"
  },
  {
+  "id": "paquerette",
+  "file": "Five daisies (Bellis perennis).jpg",
+  "author": "Friedrich Haag",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Five_daisies_(Bellis_perennis).jpg"
+ },
+ {
   "id": "patelle-commune",
   "file": "Patella_vulgata._Patelle_commune..JPG",
   "author": "Auguste Le Roux",
@@ -1984,12 +3232,44 @@
   "source": "https://commons.wikimedia.org/wiki/File:Patella_vulgata._Patelle_commune..JPG"
  },
  {
+  "id": "paulownia",
+  "file": "Ronchin paulownia rue faches.jpg",
+  "author": "Velvet",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ronchin_paulownia_rue_faches.jpg"
+ },
+ {
+  "id": "pecher",
+  "file": "Prunus persica Blüten 20220327 01.jpg",
+  "author": "Uoaei1",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Prunus_persica_Bl%C3%BCten_20220327_01.jpg"
+ },
+ {
   "id": "pelagie",
   "file": "Pelagia_noctiluca_(Sardinia).jpg",
   "author": "Hans Hillewaert",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Pelagia_noctiluca_(Sardinia).jpg"
+ },
+ {
+  "id": "pelvetie",
+  "file": "Pelvetia canaliculata.jpg",
+  "author": "User:Stemonitis",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "source": "https://commons.wikimedia.org/wiki/File:Pelvetia_canaliculata.jpg"
+ },
+ {
+  "id": "perce-neige",
+  "file": "Galanthus Nivalis, sneeuwklokje. 12-02-2024. (d.j.b.).jpg",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Galanthus_Nivalis,_sneeuwklokje._12-02-2024._(d.j.b.).jpg"
  },
  {
   "id": "perce-oreille",
@@ -2016,6 +3296,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Perdix_perdix_2_(Marek_Szczepanek).jpg"
  },
  {
+  "id": "petit-pois",
+  "file": "Peas in pods 2016 G1.jpg",
+  "author": "George Chernilevsky",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Peas_in_pods_2016_G1.jpg"
+ },
+ {
   "id": "petite-roussette",
   "file": "Scyliorhinus_canicula.jpg",
   "author": "Hans Hillewaert",
@@ -2038,6 +3326,14 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Echiichthys_vipera.jpg"
+ },
+ {
+  "id": "peuplier-noir",
+  "file": "Zwarte populier (Populus nigra), 06-02-2026. (d.j.b.).jpg 04.jpg",
+  "author": "Dominicus Johannes Bergsma.",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Zwarte_populier_(Populus_nigra),_06-02-2026._(d.j.b.).jpg_04.jpg"
  },
  {
   "id": "phasme-gaulois",
@@ -2144,6 +3440,46 @@
   "source": "https://commons.wikimedia.org/wiki/File:Columba_palumbus_-garden_post-8.jpg"
  },
  {
+  "id": "pin-cembro",
+  "file": "Odles Cisles y Mastle pinus Cembra.jpg",
+  "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a ",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Odles_Cisles_y_Mastle_pinus_Cembra.jpg"
+ },
+ {
+  "id": "pin-maritime",
+  "file": "Pinus pinaster, Forêt domaniale des Avant-Monts 01.jpg",
+  "author": "Christian Ferrer",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pinus_pinaster,_For%C3%AAt_domaniale_des_Avant-Monts_01.jpg"
+ },
+ {
+  "id": "pin-noir",
+  "file": "Luxembourg Berschbach Pinus nigra 2008.jpg",
+  "author": "Cayambe",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Luxembourg_Berschbach_Pinus_nigra_2008.jpg"
+ },
+ {
+  "id": "pin-parasol",
+  "file": "Pinus pinea and ruins on Palatine Hill.jpg",
+  "author": "Livioandronico2013",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pinus_pinea_and_ruins_on_Palatine_Hill.jpg"
+ },
+ {
+  "id": "pin-sylvestre",
+  "file": "Vliegdennen (Pinus sylvestris) in een imponerend landschap. Locatie, natuurgebied Delleboersterheide – Catspoele 02.jpg",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vliegdennen_(Pinus_sylvestris)_in_een_imponerend_landschap._Locatie,_natuurgebied_Delleboersterheide_%E2%80%93_Catspoele_02.jpg"
+ },
+ {
   "id": "pinson-des-arbres",
   "file": "Chaffinch_(Fringilla_coelebs).jpg",
   "author": "Andreas Trepte",
@@ -2160,12 +3496,116 @@
   "source": "https://www.inaturalist.org/photos/424753519"
  },
  {
+  "id": "pissenlit",
+  "file": "Gesloten bloem van de paardenbloem (Taraxacum officinale) 09-05-2021. (d.j.b) 02.jpg",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Gesloten_bloem_van_de_paardenbloem_(Taraxacum_officinale)_09-05-2021._(d.j.b)_02.jpg"
+ },
+ {
+  "id": "plantain-lanceole",
+  "file": "Pisaura mirabilis on Plantago lanceolata.jpg",
+  "author": "Richard Bartz",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "source": "https://commons.wikimedia.org/wiki/File:Pisaura_mirabilis_on_Plantago_lanceolata.jpg"
+ },
+ {
+  "id": "plaqueminier-kaki",
+  "file": "Caqui chocolate em fundo preto 03.jpg",
+  "author": "Rodrigo.Argenton",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Caqui_chocolate_em_fundo_preto_03.jpg"
+ },
+ {
+  "id": "platane-commun",
+  "file": "Fallen leaf of Platanus x hispanica (1).jpg",
+  "author": "Krzysztof Golik",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fallen_leaf_of_Platanus_x_hispanica_(1).jpg"
+ },
+ {
+  "id": "poireau",
+  "file": "Fleur de poireau de près.jpg",
+  "author": "WikiLucas00",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fleur_de_poireau_de_pr%C3%A8s.jpg"
+ },
+ {
+  "id": "poirier",
+  "file": "Pyrus communis mit geborstenem Stamm 01.jpg",
+  "author": "Uoaei1",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pyrus_communis_mit_geborstenem_Stamm_01.jpg"
+ },
+ {
   "id": "poisson-lune",
   "file": "Sunfish2.jpg",
   "author": "Per-Ola Norman",
   "license": "Public domain",
   "licenseUrl": "",
   "source": "https://commons.wikimedia.org/wiki/File:Sunfish2.jpg"
+ },
+ {
+  "id": "polypode-commun",
+  "file": "Gewöhnlicher Tüpfelfarn (Polypodium vulgare) auf Spiekeroog 01.jpg",
+  "author": "Stephan Sprinz",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Gew%C3%B6hnlicher_T%C3%BCpfelfarn_(Polypodium_vulgare)_auf_Spiekeroog_01.jpg"
+ },
+ {
+  "id": "polytric-commun",
+  "file": "Polytrichum commune .jpg",
+  "author": "Hans Hillewaert",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Polytrichum_commune_.jpg"
+ },
+ {
+  "id": "pomme-de-terre",
+  "file": "Solanum tuberosum (potato) flowers.jpg",
+  "author": "Ввласенко",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Solanum_tuberosum_(potato)_flowers.jpg"
+ },
+ {
+  "id": "pommier",
+  "file": "Malus domestica (Apple) flowers 3.jpg",
+  "author": "Relativity",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Malus_domestica_(Apple)_flowers_3.jpg"
+ },
+ {
+  "id": "populage-des-marais",
+  "file": "Bloemknoppen van een gewone dotterbloem (Caltha palustris subsp. palustris). 17-03-2024. (d.j.b.).jpg",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Bloemknoppen_van_een_gewone_dotterbloem_(Caltha_palustris_subsp._palustris)._17-03-2024._(d.j.b.).jpg"
+ },
+ {
+  "id": "posidonie",
+  "file": "Posidonia oceanica (L).jpg",
+  "author": "Frédéric Ducarme",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Posidonia_oceanica_(L).jpg"
+ },
+ {
+  "id": "potiron",
+  "file": "Cucurbita maxima 2019 G2.jpg",
+  "author": "George Chernilevsky",
+  "license": "Public domain",
+  "licenseUrl": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Cucurbita_maxima_2019_G2.jpg"
  },
  {
   "id": "pouillot-veloce",
@@ -2192,12 +3632,44 @@
   "source": "https://www.inaturalist.org/photos/540102862"
  },
  {
+  "id": "prele-des-champs",
+  "file": "Equisetum arvense-271.JPG",
+  "author": "Danny S.",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Equisetum_arvense-271.JPG"
+ },
+ {
+  "id": "primevere-officinale",
+  "file": "Primula veris flowers.jpg",
+  "author": "Горбунова М.С.",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Primula_veris_flowers.jpg"
+ },
+ {
   "id": "processionnaire-du-pin",
   "file": "iNaturalist 13230466",
   "author": "no rights reserved",
   "license": "CC0",
   "licenseUrl": "",
   "source": "https://www.inaturalist.org/photos/13230466"
+ },
+ {
+  "id": "prunellier",
+  "file": "Prunus spinosa 003.jpg",
+  "author": "H. Zell",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Prunus_spinosa_003.jpg"
+ },
+ {
+  "id": "prunier",
+  "file": "Krieche Prunus domestica subsp insititia inflorescence 5.jpg",
+  "author": "Isiwal",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Krieche_Prunus_domestica_subsp_insititia_inflorescence_5.jpg"
  },
  {
   "id": "puce-de-mer",
@@ -2222,6 +3694,14 @@
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "https://commons.wikimedia.org/wiki/File:Tentative_Polecat.jpg"
+ },
+ {
+  "id": "radis",
+  "file": "Münster, Wochenmarkt -- 2017 -- 2338.jpg",
+  "author": "Dietmar Rabich",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:M%C3%BCnster,_Wochenmarkt_--_2017_--_2338.jpg"
  },
  {
   "id": "ragondin",
@@ -2280,12 +3760,28 @@
   "source": "https://www.inaturalist.org/photos/58146118"
  },
  {
+  "id": "rhododendron-ferrugineux",
+  "file": "Rhododendron ferrugineum Ankogel 20190730.jpg",
+  "author": "Uoaei1",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rhododendron_ferrugineum_Ankogel_20190730.jpg"
+ },
+ {
   "id": "robert-le-diable",
   "file": "Polygonia_c-album_qtl2.jpg",
   "author": "Quartl",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Polygonia_c-album_qtl2.jpg"
+ },
+ {
+  "id": "robinier-faux-acacia",
+  "file": "Robinia pseudoacacia fruits.jpg",
+  "author": "Andrey Butko",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Robinia_pseudoacacia_fruits.jpg"
  },
  {
   "id": "roitelet-huppe",
@@ -2304,12 +3800,44 @@
   "source": "https://www.inaturalist.org/photos/100389616"
  },
  {
+  "id": "romarin",
+  "file": "Rosmarinus officinalis (1).jpg",
+  "author": "T137",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rosmarinus_officinalis_(1).jpg"
+ },
+ {
+  "id": "ronce-commune",
+  "file": "2026-05-19 Z5-9000E Achim-Lammerts Rubus-fruticosus.jpg",
+  "author": "Achim Lammerts (Syntaxys)",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2026-05-19_Z5-9000E_Achim-Lammerts_Rubus-fruticosus.jpg"
+ },
+ {
+  "id": "roquette-de-mer",
+  "file": "Roquette de mer (Cakile maritima).jpg",
+  "author": "JackyM59",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Roquette_de_mer_(Cakile_maritima).jpg"
+ },
+ {
   "id": "rosalie-des-alpes",
   "file": "iNaturalist 60533246",
   "author": "Christoph Moning",
   "license": "CC BY",
   "licenseUrl": "",
   "source": "https://www.inaturalist.org/photos/60533246"
+ },
+ {
+  "id": "roseau-commun",
+  "file": "Phragmites australis Vikmanshyttesjön.jpg",
+  "author": "Calle Eklund/V-wolf",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Phragmites_australis_Vikmanshyttesj%C3%B6n.jpg"
  },
  {
   "id": "rossignol-philomele",
@@ -2344,6 +3872,22 @@
   "source": "https://www.inaturalist.org/photos/159805189"
  },
  {
+  "id": "salicaire-commune",
+  "file": "Lythrum salicaria - harilik kukesaba.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Lythrum_salicaria_-_harilik_kukesaba.jpg"
+ },
+ {
+  "id": "salicorne",
+  "file": "Salicornia europaea RF.jpg",
+  "author": "Robert Flogaus-Faust",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Salicornia_europaea_RF.jpg"
+ },
+ {
   "id": "saltique-chevronnee",
   "file": "iNaturalist 306430245",
   "author": "Анатолий Озерной /Anatoly Ozernoy",
@@ -2358,6 +3902,14 @@
   "license": "CC BY",
   "licenseUrl": "",
   "source": "https://www.inaturalist.org/photos/296818186"
+ },
+ {
+  "id": "sapin-pectine",
+  "file": "Abies alba bark Silesian Beskids.jpg",
+  "author": "Crusier",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Abies_alba_bark_Silesian_Beskids.jpg"
  },
  {
   "id": "sarcelle-d-hiver",
@@ -2376,6 +3928,46 @@
   "source": "https://commons.wikimedia.org/wiki/File:Sardina_pilchardus_2011.jpg"
  },
  {
+  "id": "sargasse-japonaise",
+  "file": "Sargasse japonaise (Sargassum muticum).jpg",
+  "author": "JackyM59",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sargasse_japonaise_(Sargassum_muticum).jpg"
+ },
+ {
+  "id": "sauge-des-pres",
+  "file": "Salvia pratensis 006.jpg",
+  "author": "H. Zell",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Salvia_pratensis_006.jpg"
+ },
+ {
+  "id": "saule-blanc",
+  "file": "Salix alba - Lake Constance.jpg",
+  "author": "H. Zell",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Salix_alba_-_Lake_Constance.jpg"
+ },
+ {
+  "id": "saule-marsault",
+  "file": "Salix caprea Male.jpg",
+  "author": "Didier Descouens",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Salix_caprea_Male.jpg"
+ },
+ {
+  "id": "saule-pleureur",
+  "file": "Salix babylonica (Saule pleureur) - 20150810 10h23 (11045).jpg",
+  "author": "Another one of my pictures: This photograph was taken by Medium69 (William Crochot) and released under the license state",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Salix_babylonica_(Saule_pleureur)_-_20150810_10h23_(11045).jpg"
+ },
+ {
   "id": "saumon-atlantique",
   "file": "iNaturalist 165423232",
   "author": "(c) nicolás, kai kurios teisės saugomos (CC BY-SA)",
@@ -2392,12 +3984,28 @@
   "source": "https://www.inaturalist.org/photos/424954652"
  },
  {
+  "id": "scabieuse-des-champs",
+  "file": "Tanzfliege Rhamphomyia Acker-Witwenblume Knautia arvensis 5211781.jpg",
+  "author": "Ermell",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Tanzfliege_Rhamphomyia_Acker-Witwenblume_Knautia_arvensis_5211781.jpg"
+ },
+ {
   "id": "scarabee-rhinoceros-europeen",
   "file": "iNaturalist 42529236",
   "author": "lugachev_vitaly",
   "license": "CC BY",
   "licenseUrl": "",
   "source": "https://www.inaturalist.org/photos/42529236"
+ },
+ {
+  "id": "scolopendre",
+  "file": "Asplenium scolopendrium 002.JPG",
+  "author": "H. Zell",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Asplenium_scolopendrium_002.JPG"
  },
  {
   "id": "scolopendre-mediterraneenne",
@@ -2414,6 +4022,14 @@
   "license": "CC BY",
   "licenseUrl": "",
   "source": "https://www.inaturalist.org/photos/250529075"
+ },
+ {
+  "id": "sequoia-geant",
+  "file": "Mammoetboom (Sequoiadendron giganteum) Hortus Haren.JPG",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mammoetboom_(Sequoiadendron_giganteum)_Hortus_Haren.JPG"
  },
  {
   "id": "serin-cini",
@@ -2456,6 +4072,14 @@
   "source": "https://www.inaturalist.org/photos/10730179"
  },
  {
+  "id": "sorbier-des-oiseleurs",
+  "file": "Sorbus aucuparia 2022 G1.jpg",
+  "author": "George Chernilevsky",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sorbus_aucuparia_2022_G1.jpg"
+ },
+ {
   "id": "souci",
   "file": "iNaturalist 306965485",
   "author": "SteveM4560",
@@ -2472,12 +4096,28 @@
   "source": "https://commons.wikimedia.org/wiki/File:Farbmaeuse.jpg"
  },
  {
+  "id": "sphaigne-palustre",
+  "file": "Sumpf-Torfmoos Detail Köpfchen.jpg",
+  "author": "Ursula Jaeger",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sumpf-Torfmoos_Detail_K%C3%B6pfchen.jpg"
+ },
+ {
   "id": "sterne-pierregarin",
   "file": "Common_tern_2025_07_08_08.jpg",
   "author": "Alexis Lours",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Common_tern_2025_07_08_08.jpg"
+ },
+ {
+  "id": "sureau-noir",
+  "file": "Sambucus Nigra 'Guincho Purple'. Locatie, Tuinen Mien Ruys 03.jpg",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sambucus_Nigra_%27Guincho_Purple%27._Locatie,_Tuinen_Mien_Ruys_03.jpg"
  },
  {
   "id": "syrphe-ceinture",
@@ -2536,12 +4176,28 @@
   "source": "https://www.inaturalist.org/photos/35657903"
  },
  {
+  "id": "thym",
+  "file": "Eristalinus aeneus on Thymus vulgaris, Sète 03.jpg",
+  "author": "Christian Ferrer",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Eristalinus_aeneus_on_Thymus_vulgaris,_S%C3%A8te_03.jpg"
+ },
+ {
   "id": "tichodrome-echelette",
   "file": "iNaturalist 104722245",
   "author": "Christoph Moning",
   "license": "CC BY",
   "licenseUrl": "",
   "source": "https://www.inaturalist.org/photos/104722245"
+ },
+ {
+  "id": "tilleul-a-petites-feuilles",
+  "file": "Bombus hypnorum - Tilia cordata - Keila.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Bombus_hypnorum_-_Tilia_cordata_-_Keila.jpg"
  },
  {
   "id": "tique-du-mouton",
@@ -2558,6 +4214,14 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Pararge_aegeria_MHNT_dos.jpg"
+ },
+ {
+  "id": "tomate",
+  "file": "Cherry-Tomatoes-in-Pack.jpg",
+  "author": "Evan-Amos",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Cherry-Tomatoes-in-Pack.jpg"
  },
  {
   "id": "tomate-de-mer",
@@ -2600,6 +4264,14 @@
   "source": "https://www.inaturalist.org/photos/105634647"
  },
  {
+  "id": "tournesol",
+  "file": "Sunflower (Helianthus annuus) D35 5966 01.jpg",
+  "author": "Adarsh Patel",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sunflower_(Helianthus_annuus)_D35_5966_01.jpg"
+ },
+ {
   "id": "tourteau",
   "file": "Tourteau1.JPG",
   "author": "Auteur inconnu",
@@ -2622,6 +4294,30 @@
   "license": "CC BY-SA",
   "licenseUrl": "",
   "source": "https://www.inaturalist.org/photos/72298521"
+ },
+ {
+  "id": "trefle-blanc",
+  "file": "Trifolium April 2013-3.jpg",
+  "author": "Alvesgaspar",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Trifolium_April_2013-3.jpg"
+ },
+ {
+  "id": "trefle-des-pres",
+  "file": "Trifolium pratense RF.jpg",
+  "author": "Robert Flogaus-Faust",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Trifolium_pratense_RF.jpg"
+ },
+ {
+  "id": "tremble",
+  "file": "Populus tremula bark Siemianowice.jpg",
+  "author": "Adrian Tync",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Populus_tremula_bark_Siemianowice.jpg"
  },
  {
   "id": "triton-crete",
@@ -2648,6 +4344,14 @@
   "source": "https://www.inaturalist.org/photos/116277326"
  },
  {
+  "id": "troene",
+  "file": "Privet hawkmoth (Sphinx ligustri) Caterpillar 4.jpg",
+  "author": "PsamatheM",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Privet_hawkmoth_(Sphinx_ligustri)_Caterpillar_4.jpg"
+ },
+ {
   "id": "troglodyte-mignon",
   "file": "iNaturalist 113892317",
   "author": "caroline legg",
@@ -2664,6 +4368,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Bachforelle_Zeichnung.jpg"
  },
  {
+  "id": "usnee-barbue",
+  "file": "Usnea barbata -Barba de Viejo-, Olmoti, Tanzania.jpg",
+  "author": "Claude Humbert",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Usnea_barbata_-Barba_de_Viejo-,_Olmoti,_Tanzania.jpg"
+ },
+ {
   "id": "vache",
   "file": "Beautiful_Swiss_cows_-_panoramio.jpg",
   "author": "Deborah Cordwell",
@@ -2678,6 +4390,14 @@
   "license": "CC0",
   "licenseUrl": "",
   "source": "https://www.inaturalist.org/photos/221727339"
+ },
+ {
+  "id": "valeriane-rouge",
+  "file": "Knop van spoorbloem (Centranthus ruber) 01.JPG",
+  "author": "Dominicus Johannes Bergsma",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Knop_van_spoorbloem_(Centranthus_ruber)_01.JPG"
  },
  {
   "id": "vanneau-huppe",
@@ -2736,12 +4456,52 @@
   "source": "https://www.inaturalist.org/photos/61258110"
  },
  {
+  "id": "veronique-de-perse",
+  "file": "Veronica persica 4 RF.jpg",
+  "author": "Robert Flogaus-Faust",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Veronica_persica_4_RF.jpg"
+ },
+ {
   "id": "vieille-commune",
   "file": "iNaturalist 323281044",
   "author": "Chloe Figueroa",
   "license": "CC BY",
   "licenseUrl": "",
   "source": "https://www.inaturalist.org/photos/323281044"
+ },
+ {
+  "id": "vigne",
+  "file": "Vitis vinifera 'Boskoop Glory' Blauwe druif. 08-08-2025. (actm.) 01.jpg",
+  "author": "Agnes Monkelbaan",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vitis_vinifera_%27Boskoop_Glory%27_Blauwe_druif._08-08-2025._(actm.)_01.jpg"
+ },
+ {
+  "id": "vigne-vierge",
+  "file": "Parthenocissus tricuspidata - Vevey 01.jpg",
+  "author": "Llez",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Parthenocissus_tricuspidata_-_Vevey_01.jpg"
+ },
+ {
+  "id": "violette-odorante",
+  "file": "Viola odorata 20210226.jpg",
+  "author": "Uoaei1",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Viola_odorata_20210226.jpg"
+ },
+ {
+  "id": "viorne-obier",
+  "file": "Viburnum opulus fruits - Keila.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Viburnum_opulus_fruits_-_Keila.jpg"
  },
  {
   "id": "vipere-aspic",
@@ -2760,6 +4520,14 @@
   "source": "https://commons.wikimedia.org/wiki/File:Viperaberus1.jpg"
  },
  {
+  "id": "viperine-commune",
+  "file": "Echium vulgare RF.jpg",
+  "author": "Robert Flogaus-Faust",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Echium_vulgare_RF.jpg"
+ },
+ {
   "id": "vulcain",
   "file": "Vanessa_atalanta_MHNT_CUT_2013_3_14_Grisolle_Dos.jpg",
   "author": "Didier Descouens",
@@ -2768,12 +4536,28 @@
   "source": "https://commons.wikimedia.org/wiki/File:Vanessa_atalanta_MHNT_CUT_2013_3_14_Grisolle_Dos.jpg"
  },
  {
+  "id": "xanthorie-des-murailles",
+  "file": "Xanthoria parietina 02.JPG",
+  "author": "Uoaei1",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Xanthoria_parietina_02.JPG"
+ },
+ {
   "id": "xylocope-violet",
   "file": "Blaue_Holzbiene.jpg",
   "author": "X kate xoxo",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Blaue_Holzbiene.jpg"
+ },
+ {
+  "id": "zostere-marine",
+  "file": "Vagueta (Symphodus mediterraneus), Parque natural de la Arrábida, Portugal, 2022-07-19, DD 60.jpg",
+  "author": "Diego Delso",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Vagueta_(Symphodus_mediterraneus),_Parque_natural_de_la_Arr%C3%A1bida,_Portugal,_2022-07-19,_DD_60.jpg"
  },
  {
   "id": "zygene-de-la-filipendule",

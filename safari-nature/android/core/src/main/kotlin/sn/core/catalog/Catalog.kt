@@ -6,9 +6,22 @@ import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.json.Json
 import java.text.Normalizer
 
-/** The family a child sorts an animal into: words they know, not the zoologist's classes. */
+/** The first thing a child decides about what they found. Seaweeds and lichens count as plants here, as children see them. */
+enum class Kingdom(val label: String, val emoji: String, val one: String, val many: String) {
+    ANIMAL("Un animal", "🐾", "animal", "animaux"),
+    PLANT("Une plante", "🌿", "plante", "plantes"),
+}
+
+/** "1 animal", "12 plantes", "3 espèces": a count in the words of what is counted ([k] null: both). */
+fun counted(n: Int, k: Kingdom?): String = when (k) {
+    Kingdom.ANIMAL -> if (n > 1) "$n animaux" else "$n animal"
+    Kingdom.PLANT -> if (n > 1) "$n plantes" else "$n plante"
+    null -> if (n > 1) "$n espèces" else "$n espèce"
+}
+
+/** The family a child sorts a find into: words they know, not the naturalist's classes. */
 @Serializable
-enum class Group(val one: String, val many: String, val emoji: String) {
+enum class Group(val one: String, val many: String, val emoji: String, val kingdom: Kingdom = Kingdom.ANIMAL) {
     @SerialName("mammal") MAMMAL("Mammifère", "Mammifères", "🦊"),
     @SerialName("bird") BIRD("Oiseau", "Oiseaux", "🐦"),
     @SerialName("insect") INSECT("Insecte", "Insectes", "🐞"),
@@ -19,9 +32,16 @@ enum class Group(val one: String, val many: String, val emoji: String) {
     @SerialName("mollusc") MOLLUSC("Mollusque", "Escargots & coquillages", "🐌"),
     @SerialName("crustacean") CRUSTACEAN("Crustacé", "Crabes & crevettes", "🦀"),
     @SerialName("other") OTHER("Petite bête", "Étoiles, vers & méduses", "⭐"),
+    @SerialName("tree") TREE("Arbre", "Arbres", "🌳", Kingdom.PLANT),
+    @SerialName("shrub") SHRUB("Arbuste", "Arbustes & lianes", "🌿", Kingdom.PLANT),
+    @SerialName("fruit") FRUIT("Fruitier", "Fruitiers & baies", "🍎", Kingdom.PLANT),
+    @SerialName("flower") FLOWER("Fleur", "Fleurs & herbes", "🌼", Kingdom.PLANT),
+    @SerialName("seaweed") SEAWEED("Plante de la mer", "Algues & plantes de la plage", "🏖️", Kingdom.PLANT),
+    @SerialName("fern") FERN("Fougère", "Fougères & mousses", "🌱", Kingdom.PLANT),
+    @SerialName("crop") CROP("Culture", "Champs & potager", "🥕", Kingdom.PLANT),
 }
 
-/** Where the child is standing. An animal lives in one to four of them, the most typical first. */
+/** Where the child is standing. A species lives in one to four of them, the most typical first. */
 @Serializable
 enum class Habitat(val label: String, val where: String, val emoji: String) {
     @SerialName("forest") FOREST("Forêt", "dans la forêt", "🌲"),
@@ -35,7 +55,7 @@ enum class Habitat(val label: String, val where: String, val emoji: String) {
 
 /** One species' card. Texts are French, written for 6–10 year olds. */
 @Serializable
-data class Animal(
+data class Species(
     val id: String,
     val name: String,
     val latin: String,
@@ -54,6 +74,8 @@ data class Animal(
     val caution: String? = null,
 ) {
     val stars get() = rarity.coerceIn(1, 3)
+    val kingdom get() = group.kingdom
+    val isPlant get() = group.kingdom == Kingdom.PLANT
 }
 
 /** Where a reference photo comes from, shown on the card and in the credits (Wikimedia Commons licences). */
@@ -67,27 +89,28 @@ data class Photo(
     val source: String,
 )
 
-class Catalog(animals: List<Animal>, photos: List<Photo> = emptyList()) {
-    /** Alphabetical as a French reader expects (É with E, Œ with OE). */
-    val animals: List<Animal> = animals.sortedBy { fold(it.name) }
+class Catalog(species: List<Species>, photos: List<Photo> = emptyList()) {
+    /** Animals and plants, alphabetical as a French reader expects (É with E, Œ with OE). */
+    val all: List<Species> = species.sortedBy { fold(it.name) }
     val photos: Map<String, Photo> = photos.associateBy { it.id }
-    private val byId = this.animals.associateBy { it.id }
+    private val byId = all.associateBy { it.id }
 
-    operator fun get(id: String?): Animal? = id?.let { byId[it] }
+    operator fun get(id: String?): Species? = id?.let { byId[it] }
     fun photo(id: String): Photo? = photos[id]
 
-    fun inHabitat(h: Habitat?): List<Animal> = if (h == null) animals else animals.filter { h in it.habitats }
-    fun of(h: Habitat?, g: Group?): List<Animal> = inHabitat(h).filter { g == null || it.group == g }
+    /** What lives in a place, of one kingdom and one family; null means "any". */
+    fun of(k: Kingdom? = null, h: Habitat? = null, g: Group? = null): List<Species> =
+        all.filter { (k == null || it.kingdom == k) && (h == null || h in it.habitats) && (g == null || it.group == g) }
 
-    /** The families found in a place, with how many animals each holds, in the enum's order. */
-    fun groupsIn(h: Habitat?): List<Pair<Group, Int>> =
-        inHabitat(h).groupingBy { it.group }.eachCount().toList().sortedBy { it.first.ordinal }
+    /** The families found in a place, with how many species each holds, in the enum's order. */
+    fun groupsIn(k: Kingdom?, h: Habitat?): List<Pair<Group, Int>> =
+        of(k, h).groupingBy { it.group }.eachCount().toList().sortedBy { it.first.ordinal }
 
     /** Typed by a child: accents, case and plural "s" don't matter; names first, then words, then Latin or English. */
-    fun search(query: String): List<Animal> {
+    fun search(query: String): List<Species> {
         val q = fold(query).trim().removeSuffix("s")
         if (q.isEmpty()) return emptyList()
-        fun rank(a: Animal): Int? {
+        fun rank(a: Species): Int? {
             val n = fold(a.name)
             return when {
                 n.startsWith(q) -> 0
@@ -98,19 +121,22 @@ class Catalog(animals: List<Animal>, photos: List<Photo> = emptyList()) {
                 else -> null
             }
         }
-        return animals.mapNotNull { a -> rank(a)?.let { it to a } }.sortedBy { it.first }.map { it.second }
+        return all.mapNotNull { a -> rank(a)?.let { it to a } }.sortedBy { it.first }.map { it.second }
     }
 
     companion object {
         val json = Json { ignoreUnknownKeys = true }
 
-        fun from(animalsJson: String, photosJson: String? = null) = Catalog(
-            json.decodeFromString(ListSerializer(Animal.serializer()), animalsJson),
+        fun from(speciesJson: List<String>, photosJson: String? = null) = Catalog(
+            speciesJson.flatMap { json.decodeFromString(ListSerializer(Species.serializer()), it) },
             photosJson?.let { json.decodeFromString(ListSerializer(Photo.serializer()), it) }.orEmpty(),
         )
 
-        /** The catalogue shipped in this module's resources: the same file on the phone and in the tests. */
-        fun load(): Catalog = from(resource("catalog/animals.json")!!, resource("catalog/photos.json"))
+        /** The catalogue shipped in this module's resources: the same files on the phone and in the tests. */
+        fun load(): Catalog = from(
+            listOf(resource("catalog/animals.json")!!, resource("catalog/plants.json")!!),
+            resource("catalog/photos.json"),
+        )
 
         private fun resource(path: String): String? =
             Catalog::class.java.classLoader?.getResourceAsStream(path)?.use { it.readBytes().toString(Charsets.UTF_8) }

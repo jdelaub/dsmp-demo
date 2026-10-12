@@ -54,6 +54,7 @@ import app.safarinature.flow.Flow
 import app.safarinature.flow.Mode
 import app.safarinature.flow.Screen
 import sn.core.catalog.Group
+import sn.core.catalog.Kingdom
 import sn.core.progress.Medals
 import sn.core.progress.Sighting
 import java.time.LocalDate
@@ -71,7 +72,7 @@ fun CelebrateScreen(f: Flow) {
             Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 22.dp, vertical = 16.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            Text(if (o.firstTime) "Nouvelle découverte !" else "Tu l'as revu !", style = T.Hero.copy(color = C.OrangeLip), textAlign = TextAlign.Center, modifier = Modifier.popIn())
+            Text(if (o.firstTime) "Nouvelle découverte !" else if (a.isPlant) "Tu l'as revue !" else "Tu l'as revu !", style = T.Hero.copy(color = C.OrangeLip), textAlign = TextAlign.Center, modifier = Modifier.popIn())
             Spacer(Modifier.height(16.dp))
             val pic = s?.photo?.let { FilePic(f.photoFile(it).path) } ?: refPic(a)
             Box(Modifier.popIn(150)) {
@@ -95,7 +96,7 @@ fun CelebrateScreen(f: Flow) {
                 }
                 Text("+${o.stars} étoile${if (o.stars > 1) "s" else ""}", style = T.Heading.copy(color = C.CautionInk))
             } else {
-                Text("Tu l'as vu ${o.times} fois ! 👏", style = T.Heading.copy(color = C.CautionInk))
+                Text("Tu l'as ${if (a.isPlant) "vue" else "vu"} ${o.times} fois ! 👏", style = T.Heading.copy(color = C.CautionInk))
             }
             o.levelUp?.let { l ->
                 Spacer(Modifier.height(16.dp))
@@ -144,23 +145,38 @@ fun CelebrateScreen(f: Flow) {
 @Composable
 fun AlbumScreen(f: Flow) {
     val p = f.progress
+    // Two albums in one: the animals' and the plants' (a tab each).
+    var kingdom by rememberSaveable { mutableStateOf(Kingdom.ANIMAL) }
     var only by rememberSaveable { mutableStateOf<Group?>(null) }
-    val list = f.catalog.of(null, only)
+    val list = f.catalog.of(kingdom, g = only)
+    val total = f.catalog.of(kingdom).size
+    val found = p.discoveredIn(kingdom)
     Column(Modifier.fillMaxSize()) {
         TopBar(f, "Mon album")
+        Row(Modifier.padding(horizontal = 18.dp).fillMaxWidth().clip(RoundedCornerShape(50)).background(C.Sand).padding(4.dp)) {
+            for (k in Kingdom.entries) {
+                val on = k == kingdom
+                Text(
+                    "${k.emoji} ${k.many.replaceFirstChar { it.uppercase() }}", style = T.Label.copy(fontSize = 18.sp, color = if (on) Color.White else C.Ink), textAlign = TextAlign.Center,
+                    modifier = Modifier.weight(1f).clip(RoundedCornerShape(50)).background(if (on) (if (k == Kingdom.ANIMAL) C.Orange else C.Green) else Color.Transparent)
+                        .clickable(role = Role.Tab) { f.tap(); kingdom = k; only = null }.padding(vertical = 12.dp),
+                )
+            }
+        }
+        Spacer(Modifier.height(12.dp))
         Column(Modifier.padding(horizontal = 18.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Bar(p.discovered.size.toFloat() / f.catalog.animals.size, C.Green, Modifier.weight(1f), 18.dp)
+                Bar(found.toFloat() / total.coerceAtLeast(1), C.Green, Modifier.weight(1f), 18.dp)
                 Spacer(Modifier.width(12.dp))
-                Text("${p.discovered.size} / ${f.catalog.animals.size}", style = T.Heading.copy(color = C.GreenLip))
+                Text("$found / $total", style = T.Heading.copy(color = C.GreenLip))
             }
             Spacer(Modifier.height(10.dp))
         }
         Row(Modifier.horizontalScroll(rememberScrollState()).padding(horizontal = 18.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Pill("Tous", if (only == null) C.Ink else Color.White, ink = if (only == null) Color.White else C.Ink) { only = null }
-            for (g in Group.entries) {
+            for (g in Group.entries.filter { it.kingdom == kingdom }) {
                 val on = only == g
-                Pill("${g.emoji} ${p.discoveredIn(g)}/${f.catalog.of(null, g).size}", if (on) C.of(g) else Color.White, ink = if (on) Color.White else C.Ink) { only = g }
+                Pill("${g.emoji} ${p.discoveredIn(g)}/${f.catalog.of(g = g).size}", if (on) C.of(g) else Color.White, ink = if (on) Color.White else C.Ink) { only = g }
             }
         }
         LazyVerticalGrid(
@@ -178,7 +194,7 @@ fun AlbumScreen(f: Flow) {
                         .clickable(role = Role.Button) { f.open(a.id, Mode.EXPLORE) }.semantics { contentDescription = a.name },
                 ) {
                     Box(Modifier.fillMaxWidth().aspectRatio(1f)) {
-                        AnimalPicture(f, a, Modifier.fillMaxSize(), own = true, faded = !seen, px = 260)
+                        SpeciesPicture(f, a, Modifier.fillMaxSize(), own = true, faded = !seen, px = 260)
                         if (!seen) Text("?", style = T.Hero.copy(color = Color.White, fontSize = 40.sp), modifier = Modifier.align(Alignment.Center))
                     }
                     Text(
@@ -254,7 +270,7 @@ fun PhotosScreen(f: Flow) {
             Text("🖼️", style = T.Emoji.copy(fontSize = 80.sp, lineHeight = 90.sp))
             Text("Pas encore de photo.", style = T.Title, textAlign = TextAlign.Center)
             Spacer(Modifier.height(8.dp))
-            Text("Appuie sur le gros bouton 📸 pour photographier ton premier animal !", style = T.Body, textAlign = TextAlign.Center)
+            Text("Appuie sur le gros bouton 📸 pour photographier ton premier animal ou ta première plante !", style = T.Body, textAlign = TextAlign.Center)
             Spacer(Modifier.height(20.dp))
             Chunky("Prendre une photo", Modifier.fillMaxWidth(), C.Orange, "📸", f = f) { f.openCamera() }
         } else LazyVerticalGrid(
@@ -266,7 +282,7 @@ fun PhotosScreen(f: Flow) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Text("🕵️", style = T.Emoji.copy(fontSize = 34.sp))
                         Spacer(Modifier.width(12.dp))
-                        Text("${p.mysteries.size} animal${if (p.mysteries.size > 1) "aux" else ""} mystère : touche une photo ❓ pour trouver son nom !", style = T.Label.copy(color = C.PurpleLip), modifier = Modifier.weight(1f))
+                        Text("${p.mysteries.size} mystère${if (p.mysteries.size > 1) "s" else ""} : touche une photo ❓ pour trouver son nom !", style = T.Label.copy(color = C.PurpleLip), modifier = Modifier.weight(1f))
                     }
                 }
             }
@@ -309,7 +325,7 @@ fun PhotoScreen(f: Flow, id: Long) {
         }
         Paper(Modifier.align(Alignment.BottomCenter).fillMaxWidth().padding(16.dp).padding(bottom = 24.dp)) {
             Column {
-                Text(a?.name ?: "Animal mystère", style = T.Title)
+                Text(a?.name ?: "Mystère", style = T.Title)
                 Text(
                     "${dayLabel(s.at.toLocalDate(), f.clock().toLocalDate())} à ${s.at.hour} h ${"%02d".format(s.at.minute)}" + (s.habitat?.let { " · ${it.emoji} ${it.label}" } ?: ""),
                     style = T.Small.copy(fontSize = 15.sp),

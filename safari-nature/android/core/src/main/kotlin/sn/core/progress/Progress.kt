@@ -1,14 +1,16 @@
 package sn.core.progress
 
-import sn.core.catalog.Animal
+import sn.core.catalog.Species
 import sn.core.catalog.Catalog
 import sn.core.catalog.Group
 import sn.core.catalog.Habitat
+import sn.core.catalog.Kingdom
 import java.time.LocalDate
 import java.time.LocalDateTime
 
 /**
- * One time the child saw an animal. [animal] is null for a "mystery animal": a photo kept to be
+ * One time the child saw an animal or a plant ([animal] is its species id, the name kept from the first version).
+ * [animal] is null for a "mystery": a photo kept to be
  * named later, with a grown-up; [solved] marks a mystery named afterwards. [habitat] is where the child said they were.
  */
 data class Sighting(
@@ -48,7 +50,7 @@ class Progress(val catalog: Catalog, sightings: List<Sighting>) {
     val discovered: Map<String, LocalDateTime> = buildMap {
         for (s in this@Progress.sightings) if (s.animal != null && catalog[s.animal] != null && s.animal !in this) put(s.animal, s.at)
     }
-    val species: List<Animal> get() = discovered.keys.mapNotNull { catalog[it] }
+    val species: List<Species> get() = discovered.keys.mapNotNull { catalog[it] }
 
     val stars: Int = discovered.keys.sumOf { catalog[it]?.stars ?: 0 }
     val level: Level get() = Levels.of(stars)
@@ -69,6 +71,7 @@ class Progress(val catalog: Catalog, sightings: List<Sighting>) {
     fun lastPhotoOf(id: String): String? = sightings.lastOrNull { it.animal == id && it.photo != null }?.photo
 
     fun discoveredIn(g: Group) = species.count { it.group == g }
+    fun discoveredIn(k: Kingdom) = species.count { it.kingdom == k }
     fun discoveredIn(h: Habitat) = species.count { h in it.habitats }
 
     /** Days with at least one sighting, newest first, each with its sightings in order. */
@@ -101,13 +104,13 @@ class Progress(val catalog: Catalog, sightings: List<Sighting>) {
         first = sightings.firstOrNull()?.at?.toLocalDate(),
         last = sightings.lastOrNull()?.at?.toLocalDate(),
         top = sightings.mapNotNull { catalog[it.animal] }.groupingBy { it }.eachCount()
-            .toList().sortedWith(compareByDescending<Pair<Animal, Int>> { it.second }.thenBy { it.first.name }).take(5),
+            .toList().sortedWith(compareByDescending<Pair<Species, Int>> { it.second }.thenBy { it.first.name }).take(5),
         byGroup = Group.entries.map { g -> g to discoveredIn(g) }.filter { it.second > 0 },
     )
 }
 
 data class Outcome(
-    val animal: Animal?,
+    val animal: Species?,
     val firstTime: Boolean,
     val stars: Int,
     val levelUp: Level?,
@@ -122,6 +125,6 @@ data class Stats(
     val photos: Int,
     val first: LocalDate?,
     val last: LocalDate?,
-    val top: List<Pair<Animal, Int>>,
+    val top: List<Pair<Species, Int>>,
     val byGroup: List<Pair<Group, Int>>,
 )

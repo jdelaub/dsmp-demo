@@ -22,7 +22,7 @@ object Summary {
         val today = p.on(date)
         val who = name.ifBlank { "Notre explorateur" }
         val heading = "🦊 Safari Nature — ${day.format(date)}"
-        if (today.isEmpty()) return "$heading\n$who n'a pas encore observé d'animal aujourd'hui."
+        if (today.isEmpty()) return "$heading\n$who n'a encore rien observé aujourd'hui."
 
         val named = today.mapNotNull { p.catalog[it.animal] }
         val counts = named.groupingBy { it }.eachCount()
@@ -38,10 +38,10 @@ object Summary {
             if (list.isNotEmpty()) append(" : $list")
             appendLine(".")
             if (firsts.isNotEmpty()) appendLine("✨ Nouvelle${if (firsts.size > 1) "s" else ""} découverte${if (firsts.size > 1) "s" else ""} : ${firsts.joinToString(", ") { "${it.name} ${"⭐".repeat(it.stars)}" }}")
-            if (mysteries > 0) appendLine("❓ $mysteries animal${if (mysteries > 1) "aux" else ""} mystère à identifier ensemble.")
+            if (mysteries > 0) appendLine("❓ $mysteries mystère${if (mysteries > 1) "s" else ""} à identifier ensemble.")
             if (photos > 0) appendLine("📸 $photos photo${if (photos > 1) "s" else ""} prise${if (photos > 1) "s" else ""}.")
             appendLine("🕒 Le plus d'observations : $busiest.")
-            append("${p.level.emoji} Niveau ${p.level.title} — ${p.stars} ⭐, ${p.discovered.size} animaux dans l'album.")
+            append("${p.level.emoji} Niveau ${p.level.title} — ${p.stars} ⭐, ${p.discovered.size} découverte${if (p.discovered.size > 1) "s" else ""} dans l'album.")
         }
     }
 }

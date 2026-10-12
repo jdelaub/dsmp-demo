@@ -74,7 +74,7 @@ import app.safarinature.data.Photos
 import app.safarinature.flow.Flow
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import sn.core.catalog.Animal
+import sn.core.catalog.Species
 import kotlin.random.Random
 
 // ——— Pictures ———
@@ -84,7 +84,7 @@ sealed interface Pic { val key: String }
 data class AssetPic(val path: String) : Pic { override val key get() = "a:$path" }
 data class FilePic(val path: String) : Pic { override val key get() = "f:$path" }
 
-fun refPic(a: Animal) = AssetPic("photos/${a.id}.webp")
+fun refPic(a: Species) = AssetPic("photos/${a.id}.webp")
 
 object Pictures {
     private val cache = object : LruCache<String, ImageBitmap>(40 * 1024 * 1024) {
@@ -132,7 +132,7 @@ fun Picture(
 
 /** The animal's picture: the child's own photo when there is one, otherwise the reference photo. */
 @Composable
-fun AnimalPicture(f: Flow, a: Animal, modifier: Modifier = Modifier, own: Boolean = true, faded: Boolean = false, px: Int = 480) {
+fun SpeciesPicture(f: Flow, a: Species, modifier: Modifier = Modifier, own: Boolean = true, faded: Boolean = false, px: Int = 480) {
     val mine = if (own) f.progress.lastPhotoOf(a.id) else null
     Picture(mine?.let { FilePic(f.photoFile(it).path) } ?: refPic(a), modifier.background(C.of(a.group).copy(alpha = 0.18f)), px, faded) {
         Text(a.emoji, style = T.Emoji.copy(fontSize = 40.sp))

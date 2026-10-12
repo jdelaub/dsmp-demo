@@ -17,6 +17,7 @@ Retry-After honoured, metadata asked 50 files per call.
 """
 import argparse
 import html
+import http.client
 import io
 import json
 import os
@@ -30,7 +31,7 @@ import urllib.error
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ANIMALS = os.path.join(ROOT, "android/core/src/main/resources/catalog/animals.json")
+CATALOG = [os.path.join(ROOT, "android/core/src/main/resources/catalog", f) for f in ("animals.json", "plants.json")]
 CREDITS = os.path.join(ROOT, "android/core/src/main/resources/catalog/photos.json")
 PHOTOS = os.path.join(ROOT, "android/app/src/main/assets/photos")
 OVERRIDES = os.path.join(ROOT, "tools/photo_overrides.json")
@@ -68,7 +69,7 @@ def get(url, binary=False, tries=40, patience=None):
                 time.sleep(wait + 1)
                 continue
             raise
-        except (urllib.error.URLError, TimeoutError) as e:
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException) as e:
             print(f"  network: {e}, retrying", file=sys.stderr)
             time.sleep(5 * (attempt + 1))
     raise RuntimeError(f"gave up on {url}")
@@ -173,6 +174,52 @@ def inaturalist(a):
     return None
 
 
+PLANT_GROUPS = {"tree", "shrub", "fruit", "flower", "seaweed", "fern", "crop"}
+# Titles that say "not the living plant as a child meets it".
+NOT_A_PLANT_PHOTO = re.compile(
+    r"landscape|landschaft|paysage|panorama|seed|zaden|samen|graine|herbari|pollen|micro|section|coupe|illustration|"
+    r"k[öo]e?hler|thom[ée]|flora_?von|plate|tafel|drawing|dessin|stamp|timbre|map|carte|distribution|wood_?grain|"
+    r"insect|abeille|biene|bee_|butterfly|papillon|honey|market|march[ée]|dish|recipe|cuisine|"
+    r"\bbuds?\b|knospe|bourgeon|seedling|germin|keim|holz|cross.?section|querschnitt|bark|rinde|écorce|basket|panier", re.I)
+
+
+def looks_drawn(data):
+    """A botanical plate or a specimen on paper: most of the picture is pale and colourless."""
+    im = Image.open(io.BytesIO(data)).convert("RGB").resize((64, 64))
+    pale = sum(1 for r, g, b in im.getdata() if min(r, g, b) > 200 and max(r, g, b) - min(r, g, b) < 30)
+    return pale / 4096 > 0.4
+
+
+def commons_search(a, avoid=()):
+    """The best Commons photo of a plant: Quality Images first, then any photo; ranked by title. (meta, data) or None."""
+    latin = a["latin"].replace(" × ", " ").lower()
+    genus_species = " ".join(latin.split()[:2])
+    for extra in (" incategory:Quality_images", " filetype:bitmap"):
+        r = get("https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode({
+            "action": "query", "format": "json", "formatversion": "2", "list": "search", "srnamespace": "6",
+            "srlimit": "12", "srsearch": a["latin"] + extra})) or {}
+        titles = [x["title"].removeprefix("File:") for x in r.get("query", {}).get("search", [])]
+
+        def score(t):
+            low = t.lower().replace("_", " ")
+            return (4 if genus_species in low else 0) - (10 if NOT_A_PLANT_PHOTO.search(t) else 0) \
+                - (10 if low.endswith((".svg", ".gif", ".tif", ".tiff", ".pdf", ".djvu")) else 0)
+
+        avoid_norm = {x.replace(" ", "_") for x in avoid}
+        ranked = [t for t in sorted(titles, key=score, reverse=True) if score(t) >= 0 and t.replace(" ", "_") not in avoid_norm][:4]
+        if not ranked:
+            continue
+        info = commons_info(ranked)
+        for t in ranked:
+            meta = info.get(t)
+            if not meta or not meta.get("url") or not FREE.match(meta["license"]):
+                continue
+            data = get(meta["url"], binary=True, tries=200)
+            if data and not looks_drawn(data):
+                return meta, data
+    return None
+
+
 def save_webp(data, path):
     im = Image.open(io.BytesIO(data))
     im = im.convert("RGB")
@@ -187,9 +234,10 @@ def main():
     ap.add_argument("--recommons", action="store_true")
     ap.add_argument("--first", nargs="*", default=[], help="with --recommons: these animals first")
     ap.add_argument("--reinat", action="store_true", help="pick the iNaturalist photos again (curated, alive, wild)")
+    ap.add_argument("--replants", nargs="*", help="plants: replace drawings, iNaturalist photos and these ids by Commons photos")
     args = ap.parse_args()
 
-    animals = json.load(open(ANIMALS, encoding="utf-8"))
+    animals = [a for f in CATALOG if os.path.exists(f) for a in json.load(open(f, encoding="utf-8"))]  # animals and plants
     overrides = json.load(open(OVERRIDES, encoding="utf-8")) if os.path.exists(OVERRIDES) else {}
     os.makedirs(PHOTOS, exist_ok=True)
     os.makedirs(os.path.dirname(CACHE), exist_ok=True)
@@ -205,6 +253,8 @@ def main():
 
     if args.reinat:
         return reinat(animals, credits)
+    if args.replants is not None:
+        return replants(animals, credits, set(args.replants))
     if args.recommons:
         return recommons(animals, cache, credits, overrides, args.first)
 
@@ -249,6 +299,12 @@ def main():
             except Throttled:
                 print("  Commons images throttled: iNaturalist from now on", file=sys.stderr)
                 commons_open = False
+        if data and a["group"] in PLANT_GROUPS and looks_drawn(data):
+            data = None
+        if not data and a["group"] in PLANT_GROUPS:
+            found = commons_search(a)
+            if found:
+                meta, data = found
         if not data:
             meta = inaturalist(a)
             data = get(meta["url"], binary=True) if meta else None
@@ -267,6 +323,32 @@ def main():
     for rid, why in missing:
         print(f"MISSING {rid}: {why}")
     print(f"{len(credits)} photos with credits, {len(missing)} missing", file=sys.stderr)
+
+
+def replants(animals, credits, also):
+    """Plants whose picture is a drawing, a stranger's observation, or named here: a Commons photo instead."""
+    done = 0
+    for a in animals:
+        if a["group"] not in PLANT_GROUPS:
+            continue
+        path = os.path.join(PHOTOS, a["id"] + ".webp")
+        current = open(path, "rb").read() if os.path.exists(path) else None
+        if not (a["id"] in also or current is None or "inaturalist" in credits.get(a["id"], {}).get("source", "")
+                or looks_drawn(current)):
+            continue
+        # Named ones: their current picture was looked at and turned down, so the next best one.
+        found = commons_search(a, avoid={credits.get(a["id"], {}).get("file", "")} if a["id"] in also else ())
+        if not found:
+            print(f"keep {a['id']}", file=sys.stderr)
+            continue
+        meta, data = found
+        save_webp(data, path)
+        credits[a["id"]] = {"id": a["id"], "file": meta["file"], "author": meta["author"],
+                            "license": meta["license"], "licenseUrl": meta["licenseUrl"], "source": meta["source"]}
+        json.dump(sorted(credits.values(), key=lambda c: c["id"]), open(CREDITS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        done += 1
+        print(f"ok {a['id']} ({meta['license']}) {meta['file']}", file=sys.stderr)
+    print(f"replants done: {done}", file=sys.stderr)
 
 
 def reinat(animals, credits):

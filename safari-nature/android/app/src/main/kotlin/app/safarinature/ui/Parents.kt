@@ -46,6 +46,7 @@ import androidx.core.content.FileProvider
 import app.safarinature.BuildConfig
 import app.safarinature.flow.Flow
 import app.safarinature.flow.Screen
+import sn.core.catalog.Kingdom
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 
@@ -117,7 +118,7 @@ fun ParentsScreen(f: Flow) {
             Heading("Statistiques")
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 Stat("${st.sightings}", "observations", Modifier.weight(1f))
-                Stat("${st.species}", "animaux", Modifier.weight(1f))
+                Stat("${st.species}", "espèces", Modifier.weight(1f))
                 Stat("${st.photos}", "photos", Modifier.weight(1f))
             }
             Spacer(Modifier.height(10.dp))
@@ -134,7 +135,7 @@ fun ParentsScreen(f: Flow) {
                     if (st.byGroup.isNotEmpty()) {
                         Spacer(Modifier.height(6.dp))
                         Text("Par famille", style = T.Label.copy(color = C.Soft))
-                        for ((g, n) in st.byGroup) Line("${g.emoji} ${g.many}", "$n / ${f.catalog.of(null, g).size}")
+                        for ((g, n) in st.byGroup) Line("${g.emoji} ${g.many}", "$n / ${f.catalog.of(g = g).size}")
                     }
                 }
             }
@@ -156,7 +157,7 @@ fun ParentsScreen(f: Flow) {
             Paper(Modifier.fillMaxWidth()) {
                 Text(
                     "🔒 Tout reste sur ce téléphone : l'application n'a pas accès à Internet. Les photos ne quittent le téléphone que si vous les partagez vous-même.\n\n" +
-                        "📚 ${f.catalog.animals.size} animaux de France et d'Europe de l'Ouest. Photos de référence : Wikimedia Commons et iNaturalist, sous licences libres.",
+                        "📚 ${f.catalog.of(Kingdom.ANIMAL).size} animaux et ${f.catalog.of(Kingdom.PLANT).size} plantes de France et d'Europe de l'Ouest. Photos de référence : Wikimedia Commons et iNaturalist, sous licences libres.",
                     style = T.Body.copy(fontSize = 16.sp, lineHeight = 22.sp),
                 )
             }
@@ -218,7 +219,7 @@ private fun Toggle(title: String, sub: String, on: Boolean, onChange: (Boolean) 
 /** Who took each reference photo, and under which licence (required by CC BY and CC BY-SA). */
 @Composable
 fun CreditsScreen(f: Flow) {
-    val rows = f.catalog.animals.mapNotNull { a -> f.catalog.photo(a.id)?.let { a to it } }
+    val rows = f.catalog.all.mapNotNull { a -> f.catalog.photo(a.id)?.let { a to it } }
     Column(Modifier.fillMaxSize()) {
         TopBar(f, "Crédits")
         LazyColumn(Modifier.weight(1f), contentPadding = PaddingValues(horizontal = 18.dp, vertical = 8.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {

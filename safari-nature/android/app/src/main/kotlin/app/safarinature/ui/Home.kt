@@ -61,7 +61,7 @@ fun WelcomeScreen(f: Flow) {
         Spacer(Modifier.height(12.dp))
         Text(avatar, style = T.Emoji.copy(fontSize = 92.sp, lineHeight = 104.sp), modifier = Modifier.popIn())
         Text("Safari Nature", style = T.Hero.copy(color = C.Orange, fontSize = 40.sp, lineHeight = 46.sp))
-        Text("Pars à la chasse aux photos d'animaux !", style = T.Body, textAlign = TextAlign.Center)
+        Text("Pars à la chasse aux photos d'animaux et de plantes !", style = T.Body, textAlign = TextAlign.Center)
         Spacer(Modifier.height(28.dp))
         Text("Comment t'appelles-tu ?", style = T.Heading)
         Spacer(Modifier.height(10.dp))
@@ -115,7 +115,7 @@ fun AvatarPicker(selected: String, onPick: (String) -> Unit) {
 @Composable
 fun HomeScreen(f: Flow) {
     val p = f.progress
-    val total = f.catalog.animals.size
+    val total = f.catalog.all.size
     val challenge = f.challenge
     val done = challenge.done(p)
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 18.dp, vertical = 12.dp)) {
@@ -180,7 +180,7 @@ fun HomeScreen(f: Flow) {
         }
         Spacer(Modifier.height(14.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-            Tile("🗺️", "Explorer", C.Blue, Modifier.weight(1f), "$total animaux", f = f) { f.go(Screen.Places(Mode.EXPLORE)) }
+            Tile("🗺️", "Explorer", C.Blue, Modifier.weight(1f), "$total espèces", f = f) { f.go(Screen.Kinds(Mode.EXPLORE)) }
             Tile("🖼️", "Mes photos", C.Purple, Modifier.weight(1f), "${p.photos.size}", mark = if (p.mysteries.isNotEmpty()) "❓" else null, f = f) { f.go(Screen.Photos) }
         }
         Spacer(Modifier.height(20.dp))
@@ -195,7 +195,7 @@ private fun CameraButton(f: Flow) {
         Box(
             Modifier.size(186.dp).breathing().clip(CircleShape).background(C.OrangeLip)
                 .clickable(src, null, role = Role.Button) { f.tap(); f.openCamera() }
-                .semantics { contentDescription = "Photographier un animal" },
+                .semantics { contentDescription = "Photographier un animal ou une plante" },
         ) {
             Box(
                 Modifier.size(186.dp).offset(y = if (pressed) 0.dp else (-7).dp).clip(CircleShape).background(C.Orange)
@@ -209,6 +209,6 @@ private fun CameraButton(f: Flow) {
             }
         }
         Spacer(Modifier.height(10.dp))
-        Text("Photographie un animal", style = T.Heading, textAlign = TextAlign.Center)
+        Text("Photographie un animal ou une plante", style = T.Heading, textAlign = TextAlign.Center)
     }
 }

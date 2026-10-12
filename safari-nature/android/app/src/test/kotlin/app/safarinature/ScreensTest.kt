@@ -6,6 +6,7 @@ import androidx.compose.ui.graphics.asAndroidBitmap
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performTextInput
@@ -27,6 +28,7 @@ import org.robolectric.annotation.Config
 import org.robolectric.annotation.GraphicsMode
 import sn.core.catalog.Group
 import sn.core.catalog.Habitat
+import sn.core.catalog.Kingdom
 import java.io.File
 import java.time.LocalDateTime
 
@@ -38,6 +40,8 @@ import java.time.LocalDateTime
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
 @Config(sdk = [35], qualifiers = "w392dp-h850dp-xxhdpi")
 class ScreensTest {
+    private companion object { const val TOXIC_PLANT = "digitale-pourpre" }
+
     @get:Rule val rule = createComposeRule()
     private val out = File("build/screens").apply { deleteRecursively(); mkdirs() }
     private var n = 0
@@ -80,9 +84,10 @@ class ScreensTest {
         f.hideCameraTip(); tick(300); shot("camera_no_permission")
 
         f.photoTaken(photo(f, "renard-roux")); until { f.screen == Screen.Review }; tick(900); shot("review")
-        f.keepPhoto(); tick(500); shot("where")
-        f.choosePlace(Mode.IDENTIFY, Habitat.FOREST); tick(500); shot("family")
-        f.chooseFamily(Mode.IDENTIFY, Habitat.FOREST, Group.MAMMAL); until { true }; tick(1500); shot("which_one")
+        f.keepPhoto(); tick(500); shot("kind")
+        f.chooseKind(Mode.IDENTIFY, Kingdom.ANIMAL); tick(500); shot("where")
+        f.choosePlace(Mode.IDENTIFY, Kingdom.ANIMAL, Habitat.FOREST); tick(500); shot("family")
+        f.chooseFamily(Mode.IDENTIFY, Kingdom.ANIMAL, Habitat.FOREST, Group.MAMMAL); tick(1500); shot("which_one")
         f.open("renard-roux", Mode.IDENTIFY); tick(1500); shot("is_it_him")
         f.confirm("renard-roux"); tick(400); shot("celebrate_start"); tick(2600); shot("celebrate")
         assertEquals(true, f.outcome?.firstTime)
@@ -107,20 +112,39 @@ class ScreensTest {
         f.back(); f.go(Screen.Photos); tick(1500); shot("photos")
         val mystery = f.progress.mysteries.single()
         f.go(Screen.Photo(mystery.id)); tick(1200); shot("photo_mystery")
-        f.solve(mystery); tick(400); f.choosePlace(Mode.IDENTIFY, Habitat.CITY); f.chooseFamily(Mode.IDENTIFY, Habitat.CITY, Group.BIRD); tick(1500); shot("solve_birds")
+        f.solve(mystery); tick(400); f.chooseKind(Mode.IDENTIFY, Kingdom.ANIMAL)
+        f.choosePlace(Mode.IDENTIFY, Kingdom.ANIMAL, Habitat.CITY); f.chooseFamily(Mode.IDENTIFY, Kingdom.ANIMAL, Habitat.CITY, Group.BIRD); tick(1500); shot("solve_birds")
         f.confirm("merle-noir"); tick(3000); shot("solved_again")
         assertEquals("detective", f.outcome?.medals?.single()?.id)
         assertEquals(0, f.progress.mysteries.size)
         f.home()
 
-        // The encyclopedia.
-        f.go(Screen.Places(Mode.EXPLORE)); tick(600); shot("explore")
-        f.choosePlace(Mode.EXPLORE, Habitat.SEA); tick(600); shot("explore_sea")
-        f.chooseFamily(Mode.EXPLORE, Habitat.SEA, null); tick(1500); shot("explore_sea_all")
+        // A plant: the oak by the path, named through "une plante", the forest, the trees.
+        now = now.withHour(17)
+        f.openCamera(); f.photoTaken(photo(f, "chene-pedoncule")); until { f.screen == Screen.Review }
+        f.keepPhoto(); f.chooseKind(Mode.IDENTIFY, Kingdom.PLANT); tick(500); shot("plant_where")
+        assertTrue(Habitat.FARM !in f.catalog.of(Kingdom.PLANT).flatMap { it.habitats })
+        f.choosePlace(Mode.IDENTIFY, Kingdom.PLANT, Habitat.FOREST); tick(500); shot("plant_family")
+        f.chooseFamily(Mode.IDENTIFY, Kingdom.PLANT, Habitat.FOREST, Group.TREE); tick(1500); shot("plant_which")
+        f.open("chene-pedoncule", Mode.IDENTIFY); tick(1500); shot("plant_is_it_her")
+        f.confirm("chene-pedoncule"); tick(3000); shot("plant_celebrate")
+        assertEquals(true, f.outcome?.firstTime)
+        assertEquals(Habitat.FOREST, f.progress.sightings.last().habitat)
+        f.home()
+
+        // The encyclopedia: animals or plants, then a place, a family.
+        f.go(Screen.Kinds(Mode.EXPLORE)); tick(600); shot("explore")
+        f.chooseKind(Mode.EXPLORE, Kingdom.PLANT); tick(600); shot("explore_plants")
+        f.choosePlace(Mode.EXPLORE, Kingdom.PLANT, Habitat.SEA); tick(600); shot("explore_sea_plants")
+        f.chooseFamily(Mode.EXPLORE, Kingdom.PLANT, Habitat.SEA, null); tick(1500); shot("explore_sea_plants_all")
         f.open("vipere-aspic", Mode.EXPLORE); tick(1500); shot("card_caution")
+        f.back(); f.open(TOXIC_PLANT, Mode.EXPLORE); tick(1500); shot("card_plant_caution")
+        f.back(); f.open("salicorne", Mode.EXPLORE); tick(1500); shot("card_plant_rule")
         f.back(); f.open("renard-roux", Mode.EXPLORE); tick(1500); shot("card_seen")
+        f.home(); f.go(Screen.Album); tick(400)
+        rule.onNodeWithText("🌿 Plantes").performClick(); tick(1500); shot("album_plants")
         f.home(); f.go(Screen.Search(Mode.EXPLORE)); tick(400)
-        rule.onNodeWithContentDescription("Nom de l'animal").performTextInput("herisson"); tick(1500); shot("search")
+        rule.onNodeWithContentDescription("Nom à chercher").performTextInput("herisson"); tick(1500); shot("search")
         assertEquals("herisson-d-europe", f.catalog.search("herisson").first().id)
 
         // The grown-ups: a wrong answer keeps the door shut, the right one opens it.
@@ -140,7 +164,7 @@ class ScreensTest {
         tick(500); shot("home_end")
 
         // A tap on the home screen's big button opens the camera.
-        rule.onNodeWithContentDescription("Photographier un animal").performClick(); tick(300)
+        rule.onNodeWithContentDescription("Photographier un animal ou une plante").performClick(); tick(300)
         assertTrue(f.screen is Screen.Camera)
     }
 }

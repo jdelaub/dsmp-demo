@@ -95,7 +95,8 @@ class Profile(ctx: Context) {
     var lastHabitat: Habitat?
         get() = p.getString("lastHabitat", null)?.let { h -> Habitat.entries.firstOrNull { it.name == h } }
         set(v) = p.edit().putString("lastHabitat", v?.name).apply()
+    /** The explorer's rule before the first photo. "cameraTip2": shown once more since it speaks of plants too. */
     var cameraTip: Boolean
-        get() = p.getBoolean("cameraTip", true)
-        set(v) = p.edit().putBoolean("cameraTip", v).apply()
+        get() = p.getBoolean("cameraTip2", true)
+        set(v) = p.edit().putBoolean("cameraTip2", v).apply()
 }
