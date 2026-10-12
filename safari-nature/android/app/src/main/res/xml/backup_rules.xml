@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- A new phone gets the album back (Android's own backup): sightings, photos, the explorer's name. -->
-<full-backup-content>
-    <include domain="database" path="safari.db" />
-    <include domain="file" path="photos/" />
-    <include domain="sharedpref" path="profile.xml" />
-</full-backup-content>

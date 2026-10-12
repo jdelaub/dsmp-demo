@@ -1,6 +1,0 @@
-# Photo fetcher's cache and logs.
-tools/out/
-__pycache__/
-*.apk
-*.aab
-.DS_Store
