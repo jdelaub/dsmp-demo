@@ -136,7 +136,8 @@ def commons_info(files):
 
 
 def inaturalist(a):
-    """The most-liked freely licensed iNaturalist photo of the species (research grade, 500 px), or None."""
+    """A freely licensed iNaturalist photo of the species (500 px), or None: one of the species' curated photos
+    first, else the most-liked research-grade photo of a living, wild animal (no traps, no fish market)."""
     r = get("https://api.inaturalist.org/v1/taxa?" + urllib.parse.urlencode({"q": a["latin"], "per_page": 10})) or {}
     results = r.get("results", [])
     want = a["latin"].lower().replace(" kl. ", " ")
@@ -145,25 +146,30 @@ def inaturalist(a):
     if not taxon:
         return None
     time.sleep(1)
+    detail = (get(f"https://api.inaturalist.org/v1/taxa/{taxon['id']}") or {}).get("results", [{}])[0]
+    photos = [tp.get("photo", {}) for tp in detail.get("taxon_photos", [])]
+    time.sleep(1)
     obs = get("https://api.inaturalist.org/v1/observations?" + urllib.parse.urlencode({
         "taxon_id": taxon["id"], "photo_license": ",".join(INAT_FREE), "quality_grade": "research",
-        "photos": "true", "order_by": "votes", "per_page": 10,
+        "photos": "true", "captive": "false", "term_id": 17, "term_value_id": 18,  # annotation: Alive
+        "order_by": "votes", "per_page": 10,
     })) or {}
-    for o in obs.get("results", []):
-        for ph in o.get("photos", []):
-            lic = INAT_FREE.get(ph.get("license_code") or "")
-            if not lic or not ph.get("url"):
-                continue
-            attribution = ph.get("attribution", "")
-            m = re.match(r"^(?:\(c\)\s*)?(.+?),\s*(?:some|no) rights reserved", attribution)
-            return {
-                "file": f"iNaturalist {ph['id']}",
-                "author": (m.group(1) if m else attribution)[:120] or "Auteur inconnu",
-                "license": lic,
-                "licenseUrl": "",
-                "source": f"https://www.inaturalist.org/photos/{ph['id']}",
-                "url": ph["url"].replace("/square.", "/medium."),
-            }
+    photos += [ph for o in obs.get("results", []) for ph in o.get("photos", [])[:1]]
+    for ph in photos:
+        lic = INAT_FREE.get(ph.get("license_code") or "")
+        url = ph.get("medium_url") or (ph.get("url") or "").replace("/square.", "/medium.")
+        if not lic or not url:
+            continue
+        attribution = ph.get("attribution", "")
+        m = re.match(r"^(?:\(c\)\s*)?(.+?),\s*(?:some|no) rights reserved", attribution)
+        return {
+            "file": f"iNaturalist {ph['id']}",
+            "author": (m.group(1) if m else attribution)[:120] or "Auteur inconnu",
+            "license": lic,
+            "licenseUrl": "",
+            "source": f"https://www.inaturalist.org/photos/{ph['id']}",
+            "url": url,
+        }
     return None
 
 
@@ -179,6 +185,8 @@ def main():
     ap.add_argument("--redo", nargs="*", default=[])
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--recommons", action="store_true")
+    ap.add_argument("--first", nargs="*", default=[], help="with --recommons: these animals first")
+    ap.add_argument("--reinat", action="store_true", help="pick the iNaturalist photos again (curated, alive, wild)")
     args = ap.parse_args()
 
     animals = json.load(open(ANIMALS, encoding="utf-8"))
@@ -195,8 +203,10 @@ def main():
         if os.path.exists(p):
             os.remove(p)
 
+    if args.reinat:
+        return reinat(animals, credits)
     if args.recommons:
-        return recommons(animals, cache, credits, overrides)
+        return recommons(animals, cache, credits, overrides, args.first)
 
     todo = [a for a in animals if a["id"] not in credits or not os.path.exists(os.path.join(PHOTOS, a["id"] + ".webp"))]
     if args.limit:
@@ -259,9 +269,28 @@ def main():
     print(f"{len(credits)} photos with credits, {len(missing)} missing", file=sys.stderr)
 
 
-def recommons(animals, cache, credits, overrides):
+def reinat(animals, credits):
+    """iNaturalist photos chosen again with today's rules (see inaturalist())."""
+    for a in animals:
+        if "inaturalist" not in credits.get(a["id"], {}).get("source", ""):
+            continue
+        meta = inaturalist(a)
+        if not meta or meta["source"] == credits[a["id"]]["source"]:
+            continue
+        data = get(meta["url"], binary=True)
+        if not data:
+            continue
+        save_webp(data, os.path.join(PHOTOS, a["id"] + ".webp"))
+        credits[a["id"]] = {"id": a["id"], **{k: meta[k] for k in ("file", "author", "license", "licenseUrl", "source")}}
+        json.dump(sorted(credits.values(), key=lambda c: c["id"]), open(CREDITS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"ok {a['id']} ({meta['license']})", file=sys.stderr)
+    print("reinat done", file=sys.stderr)
+
+
+def recommons(animals, cache, credits, overrides, first=()):
     """Commons' lead images are chosen by people for Wikipedia: better than a stranger's observation. Swap them in."""
     ids = [a["id"] for a in animals if "inaturalist" in credits.get(a["id"], {}).get("source", "")]
+    ids.sort(key=lambda i: (i not in first, list(first).index(i) if i in first else 0))
     files = {i: overrides.get(i) or cache.get(i) for i in ids}
     files = {i: f for i, f in files.items() if f}
     info = {}
