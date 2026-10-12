@@ -1809,11 +1809,11 @@
  },
  {
   "id": "moule-commune",
-  "file": "iNaturalist 23183487",
-  "author": "Connie Taylor",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/23183487"
+  "file": "Mytilus_edulis-Nl.jpg",
+  "author": "Erik Veldhuis",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Mytilus_edulis-Nl.jpg"
  },
  {
   "id": "moustique-commun",
@@ -1825,11 +1825,11 @@
  },
  {
   "id": "mouton",
-  "file": "iNaturalist 632127459",
-  "author": "Christopher Stephens",
-  "license": "CC BY-SA",
+  "file": "Flock_of_sheep.jpg",
+  "author": "Keith Weller",
+  "license": "Public domain",
   "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/632127459"
+  "source": "https://commons.wikimedia.org/wiki/File:Flock_of_sheep.jpg"
  },
  {
   "id": "mulet-porc",
@@ -1841,19 +1841,19 @@
  },
  {
   "id": "mulot-sylvestre",
-  "file": "iNaturalist 1100722",
-  "author": "Jackhynes",
-  "license": "CC BY-SA",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/1100722"
+  "file": "Wood_Mouse_2025_09_28.jpg",
+  "author": "Alexis Lours",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Wood_Mouse_2025_09_28.jpg"
  },
  {
   "id": "murin-de-daubenton",
-  "file": "iNaturalist 318566897",
-  "author": "no rights reserved",
-  "license": "CC0",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/318566897"
+  "file": "Myotis_daubentoni.jpg",
+  "author": "Gilles San Martin",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Myotis_daubentoni.jpg"
  },
  {
   "id": "musaraigne-musette",
@@ -1873,11 +1873,11 @@
  },
  {
   "id": "myrtil",
-  "file": "iNaturalist 620018559",
-  "author": "Céline",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/620018559"
+  "file": "Naturschutzgebiet_Mittleres_Innerstetal_mit_Kanstein_-_Ochsenauge_(2).JPG",
+  "author": "Ragnar1904",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Naturschutzgebiet_Mittleres_Innerstetal_mit_Kanstein_-_Ochsenauge_(2).JPG"
  },
  {
   "id": "noctule-commune",
@@ -1889,11 +1889,11 @@
  },
  {
   "id": "notonecte-glauque",
-  "file": "iNaturalist 349466080",
-  "author": "ingridaltmann",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/349466080"
+  "file": "Notonecta_glauca01.jpg",
+  "author": "E. van Herk",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Notonecta_glauca01.jpg"
  },
  {
   "id": "oedipode-turquoise",
@@ -1905,83 +1905,83 @@
  },
  {
   "id": "oie-cendree",
-  "file": "iNaturalist 61333942",
-  "author": "Imran Shah",
-  "license": "CC BY-SA",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/61333942"
+  "file": "Greylag_Goose_-_St_James's_Park,_London_-_Nov_2006.jpg",
+  "author": "Diliff",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Greylag_Goose_-_St_James%27s_Park,_London_-_Nov_2006.jpg"
  },
  {
   "id": "oie-domestique",
-  "file": "iNaturalist 206341456",
-  "author": "bitsnbirds",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/206341456"
+  "file": "White_Sebastopol_Goose.jpg",
+  "author": "Davee",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:White_Sebastopol_Goose.jpg"
  },
  {
   "id": "ophiure-fragile",
-  "file": "iNaturalist 6881712",
-  "author": "Bernard Picton",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/6881712"
+  "file": "Ophiothrix_fragilis_Banyuls.jpg",
+  "author": "Frédéric Ducarme",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Ophiothrix_fragilis_Banyuls.jpg"
  },
  {
   "id": "oreillard-roux",
-  "file": "iNaturalist 47269455",
-  "author": "kitbeard",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/47269455"
+  "file": "Plecotus_auritus_2013-2_(cropped).jpg",
+  "author": "Fourrure from France",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Plecotus_auritus_2013-2_(cropped).jpg"
  },
  {
   "id": "orvet-fragile",
-  "file": "iNaturalist 463596860",
-  "author": "C. Oppermann",
-  "license": "CC BY-SA",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/463596860"
+  "file": "Anguidae.jpg",
+  "author": "Auteur inconnu",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Anguidae.jpg"
  },
  {
   "id": "ouette-d-egypte",
-  "file": "iNaturalist 487078347",
-  "author": "Alex Press",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/487078347"
+  "file": "Egyptian_Goose_(Alopochen_aegyptiaca),_Lake_Ziway,_Ethiopia.jpg",
+  "author": "Charles J. Sharp",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Egyptian_Goose_(Alopochen_aegyptiaca),_Lake_Ziway,_Ethiopia.jpg"
  },
  {
   "id": "oursin-violet",
-  "file": "iNaturalist 44141813",
-  "author": "Emanuele Santarelli",
-  "license": "CC BY-SA",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/44141813"
+  "file": "Paracentrotus_lividus_profil.JPG",
+  "author": "Frédéric Ducarme",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Paracentrotus_lividus_profil.JPG"
  },
  {
   "id": "paon-bleu",
-  "file": "iNaturalist 407381945",
-  "author": "Sarah Stierch",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/407381945"
+  "file": "023_Indian_peafowl_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg",
+  "author": "Giles Laurent",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:023_Indian_peafowl_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg"
  },
  {
   "id": "paon-du-jour",
-  "file": "iNaturalist 4710619",
-  "author": "S. Rae",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/4710619"
+  "file": "Paon_du_jour-_Face_dorsale.jpg",
+  "author": "BlazyBazz",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Paon_du_jour-_Face_dorsale.jpg"
  },
  {
   "id": "patelle-commune",
-  "file": "iNaturalist 58886483",
-  "author": "Andrea Caballero",
-  "license": "CC BY-SA",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/58886483"
+  "file": "Patella_vulgata._Patelle_commune..JPG",
+  "author": "Auguste Le Roux",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Patella_vulgata._Patelle_commune..JPG"
  },
  {
   "id": "pelagie",
@@ -1993,11 +1993,11 @@
  },
  {
   "id": "perce-oreille",
-  "file": "iNaturalist 102776701",
-  "author": "Katja Schulz",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/102776701"
+  "file": "(MHNT)_Forficula_auricularia_(female).jpg",
+  "author": "Didier Descouens",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:(MHNT)_Forficula_auricularia_(female).jpg"
  },
  {
   "id": "perche-commune",
@@ -2009,11 +2009,11 @@
  },
  {
   "id": "perdrix-grise",
-  "file": "iNaturalist 340760633",
-  "author": "Christoph Moning",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/340760633"
+  "file": "Perdix_perdix_2_(Marek_Szczepanek).jpg",
+  "author": "Marek Szczepanek",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Perdix_perdix_2_(Marek_Szczepanek).jpg"
  },
  {
   "id": "petite-roussette",
@@ -2025,11 +2025,11 @@
  },
  {
   "id": "petite-tortue",
-  "file": "iNaturalist 460765",
+  "file": "Aglais_urticae_LC0310.jpg",
   "author": "Jörg Hempel",
-  "license": "CC BY-SA",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/460765"
+  "license": "CC BY-SA 3.0 de",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "source": "https://commons.wikimedia.org/wiki/File:Aglais_urticae_LC0310.jpg"
  },
  {
   "id": "petite-vive",
@@ -2041,51 +2041,51 @@
  },
  {
   "id": "phasme-gaulois",
-  "file": "iNaturalist 1996179",
-  "author": "Ramón Portellano",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/1996179"
+  "file": "Phasme_gaulois.jpg",
+  "author": "DocteurCosmos",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Phasme_gaulois.jpg"
  },
  {
   "id": "pholque-phalangide",
-  "file": "iNaturalist 411699",
-  "author": "no rights reserved",
-  "license": "CC0",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/411699"
+  "file": "Pholcus.phalangioides.6900.jpg",
+  "author": "Olei",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Pholcus.phalangioides.6900.jpg"
  },
  {
   "id": "phoque-gris",
-  "file": "iNaturalist 83153847",
-  "author": "Kevin Lynch",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/83153847"
+  "file": "Halichoerus_grypus_He3.jpg",
+  "author": "Andreas Trepte",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "source": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_He3.jpg"
  },
  {
   "id": "phoque-veau-marin",
-  "file": "iNaturalist 7517869",
-  "author": "David Badke",
-  "license": "CC BY-SA",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/7517869"
+  "file": "Phoca_vitulina_he.jpg",
+  "author": "Andreas Trepte",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "source": "https://commons.wikimedia.org/wiki/File:Phoca_vitulina_he.jpg"
  },
  {
   "id": "physalie",
-  "file": "iNaturalist 544306293",
-  "author": "Jan Ebr &amp; Ivana Ebrová",
-  "license": "CC BY",
+  "file": "Portuguese_Man-O-War_(Physalia_physalis).jpg",
+  "author": "Image courtesy of Islands in the Sea 2002, NOAA/OER.",
+  "license": "Public domain",
   "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/544306293"
+  "source": "https://commons.wikimedia.org/wiki/File:Portuguese_Man-O-War_(Physalia_physalis).jpg"
  },
  {
   "id": "pic-epeiche",
-  "file": "iNaturalist 11783387",
-  "author": "Paolo Zucca",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/11783387"
+  "file": "Pic_épeiche_cap_négro.jpg",
+  "author": "AbdAllah Elgolli",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pic_%C3%A9peiche_cap_n%C3%A9gro.jpg"
  },
  {
   "id": "pic-noir",
@@ -2097,35 +2097,35 @@
  },
  {
   "id": "pic-vert",
-  "file": "iNaturalist 242668015",
-  "author": "Andrea Poggi",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/242668015"
+  "file": "European_green_woodpecker_(Picus_viridis)_female.jpg",
+  "author": "Charles J. Sharp",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:European_green_woodpecker_(Picus_viridis)_female.jpg"
  },
  {
   "id": "pie-bavarde",
-  "file": "iNaturalist 199815492",
-  "author": "bitsnbirds",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/199815492"
+  "file": "Eurasian_Magpie_2023-10-16_01.jpg",
+  "author": "Alexis Lours",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Eurasian_Magpie_2023-10-16_01.jpg"
  },
  {
   "id": "pie-grieche-ecorcheur",
-  "file": "iNaturalist 424066109",
-  "author": "SteveM4560",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/424066109"
+  "file": "Lanius_collurio_1_(Martin_Mecnarowski).jpg",
+  "author": "Martin Mecnarowski (http://www.photomecan.eu/)",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Lanius_collurio_1_(Martin_Mecnarowski).jpg"
  },
  {
   "id": "pieride-du-chou",
-  "file": "iNaturalist 9431",
+  "file": "Pieris_brassicae_(6).jpg",
   "author": "Thomas Bresson",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/9431"
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Pieris_brassicae_(6).jpg"
  },
  {
   "id": "pigeon-biset",
@@ -2137,11 +2137,11 @@
  },
  {
   "id": "pigeon-ramier",
-  "file": "iNaturalist 108521205",
-  "author": "hedera.baltica",
-  "license": "CC BY-SA",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/108521205"
+  "file": "Columba_palumbus_-garden_post-8.jpg",
+  "author": "Tristan Ferne from UK",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Columba_palumbus_-garden_post-8.jpg"
  },
  {
   "id": "pinson-des-arbres",
@@ -2281,11 +2281,11 @@
  },
  {
   "id": "robert-le-diable",
-  "file": "iNaturalist 120763084",
-  "author": "Barry Walter",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/120763084"
+  "file": "Polygonia_c-album_qtl2.jpg",
+  "author": "Quartl",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Polygonia_c-album_qtl2.jpg"
  },
  {
   "id": "roitelet-huppe",
@@ -2313,11 +2313,11 @@
  },
  {
   "id": "rossignol-philomele",
-  "file": "iNaturalist 191077394",
-  "author": "katunchik",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/191077394"
+  "file": "Luscinia_megarhynchos_-_01.jpg",
+  "author": "Carlos Delgado",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Luscinia_megarhynchos_-_01.jpg"
  },
  {
   "id": "rouge-gorge-familier",
@@ -2433,11 +2433,11 @@
  },
  {
   "id": "sittelle-torchepot",
-  "file": "iNaturalist 98789726",
-  "author": "Frank Vassen",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/98789726"
+  "file": "Sitta_europaea_-Kent,_England-8.jpg",
+  "author": "Smudge 9000",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sitta_europaea_-Kent,_England-8.jpg"
  },
  {
   "id": "sole-commune",
@@ -2489,11 +2489,11 @@
  },
  {
   "id": "tadorne-de-belon",
-  "file": "iNaturalist 206649903",
-  "author": "Daniel Seth Jackson",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/206649903"
+  "file": "Tadorna_tadorna_by_Ludovic_Hirlimann.jpg",
+  "author": "Ludovic Hirlimann",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Tadorna_tadorna_by_Ludovic_Hirlimann.jpg"
  },
  {
   "id": "tarente-de-mauretanie",
@@ -2601,11 +2601,11 @@
  },
  {
   "id": "tourteau",
-  "file": "iNaturalist 167440024",
-  "author": "Donald Davesne",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/167440024"
+  "file": "Tourteau1.JPG",
+  "author": "Auteur inconnu",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Tourteau1.JPG"
  },
  {
   "id": "tourterelle-des-bois",
@@ -2665,11 +2665,11 @@
  },
  {
   "id": "vache",
-  "file": "iNaturalist 156967259",
-  "author": "Karim Haddad",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/156967259"
+  "file": "Beautiful_Swiss_cows_-_panoramio.jpg",
+  "author": "Deborah Cordwell",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Beautiful_Swiss_cows_-_panoramio.jpg"
  },
  {
   "id": "vairon",
@@ -2769,11 +2769,11 @@
  },
  {
   "id": "xylocope-violet",
-  "file": "iNaturalist 99606",
-  "author": "Thomas Bresson",
-  "license": "CC BY",
-  "licenseUrl": "",
-  "source": "https://www.inaturalist.org/photos/99606"
+  "file": "Blaue_Holzbiene.jpg",
+  "author": "X kate xoxo",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Blaue_Holzbiene.jpg"
  },
  {
   "id": "zygene-de-la-filipendule",
